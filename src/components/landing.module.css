@@ -1,0 +1,22 @@
+.middleLink {
+  flex-grow: 1 !important;
+}
+
+.logo {
+  font-size: 250% !important;
+  font-weight: 350 !important;
+  color: #1872FF !important;
+}
+
+.btn {
+  text-transform: unset !important;
+}
+
+.root {
+  flex-grow: 1 !important;
+}
+
+.para {
+  line-height: 1.72em;
+  margin-bottom: 1.1em;
+}

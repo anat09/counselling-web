@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;900&family=Philosopher&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.site-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.para {
+  line-height: 1.72em;
+  margin-bottom: .55em;
+  margin-top: .55em;
+}

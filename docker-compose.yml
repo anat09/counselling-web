@@ -1,0 +1,24 @@
+# docker-compose.yml
+version: "3.8"
+services:
+  pw:
+    container_name: pw
+    hostname: pw
+    build:
+      context: src
+      dockerfile: Dockerfile
+      target: npm-deps
+    restart: on-failure
+    networks:
+      - pw-network
+    expose: 
+      - "3000"
+    ports:
+      - 3000:3000
+    volumes:
+      - ./src:/var/www/pw/src
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+networks:
+  pw-network:
+    driver: bridge
