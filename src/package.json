@@ -9,14 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.0",
+    "autoprefixer": "latest",
     "classnames": "2.2.6",
     "date-fns": "2.16.1",
     "daisyui": "^1.25.4",
     "gray-matter": "4.0.2",
     "next": "latest",
     "nodemailer": "^6.7.2",
-    "postcss": "^8.4.4",
+    "postcss": "latest",
     "react-icons": "^4.3.1",
     "react-google-recaptcha": "^2.1.0",
     "react": "^17.0.2",
@@ -24,6 +24,6 @@
     "remark": "13.0.0",
     "remark-html": "13.0.2",
     "sharp": "^0.30.1",
-    "tailwindcss": "^3.0.1"
+    "tailwindcss": "latest"
   }
 }
