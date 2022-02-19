@@ -5,11 +5,24 @@
 @tailwind utilities;
 
 .site-container {
-  max-width: 1140px;
   margin: 0 auto;
   position: relative;
+  /* width:1140px; */
 }
 
+@media only screen and (max-width: 769px) {
+  .site-container {
+    width:100%;
+  }
+}
+
+@media (min-width: 770px) {
+  .site-container {
+    width:1140px;
+  }
+}
+
+ 
 .para {
   line-height: 1.72em;
   margin-bottom: .55em;

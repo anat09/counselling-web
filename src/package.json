@@ -1,16 +1,17 @@
 {
-  "name": "portfolio-template",
+  "name": "counselling-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "lint": "next lint"
   },
   "dependencies": {
     "classnames": "2.2.6",
     "date-fns": "2.16.1",
+    "daisyui": "^1.25.4",
     "gray-matter": "4.0.2",
     "next": "latest",
     "nodemailer": "^6.7.2",
@@ -19,7 +20,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "remark": "13.0.0",
-    "remark-html": "13.0.2"
+    "remark-html": "13.0.2",
+    "sharp": "^0.30.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",

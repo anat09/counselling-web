@@ -1,5 +1,11 @@
 import Contact from '../components/contact'
+import PageHeader from '../components/pageHeader'
 
 export default function ContactPage() {
-  return <Contact />
+  return (
+    <>
+      <PageHeader title="Contact"/>
+      <Contact />
+    </>
+  )
 }

@@ -3,11 +3,11 @@ import { MdOutlineLocationOn } from 'react-icons/md'
 
 const EmergencyOption = ({ children, description, header, iconColor, link }) => {
   return (
-    <div className="flex items-center pb-5">
-      <div className="pl-28" style={{color: iconColor}}>
+    <div className="flex flex-col md:flex-row items-center pb-5">
+      <div className="pb-4 md:pb-0 md:pl-28" style={{color: iconColor}}>
         { children }
       </div>
-      <div className="pl-8 flex flex-col">
+      <div className="pl-2 pr-2 md:pl-8 flex flex-col items-center md:items-start">
         <div className="font-lato text-primary text-lg font-bold pb-2"><a href={link}>{ header }</a></div>
         <div className="font-lato para">{ description }</div>
       </div>

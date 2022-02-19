@@ -162,12 +162,12 @@ const Areas = () => {
   return (
     // <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3">
     <>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col">
         <div className="font-lato text-2xl p-2.5 underline font-bold">Areas of Counselling</div>
         { 
           areas.map((area, idx) => {
             return (
-              <div key={idx} className="flex flex-row items-center">
+              <div key={idx} className="flex flex-row items-center justify-start">
                 <div className="text-primary"><TickIcon /></div>
                 <div className="font-lato p-2.5">{ area }</div>
               </div>

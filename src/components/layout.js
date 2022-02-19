@@ -26,12 +26,12 @@ export default function Layout({ children }) {
       </Head>
       <Navbar/>
       <CoverImage />
-      <div className="max-w-2xl px-10 py-10 mx-auto bg-primary text-white text-center text-4xl font-lato rounded-lg shadow-md lg:-translate-y-44 md:-translate-y-20">
+      <div className="max-w-2xl px-4 py-6 sm:px-10 sm:py-10 mx-auto bg-primary text-white text-center text-xl sm:text-3xl md:text-4xl font-lato rounded-lg shadow-md lg:-translate-y-44 md:-translate-y-20">
         Integrative Counselling in Greater Manchester and Cheshire
       </div>
       <Container>
         <main className={styles.main}>{children}</main>
-        <hr className="-translate-y-6"/>
+        <hr className="translate-y-8 md:-translate-y-6"/>
         <ContactForm />
       </Container>
     </>

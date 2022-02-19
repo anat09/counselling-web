@@ -67,7 +67,6 @@ const Precautions = () => {
 export default function Fees() {
   return (
     <>
-      <div className="text-primary font-lato text-6xl">Fees</div>
       <section className="font-lato p-2.5">
         <p className="para">
           I offer a free initial 30 minutes telephone consultation. This is a conversation

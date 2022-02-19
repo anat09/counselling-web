@@ -11,14 +11,14 @@ export default function AccordionItem({ title, content }) {
   function toggleAccordion() {
     setActive((prevState) => !prevState)
     setHeight(active ? '0px' : `${contentSpace.current.scrollHeight}px`)
-    setRotate(active ? 'transform duration-700 ease' : 'transform duration-700 ease rotate-180')
+    setRotate(active ? 'transform duration-0' : 'transform duration-0 rotate-180')
     setColor(active ? 'text-primary' : 'text-secondary')
   }
 
   return (
-    <div className="flex flex-col font-lato">
+    <div className="flex flex-col font-lato px-1 xl:px-0">
       <button
-        className="py-6 box-border appearance-none cursor-pointer focus:outline-none flex items-center justify-between"
+        className="py-5 box-border appearance-none cursor-pointer focus:outline-none flex items-center justify-between"
         onClick={toggleAccordion}
       >
         <p className={`inline-block ${color} font-bold`}>{ title }</p>
@@ -31,7 +31,7 @@ export default function AccordionItem({ title, content }) {
       <div
         ref={contentSpace}
         style={{ maxHeight: `${height}` }}
-        className="overflow-auto duration-300 ease-in-out"
+        className="overflow-hidden duration-300 ease-in-out"
       >
         <div className="para">{ content }</div>
       </div>

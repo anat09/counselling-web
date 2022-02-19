@@ -1,5 +1,11 @@
 import Landing from '../components/landing'
+import PageHeader from '../components/pageHeader'
 
 export default function Index() {
-  return <Landing />
+  return (
+    <>
+      <PageHeader title="Welcome!"/>
+      <Landing id="landing"/>
+    </>
+  )
 }

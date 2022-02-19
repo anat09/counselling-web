@@ -107,10 +107,5 @@ const Accordion = () => {
 }
 
 export default function FAQs() {
-  return (
-    <>
-      <div className="text-primary font-lato text-6xl">FAQs</div>
-      <Accordion />
-    </>
-  )
+  return <Accordion />
 }
