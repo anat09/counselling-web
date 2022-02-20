@@ -18,7 +18,7 @@ steps:
 # Build the container image
 - name: 'gcr.io/cloud-builders/docker'
   id: build
-  args: ['build', '-t', 'gcr.io/counselling-website-341817/counselling-app-image', '.']
+  args: ['build', '-f', 'Dockerfile.prod', '-t', 'gcr.io/counselling-website-341817/counselling-app-image', '.']
   waitFor: ['env']
 
 # Push the container image to Container Registry
