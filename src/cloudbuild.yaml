@@ -1,10 +1,8 @@
-steps:
+steps: 
 
-# Create the .env file for the image
-- name: node:16.13.1
-  id: env
-  entrypoint: npm
-  args: ["run", "create-env"]
+# Build the container image
+- name: 'gcr.io/cloud-builders/docker'
+  id: build
   env:
     - 'RECAPTCHA_KEY=${_RECAPTCHA_KEY}'
     - 'RECAPTCHA_URL=${_RECAPTCHA_URL}'
@@ -14,24 +12,19 @@ steps:
     - 'NEXT_PUBLIC_PHONE_NUMBER=${_PUBLIC_PHONE_NUMBER}'
     - 'NEXT_PUBLIC_PROFESSIONAL_NAME=${_PUBLIC_PROFESSIONAL_NAME}'
     - 'NEXT_PUBLIC_RECAPTCHA_KEY=${_PUBLIC_RECAPTCHA_KEY}'
-
-# Build the container image
-- name: 'gcr.io/cloud-builders/docker'
-  id: build
-  args: ['build', '-f', 'Dockerfile.prod', '-t', 'gcr.io/counselling-website-341817/counselling-app-image', '.']
-  waitFor: ['env']
+  args: ['build', '-f', 'Dockerfile.prod', '-t', 'gcr.io/counselling-website-341817/counselling-app-image:$COMMIT_SHA', '.']
 
 # Push the container image to Container Registry
 - name: 'gcr.io/cloud-builders/docker'
   id: push
-  args: ['push', 'gcr.io/counselling-website-341817/counselling-app-image']
+  args: ['push', 'gcr.io/counselling-website-341817/counselling-app-image:$COMMIT_SHA']
   waitFor: ['build']
 
 # Deploy container image to Cloud Run
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   id: deploy
   entrypoint: gcloud
-  args: ['run', 'deploy', 'counselling-website', '--image', 'gcr.io/counselling-website-341817/counselling-app-image', '--region', 'europe-west1', '--platform', 'managed']
+  args: ['run', 'deploy', 'counselling-website', '--image', 'gcr.io/counselling-website-341817/counselling-app-image:$COMMIT_SHA', '--region', 'europe-west1', '--platform', 'managed']
   waitFor: ['build','push']
 images:
-- gcr.io/counselling-website-34181/counselling-app-image
+- gcr.io/counselling-website-34181/counselling-app-image:$COMMIT_SHA

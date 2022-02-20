@@ -2,3 +2,4 @@
 node_modules
 .next
 cloud-run.yaml
+build-and-run.sh
