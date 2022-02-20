@@ -1,0 +1,37 @@
+steps:
+
+# Create the .env file for the image
+- name: node:16.13.1
+  id: env
+  entrypoint: npm
+  args: ["run", "create-env"]
+  env:
+    - 'RECAPTCHA_KEY=${_RECAPTCHA_KEY}'
+    - 'RECAPTCHA_URL=${_RECAPTCHA_URL}'
+    - 'MAIL_HOST=${_MAIL_HOST}'
+    - 'MAIL_PASS=${_MAIL_PASS}'
+    - 'NEXT_PUBLIC_EMAIL_ADDRESS=${_PUBLIC_EMAIL_ADDRESS}'
+    - 'NEXT_PUBLIC_PHONE_NUMBER=${_PUBLIC_PHONE_NUMBER}'
+    - 'NEXT_PUBLIC_PROFESSIONAL_NAME=${_PUBLIC_PROFESSIONAL_NAME}'
+    - 'NEXT_PUBLIC_RECAPTCHA_KEY=${_PUBLIC_RECAPTCHA_KEY}'
+
+# Build the container image
+- name: 'gcr.io/cloud-builders/docker'
+  id: build
+  args: ['build', '-t', 'gcr.io/counselling-website-341817/counselling-app-image', '.']
+  waitFor: ['env']
+
+# Push the container image to Container Registry
+- name: 'gcr.io/cloud-builders/docker'
+  id: push
+  args: ['push', 'gcr.io/counselling-website-341817/counselling-app-image']
+  waitFor: ['build']
+
+# Deploy container image to Cloud Run
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  id: deploy
+  entrypoint: gcloud
+  args: ['run', 'deploy', 'counselling-website', '--image', 'gcr.io/counselling-website-341817/counselling-app-image', '--region', 'europe-west1', '--platform', 'managed']
+  waitFor: ['build','push']
+images:
+- gcr.io/counselling-website-34181/counselling-app-image
