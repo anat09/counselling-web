@@ -1,0 +1,37 @@
+FROM node:16.13.1-alpine3.12 AS npm-deps
+WORKDIR /var/www/counselling-app/
+COPY package.json package-lock.json ./
+RUN npm ci --only=production
+
+FROM npm-deps as npm-build
+WORKDIR /var/www/counselling-app/
+COPY . .
+COPY --from=npm-deps /var/www/counselling-app/node_modules ./node_modules
+RUN npm run build
+
+FROM node:14-alpine AS npm-run
+WORKDIR /var/www/counselling-app/
+
+ENV NODE_ENV production
+
+ENV RECAPTCHA_KEY=${RECAPTCHA_KEY}
+ENV RECAPTCHA_URL=${RECAPTCHA_URL}
+
+ENV MAIL_HOST=${MAIL_HOST}
+ENV MAIL_PASS=${MAIL_PASS}
+
+ENV NEXT_PUBLIC_EMAIL_ADDRESS=${PUBLIC_EMAIL_ADDRESS}
+ENV NEXT_PUBLIC_PHONE_NUMBER=${PUBLIC_PHONE_NUMBER}
+ENV NEXT_PUBLIC_PROFESSIONAL_NAME=${PUBLIC_PROFESSIONAL_NAME}
+ENV NEXT_PUBLIC_RECAPTCHA_KEY=${PUBLIC_RECAPTCHA_KEY}
+
+RUN addgroup -g 1001 -S nodejs
+RUN adduser -S nextjs -u 1001
+
+COPY --from=npm-build --chown=nextjs:nodejs /var/www/counselling-app/.next ./.next
+COPY --from=npm-build /var/www/counselling-app/node_modules ./node_modules
+COPY --from=npm-build /var/www/counselling-app/package.json ./package.json
+
+USER nextjs
+
+CMD ["npm", "start"]
