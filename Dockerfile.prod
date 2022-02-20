@@ -7,12 +7,11 @@ FROM npm-deps as npm-build
 WORKDIR /var/www/counselling-app/
 COPY src/. .
 COPY --from=npm-deps /var/www/counselling-app/node_modules ./node_modules
+ENV NODE_ENV production
 RUN npm run build
 
-FROM node:14-alpine AS npm-run
+FROM node:16.13.1-alpine3.12 AS npm-run
 WORKDIR /var/www/counselling-app/
-
-ENV NODE_ENV production
 
 # ENV RECAPTCHA_KEY=${RECAPTCHA_KEY}
 # ENV RECAPTCHA_URL=${RECAPTCHA_URL}

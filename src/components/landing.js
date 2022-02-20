@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image'
 
+import logo from '../public/assets/img/logo.png'
+
 const FirstSection = () => {
   return (
     <section className="font-lato p-2.5">
@@ -55,10 +57,11 @@ export const Details = () => {
   const Logo = () => {
     return (
       <Image 
-        src={'https://storage.googleapis.com/counselling-app-static/logo.png'}
+        src={logo}
         quality={100}
         width={337}
         height={150}
+        priority='true'
       />
     )
   }

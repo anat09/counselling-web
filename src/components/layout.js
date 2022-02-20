@@ -4,15 +4,17 @@ import Container from './container'
 import Navbar from './navbar'
 import Image from 'next/image'
 
+import coverImage from '../public/assets/img/img.jpg'
 import styles from './layout.module.css'
 
 const CoverImage = () => {
   return (
     <div  className={ styles.image }>
       <Image 
-        src={'https://storage.googleapis.com/counselling-app-static/img.jpg'}
+        src={coverImage}
         quality={100}
         layout="fill"
+        priority='true'
       />
     </div>
   )
