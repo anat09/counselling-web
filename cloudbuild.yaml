@@ -3,15 +3,15 @@ steps:
 # Build the container image
 - name: 'gcr.io/cloud-builders/docker'
   id: build
-  env:
-    - 'RECAPTCHA_KEY=${_RECAPTCHA_KEY}'
-    - 'RECAPTCHA_URL=${_RECAPTCHA_URL}'
-    - 'MAIL_HOST=${_MAIL_HOST}'
-    - 'MAIL_PASS=${_MAIL_PASS}'
-    - 'PUBLIC_EMAIL_ADDRESS=${_PUBLIC_EMAIL_ADDRESS}'
-    - 'PUBLIC_PHONE_NUMBER=${_PUBLIC_PHONE_NUMBER}'
-    - 'PUBLIC_PROFESSIONAL_NAME=${_PUBLIC_PROFESSIONAL_NAME}'
-    - 'PUBLIC_RECAPTCHA_KEY=${_PUBLIC_RECAPTCHA_KEY}'
+  # env:
+  #   - 'RECAPTCHA_KEY=${_RECAPTCHA_KEY}'
+  #   - 'RECAPTCHA_URL=${_RECAPTCHA_URL}'
+  #   - 'MAIL_HOST=${_MAIL_HOST}'
+  #   - 'MAIL_PASS=${_MAIL_PASS}'
+  #   - 'PUBLIC_EMAIL_ADDRESS=${_PUBLIC_EMAIL_ADDRESS}'
+  #   - 'PUBLIC_PHONE_NUMBER=${_PUBLIC_PHONE_NUMBER}'
+  #   - 'PUBLIC_PROFESSIONAL_NAME=${_PUBLIC_PROFESSIONAL_NAME}'
+  #   - 'PUBLIC_RECAPTCHA_KEY=${_PUBLIC_RECAPTCHA_KEY}'
   args: ['build', '-f', 'Dockerfile.prod', '-t', 'gcr.io/counselling-website-341817/counselling-app-image:$COMMIT_SHA', '.']
 
 # Push the container image to Container Registry
@@ -24,7 +24,7 @@ steps:
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   id: deploy
   entrypoint: gcloud
-  args: ['run', 'deploy', 'counselling-website', '--image', 'gcr.io/counselling-website-341817/counselling-app-image:$COMMIT_SHA', '--region', 'europe-west1', '--platform', 'managed']
+  args: ['run', 'deploy', 'counselling-website', '--image', 'gcr.io/counselling-website-341817/counselling-app-image:$COMMIT_SHA', '--region', 'europe-west1', '--platform', 'managed', --allow-unauthenticated]
   waitFor: ['push']
 images:
 - gcr.io/counselling-website-341817/counselling-app-image:$COMMIT_SHA
