@@ -12,7 +12,7 @@ steps:
     - 'NEXT_PUBLIC_PHONE_NUMBER=${_PUBLIC_PHONE_NUMBER}'
     - 'NEXT_PUBLIC_PROFESSIONAL_NAME=${_PUBLIC_PROFESSIONAL_NAME}'
     - 'NEXT_PUBLIC_RECAPTCHA_KEY=${_PUBLIC_RECAPTCHA_KEY}'
-  args: ['build', '-f', 'src/Dockerfile.prod', '-t', 'gcr.io/counselling-website-341817/counselling-app-image:$COMMIT_SHA', '.']
+  args: ['build', '-f', 'Dockerfile.prod', '-t', 'gcr.io/counselling-website-341817/counselling-app-image:$COMMIT_SHA', '.']
 
 # Push the container image to Container Registry
 - name: 'gcr.io/cloud-builders/docker'
