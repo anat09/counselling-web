@@ -55,7 +55,7 @@ export const Details = () => {
   const Logo = () => {
     return (
       <Image 
-        src='/assets/img/logo.png'
+        src={'https://storage.googleapis.com/counselling-app-static/logo.png'}
         quality={100}
         width={337}
         height={150}

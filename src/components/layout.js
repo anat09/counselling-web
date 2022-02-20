@@ -10,7 +10,7 @@ const CoverImage = () => {
   return (
     <div  className={ styles.image }>
       <Image 
-        src='/assets/img/img.jpg'
+        src={'https://storage.googleapis.com/counselling-app-static/img.jpg'}
         quality={100}
         layout="fill"
       />
