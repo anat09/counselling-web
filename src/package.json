@@ -2,12 +2,12 @@
   "name": "counselling-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT",
-    "lint": "next lint",
-    "create-env": "printenv > .env"
+    "lint": "next lint"
   },
   "dependencies": {
     "autoprefixer": "latest",
