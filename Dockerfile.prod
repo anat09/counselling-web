@@ -37,15 +37,30 @@
 
 FROM node:16.13.1-alpine3.12 AS npm-deps
 WORKDIR /var/www/counselling-app/
+
 COPY src/package.json .
 COPY src/. .
+
 RUN rm -rf .next
 RUN rm -rf node_modules
 RUN rm -rf .env
+
 RUN npm install
 # CMD ["npm", "run", "dev"]
 
 # FROM npm-deps as npm-build
 ENV NODE_ENV=production
+
+ENV RECAPTCHA_KEY=${RECAPTCHA_KEY}
+ENV RECAPTCHA_URL=${RECAPTCHA_URL}
+
+ENV MAIL_HOST=${MAIL_HOST}
+ENV MAIL_PASS=${MAIL_PASS}
+
+ENV NEXT_PUBLIC_EMAIL_ADDRESS=${NEXT_PUBLIC_EMAIL_ADDRESS}
+ENV NEXT_PUBLIC_PHONE_NUMBER=${NEXT_PUBLIC_PHONE_NUMBER}
+ENV NEXT_PUBLIC_PROFESSIONAL_NAME=${NEXT_PUBLIC_PROFESSIONAL_NAME}
+ENV NEXT_PUBLIC_RECAPTCHA_KEY=${NEXT_PUBLIC_RECAPTCHA_KEY}
+
 RUN npm run build
 CMD ["npm", "run", "start"]
