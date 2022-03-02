@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
+import PropTypes from 'prop-types';
 
-export default function AccordionItem({ title, content }) {
+function AccordionItem({ title, content }) {
   const [active, setActive] = useState(false)
   const [color, setColor] = useState('text-primary')
   const [height, setHeight] = useState('0px')
@@ -33,9 +34,25 @@ export default function AccordionItem({ title, content }) {
         style={{ maxHeight: `${height}` }}
         className="overflow-hidden duration-300 ease-in-out"
       >
-        <div className="para">{ content }</div>
+        { content }
       </div>
     <hr/>
     </div>
   )
 }
+
+const Accordion = ({ items }) => {
+  return (
+    <div id="accordionExample" className="pb-4">
+      {
+        items.map((item, idx) => <AccordionItem key={idx} title={item.header} content={item.content}/>)
+      }
+    </div>
+  )
+}
+
+Accordion.propTypes = {
+  items: PropTypes.array.isRequired,
+}
+
+export default Accordion

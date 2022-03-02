@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import ContactForm from '../components/contactForm'
-import Container from './container'
-import Navbar from './navbar'
+import ContactForm from '../contactForm'
+import Container from '../container'
+import Navbar from '../navbar'
 import Image from 'next/image'
 
-import coverImage from '../public/assets/img/img.jpg'
+import coverImage from '../../public/assets/img/img.jpg'
 import styles from './layout.module.css'
 
 const CoverImage = () => {
@@ -24,7 +24,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Counselling with Anamaria</title>
+        <title>AT Counselling</title>
       </Head>
       <Navbar/>
       <CoverImage />

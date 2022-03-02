@@ -22,9 +22,13 @@
   }
 }
 
- 
 .para {
   line-height: 1.72em;
   margin-bottom: .55em;
   margin-top: .55em;
 }
+
+/* a, a:hover, a:focus, a:active {
+  color: #8D9C71;
+  font-weight: bold;
+} */

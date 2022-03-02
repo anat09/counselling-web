@@ -21,7 +21,7 @@ const HamburgerMenu = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
       </label>
-      <div className={`rounded-lg drawer drawer-end fixed h-screen w-full z-10 ${fullPage} `} >
+      <div className={`rounded-lg drawer drawer-end fixed h-screen w-full ${fullPage} `} >
         <input id="my-drawer" type="checkbox" className="drawer-toggle" checked={isOpen} onChange={clickHandler} />
         <div className="drawer-side">
           <label htmlFor="my-drawer-3" className="drawer-overlay" onClick={clickHandler}></label> 

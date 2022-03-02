@@ -147,8 +147,8 @@ import HamburgerMenu from './hamburgerMenu';
 const TitleBox = () => {
   return (
     <div className="absolute flex-col bg-white bg-opacity-100 shadow-lg pl-12 pr-14 pb-7 pt-6 text-center lg:-mb-8 top-0 bottom-0 w-full lg:w-fit">
-      <div className="font-philosopher text-3xl tracking-widest leading-none font-bold">Counselling Services</div>
-      <div className="font-philosopher text-primary text-sm tracking-wide">{ process.env.NEXT_PUBLIC_PROFESSIONAL_NAME }</div>
+      <div className="font-philosopher text-3xl tracking-widest leading-none font-bold">AT Counselling Services</div>
+      <div className="font-philosopher text-primary text-base tracking-wide">{ process.env.NEXT_PUBLIC_PROFESSIONAL_NAME }</div>
     </div>
   )
 }

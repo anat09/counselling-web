@@ -9,8 +9,8 @@ export const routes = [
     name: "Home"
   },
   {
-    link: "/about",
-    name: "About Me"
+    link: "/experience",
+    name: "Experience"
   },
   {
     link: "/faqs",
@@ -71,7 +71,7 @@ export const VerticalNavbarLinks = ({ onClick }) => {
 
   return (
     <div className="font-philospher text-lg pt-12 pb-4">
-      <li className="border-b-2 m-2 pb-4 tracking-wide">Pages</li>
+      <li className="border-b-2 m-2 pb-4 tracking-wide">Menu</li>
       {
         routes.map((route, idx) => (
           currentRoute === route.link
