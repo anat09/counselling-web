@@ -10,8 +10,4 @@ const Section = ({ paras }) => {
   )
 }
 
-Section.propTypes = {
-  paras: PropTypes.arrayOf(PropTypes.string).isRequired,
-}
-
 export default Section
