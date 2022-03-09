@@ -106,7 +106,7 @@ const ContactForm = () => {
               required
               onChange={(e) => setName(e.target.value)}
               value={name}
-              className="block w-full px-4 py-2 text-gray-700 border rounded-md dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-4 py-2 text-gray-700 border dark:bg-gray-500 rounded-md dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
 
@@ -118,7 +118,7 @@ const ContactForm = () => {
               required
               onChange={(e) => setEmail(e.target.value)}
               value={email}
-              className="block w-full px-4 py-2 text-gray-700 border rounded-md dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" 
+              className="block w-full px-4 py-2 text-gray-700 border dark:bg-gray-500 rounded-md dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" 
             />
           </div>
         </div>
@@ -130,7 +130,7 @@ const ContactForm = () => {
             required
             onChange={(e) => setMessage(e.target.value)}
             value={message}
-            className="block w-full h-40 px-4 py-2 text-gray-700 border rounded-md dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40"
+            className="block w-full h-40 px-4 py-2 text-gray-700 border dark:bg-gray-500 rounded-md dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40"
           />
         </div>
 
