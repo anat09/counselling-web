@@ -24,7 +24,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>AT Counselling</title>
+        <title>AT Counselling Services</title>
       </Head>
       <Navbar/>
       <CoverImage />
