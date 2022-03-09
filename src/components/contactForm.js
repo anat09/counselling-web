@@ -92,8 +92,8 @@ const ContactForm = () => {
   }
 
   return (
-    <section className="w-full font-philosopher max-w-2xl px-6 py-14 mx-auto bg-white dark:bg-gray-800 rounded-md">
-      <h2 className="text-3xl font-semibold text-center text-primary dark:text-white">Contact Me</h2>
+    <section className="w-full font-philosopher max-w-2xl px-6 py-14 mx-auto rounded-md">
+      <h2 className="text-3xl font-semibold text-center text-primary">Contact Me</h2>
       {/* <p className="mt-3 text-center text-gray-600 dark:text-gray-400">Feel free to reach out to me and I will try to respond as soon as possible!</p> */}
       <div className="mt-6 ">
         <form onSubmit={(e) => onSubmit(e)}>
@@ -106,7 +106,7 @@ const ContactForm = () => {
               required
               onChange={(e) => setName(e.target.value)}
               value={name}
-              className="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-4 py-2 text-gray-700 border rounded-md dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
             />
           </div>
 
@@ -118,7 +118,7 @@ const ContactForm = () => {
               required
               onChange={(e) => setEmail(e.target.value)}
               value={email}
-              className="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" 
+              className="block w-full px-4 py-2 text-gray-700 border rounded-md dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" 
             />
           </div>
         </div>
@@ -130,7 +130,7 @@ const ContactForm = () => {
             required
             onChange={(e) => setMessage(e.target.value)}
             value={message}
-            className="block w-full h-40 px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40"
+            className="block w-full h-40 px-4 py-2 text-gray-700 border rounded-md dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40"
           />
         </div>
 
@@ -141,7 +141,7 @@ const ContactForm = () => {
             required
             className="mr-2 leading-tight"
           />
-          <span className="text-sm">
+          <span className="text-sm text-gray-700 dark:text-gray-300 pb-2">
             I consent to having this website store my submitted information so they can respond to my inquiry. I understand that these details will be stored for this purpose only.
           </span>
         </label>
