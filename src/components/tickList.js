@@ -9,7 +9,7 @@ const TickList = ({ list }) => {
     )
   }
   return (
-    <div className="flex flex-col p-0">
+    <div className="flex flex-col pl-2">
       { 
         list.map((entry, idx) => {
           return (

@@ -15,10 +15,10 @@ export const firstParas = [
   you have any inquiries, please feel free to use the following contact details:`
 ]
 export const secondParas = [
-  "Here's a little bit about how I work!",
+  "Here's a little bit about how I work.",
   `I offer a therapeutic space where you can feel validated and heard, by bringing a caring and
   genuine approach to our work together. My belief is that we all experience sadness, loss,
-  trauma, happiness, joy - everything - in our own way. For this reason, I use an integrative
+  trauma, happiness, joy - everything - in our own way. I use an integrative
   approach in my work with clients, where I bring in different therapeutic techniques to help
   clients understand past and current life circumstances, in a safe and trusting environment.`,
   `I have extensive experience in supporting clients from multicultural and multilingual

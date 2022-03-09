@@ -42,7 +42,7 @@ const Skills = () => {
   const languages = [
     "English",
     "Romanian",
-    "Spanish & Italian"
+    "Spanish & Italian*"
   ]
   const clients = [
     "Young People",
@@ -55,11 +55,20 @@ const Skills = () => {
     "Telephone",
   ]
   return (
-    <div className="grid grid-cols-3 pb-2">
-      <List entries={languages} name={"My Languages"}/>
-      <List entries={clients} name={"My Expertise"}/>
-      <List entries={types} name={"My Methods"}/>
-    </div> 
+    <>
+      <div className="grid grid-cols-3 py-4">
+        <List entries={languages} name={"Languages Available"}/>
+        <List entries={clients} name={"Client Group"}/>
+        <List entries={types} name={"Counselling Available"}/>
+      </div>
+      <Section paras={[
+        `*Please note that I am officially a bilingual practioner in English and Romanian,
+        with a strong understanding of Spanish and Italian. Whilst I may not always be
+        able to offer direct counselling in Spanish or Italian, I have extensive experience
+        in using my knowledge of certain terminologies and processes that clients
+        may experience in these languages.`
+      ]} />
+    </>
   )
 }
 

@@ -43,7 +43,7 @@ function AccordionItem({ title, content }) {
 
 const Accordion = ({ items }) => {
   return (
-    <div id="accordionExample" className="pb-4">
+    <div id="accordionExample" className="pb-4 pl-2">
       {
         items.map((item, idx) => <AccordionItem key={idx} title={item.header} content={item.content}/>)
       }

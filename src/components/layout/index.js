@@ -28,8 +28,8 @@ export default function Layout({ children }) {
       </Head>
       <Navbar/>
       <CoverImage />
-      <div className="max-w-2xl px-4 py-6 sm:px-10 sm:py-10 mx-auto bg-primary text-white text-center text-xl sm:text-3xl md:text-4xl font-lato rounded-lg shadow-md lg:-translate-y-44 md:-translate-y-20">
-        Integrative Counselling in Greater Manchester and Cheshire
+      <div id="header" className="max-w-2xl px-4 py-6 sm:px-10 sm:py-10 mx-auto bg-primary text-white text-center text-xl sm:text-3xl md:text-4xl font-lato rounded-lg shadow-md lg:-translate-y-44 md:-translate-y-20">
+        Counselling and Psychotherapy from Greater Manchester and Cheshire
       </div>
       <Container>
         <main className={styles.main}>{children}</main>

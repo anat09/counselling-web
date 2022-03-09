@@ -5,28 +5,28 @@ import { useRouter } from 'next/router';
 
 export const routes = [
   {
-    link: "/",
+    link: "/#header",
     name: "Home"
   },
   {
-    link: "/experience",
+    link: "/experience#header",
     name: "Experience"
   },
   {
-    link: "/faqs",
+    link: "/faqs#header",
     name: "FAQs"
   },
   {
-    link: "/fees",
+    link: "/fees#header",
     name: "Fees"
   },
   {
-    link: "/contact",
+    link: "/contact#header",
     name: "Contact"
   },
   {
-    link: "/emergency",
-    name: "Emergency Contact"
+    link: "/emergency#header",
+    name: "Emergency Contacts"
   },
 ]
 

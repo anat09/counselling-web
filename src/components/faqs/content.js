@@ -71,7 +71,7 @@ const third = [
   be in control of your growth.`,
   `Alternatively, there are times when clients benefit from less structure and wish to
   explore life as it happens for them. Sometimes a listening ear can be just what we need
-  to overcome the difficulties we face, to feel heard, validated &amp; share our burden with
+  to overcome the difficulties we face, to feel heard, validated & share our burden with
   someone who is objective to our situation.`,
   `I work from a genuine and caring place, and often bring elements of psychoeducation.
   This process aims to help your understanding of all those bits of you that make you
@@ -110,10 +110,10 @@ const fifth = [
   sure where to begin. Perhaps you are longing for a change and don't know how to go
   about it. My aim is to find all these answers with you - to enable you to look back to
   where you began this journey and think 'I've come so far!'.`,
-  `Sometimes, finding the right counsellor for you, a person who will'just get it', may take
+  `Sometimes, finding the right counsellor for you, a person who will 'just get it', may take
   some time. Talking to a stranger may also feel intimidating (or even terrifying) at first. I
   want you to rest assured this is something I am very much aware of, having supported
-  hundreds of clients in single session therapies (also known as one-off counselling
+  hundreds of clients in single sessions of therapy (also known as one-off counselling
   sessions).`,
   `My aim is for you to feel comfortable to ask any questions about the process of therapy
   and express how you feel about your sessions or your progress. In my experience, I
@@ -123,8 +123,8 @@ const fifth = [
 ]
 
 const sixth = [
-  `If you feel that you are experiencing a mental health crisis where are concerned about
-  your own safety or someone else's, please see this Emergency Contact Details page.`,
+  <>If you feel that you are experiencing a mental health crisis where are concerned about
+  your own safety or someone else's, please see <HyperRef link='/emergency' value='Emergency Contact'/>.</>,
   `Counselling is a type of talking therapy that can support you when you are not in
   immediate danger to yourself or to/from others.`
 ]
@@ -147,10 +147,12 @@ const seventh = [
   and regulated. Again, these notes will not contain any identifiable information.`
 ]
 
-const eighth = [
+export const eighth = [
   `Online Video/Telephone Counselling Sessions can be booked between 10am - 8pm on
-  Thursday, Fridays, or Saturdays.`,
-  `Face to Face Counselling Sessions can be booked between 1PM - 5PM on Fridays.`
+  Thursdays and Fridays.`,
+  `Currently, Face-to-face Counselling Sessions can only be booked between 1pm - 5pm on Fridays in Heaton Moor.`,
+  `Please note, the counselling room does not have disabled access unfortunately.
+  However, I can still offer counselling services via telephone or video should you require this.`
 ]
 
 export default [

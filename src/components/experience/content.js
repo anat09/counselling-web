@@ -1,5 +1,4 @@
 import HyperRef from '../hyperRef';
-import Section from '../section';
 import TickList from '../tickList';
 
 export const second = [
@@ -13,7 +12,7 @@ export const second = [
   to undertake trauma-informed training and allowed me to become a trauma informed
   therapist.`,
   `In my current work outside private practice I offer single sessions of therapy also
-  known as one off counselling sessions, to explore what is occurring for clients in the
+  known as 'one off counselling sessions', to explore what is occurring for clients in the
   here and now, identify coping strategies they can implement going forward. I also
   conduct comprehensive mental health and risk assessments with clients, to establish
   the best therapeutic approach suitable for them going forward, given their emotional,
@@ -31,12 +30,12 @@ export const third = [
     As you will see below, my training has been focused on various approaches in therapy,
     allowing me to deliver counselling and psychotherapy in an integrative way. This
     means that throughout our work together, I draw on my knowledge &amp; training in below
-    therapeutic modalities (see <HyperRef link={'/faq'} value={'FAQ'} /> for more information about therapy in general),
+    therapeutic modalities (see <HyperRef link={'/faq'} value={'FAQs'} /> for more information about therapy in general),
     along with my understanding of personal development to support you to the best of my ability.
   </>,
   'Master of Science in Counselling & Psychotherapy at Keele University. Trained in:',
   <TickList list={[
-    "Person-centred Therapy (PCT), a.k.a. Client-centred Therapy (CCT);",
+    "Person-centred Therapy (PCT);",
     "Solution-focused Therapy (SFT);",
     "Cognitive-behavioural Therapy (CBT)."
   ]} />,
@@ -56,8 +55,7 @@ export const fourth = [
     "Certificate in Rape Crisis – Trauma-Informed Counselling;",
     "Certificate in Working with children;",
     "Level 3 Training in Safeguarding Adults, Children and Vulnerable Adults;",
-    "Certificate in Level 1 (Foundation) as a CBT Practitioner;",
-    "Transactional Analysis 101 (Introductory Course Certificate)."
+    "Certificate in Level 1 (Foundation) as a CBT Practitioner;"
   ]} />,
   '',
   `I also often attend Continuous Professional Development workshops, where I develop
@@ -70,7 +68,7 @@ export const fourth = [
     "Understanding the Mental Health Capacity Act.",
   ]} />,
   <>
-    As a registered member of the <HyperRef link='https://www.bacp.co.uk' value="BACP (British Association of Counselling Professions)" />, I
+    As a registered member of the <HyperRef link='https://www.bacp.co.uk' value="BACP (British Association of Counselling & Psychotherapy)" />, I
     always ensure that my work with you is safe, and conducted to high ethical standard. If
     you have any questions regarding the above, please do not hesitate to <HyperRef link='/contact' value="contact me" /> below.
   </>

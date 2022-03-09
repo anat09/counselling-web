@@ -23,7 +23,7 @@ const Precautions = () => {
   ]
   return (
     <>
-      <div className="flex flex-col">
+      <div className="flex flex-col pl-2">
         { 
           precautions.map((precaution, idx) => {
             return (
@@ -44,28 +44,28 @@ export default function Fees() {
     {
       header: "Face-to-Face Counselling",
       content: <Section paras={[
-        'I offer Face-to-Face counselling sessions from various locations – see below. Each session costs £50.',
+        'I offer Face-to-Face counselling sessions from various locations – see below. Each session costs £50-£60.',
       ]}/>
     },
     {
       header: "Online & Remote Video Counselling",
       content: <Section paras={[
-        `I offer 50 minutes online counselling sessions. Each session costs £45. These can be held via
+        `I offer 50 minutes online counselling sessions. Each session costs £50-£60. These can be held via
         Skype, Zoom, Google Meets, or a platform of your choice.`
       ]} />
     },
     {
       header: "Telephone Counselling",
       content: <Section paras={[
-        `I offer 50 minutes telephone counselling sessions. Each session costs £50.`
+        `I offer 50 minutes telephone counselling sessions. Each session costs £50-£60.`
       ]} />
     },
     {
-      header: "Concessions",
+      header: "Concessions and Reduced Rates",
       content: <Section paras={[
         `I have limited spaces for discounted counselling fees for clients who may be on a low income,
-        unemployed, students or counsellors in training. Please do not hesitate to contact me to make
-        any arrangements. I endeavour to support you to the best of my ability.`
+        unemployed, students or counsellors in training. I also offer a discounted rate for booking counselling sessions in a block of six or more.
+        Please do not hesitate to contact me to make any arrangements. I endeavour to support you to the best of my ability.`
       ]} />
     },
   ]
@@ -79,11 +79,12 @@ export default function Fees() {
       ]} />
       <Accordion items={items} />
       <Section paras={[
-        `I work privately in various places in South Manchester (West Didsbury, Cheadle, Fallowfield, Withington) & Newcastle-under-Lyme.`,
+        `I work privately from various places in Greater Manchester and Cheshire: The Heatons, Cheadle, and South Manchester.`,
         <>
-          *At the moment, locations may vary in terms of availability for Face-to-Face Counselling.
-          Please <HyperRef link={'/contact'} value={'contact me'}/> to inquire about the possibility of face-to-face counselling. In each location,
-          the following measures will be put in place for your Health &#38; Safety:
+          Please note, locations may vary in terms of availability for Face-to-Face Counselling.
+          Currently, Face-to-face Counselling Sessions can only be booked in Heaton Moor, Stockport.
+          Please feel free to <HyperRef link={'/contact'} value={'contact me'}/> to inquire about the possibility of face-to-face counselling in another location that the latter.
+          In any location, the following measures will be put in place for your Health &#38; Safety:
         </>
       ]} />
       <Precautions />
