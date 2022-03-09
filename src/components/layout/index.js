@@ -25,6 +25,10 @@ export default function Layout({ children }) {
     <>
       <Head>
         <title>AT Counselling Services</title>
+        <meta
+          name="description"
+          content="Online and in-person counselling and psychotherapy services with Anamaria Tigan in Greater Manchester and Cheshire."
+        />
       </Head>
       <Navbar/>
       <CoverImage />
