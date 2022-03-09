@@ -92,7 +92,7 @@ const ContactForm = () => {
   }
 
   return (
-    <section className="w-full font-philosopher max-w-2xl px-6 py-14 mx-auto bg-white rounded-md">
+    <section className="w-full font-philosopher max-w-2xl px-6 py-14 mx-auto bg-white dark:bg-gray-800 rounded-md">
       <h2 className="text-3xl font-semibold text-center text-primary dark:text-white">Contact Me</h2>
       {/* <p className="mt-3 text-center text-gray-600 dark:text-gray-400">Feel free to reach out to me and I will try to respond as soon as possible!</p> */}
       <div className="mt-6 ">
