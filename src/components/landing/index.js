@@ -45,9 +45,9 @@ const Skills = () => {
     "Spanish & Italian*"
   ]
   const clients = [
-    "Young People",
-    "Students",
-    "Professionals",
+    "Young Adults",
+    "Adults",
+    "Students & Professionals",
   ]
   const types = [
     "Face-to-Face",
