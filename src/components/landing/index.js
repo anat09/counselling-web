@@ -77,19 +77,19 @@ const areas = [
   "Anxiety & Panic Attacks",
   "Bullying & Harrasment",
   "Childhood Trauma & Trauma Experienced in Adulthood",
+  "Dealing with Burnout",
   "Depression & Unhappiness",
   "Domestic Abuse",
   "Emotional Regulation",
   "Grief, Loss, & Bereavement (incl. Perinatal Bereavement)",
-  "Troubles with Identity (Personal & Gender-related)",
+  "Issues with Identity (Personal & Gender-related)",
   "Neurodiversity",
   "Personal Growth & Development",
   "Procrastination",
+  "Relationships, Family Conflicts, & Issues",
   "Self Confidence, Self Image, & Self Criticism",
   "Self-Harm, Suicidal Thoughts, & Ideation",
-  "Relationships, Family Conflicts, & Issues",
   "Stress & Work Related Concerns",
-  "Dealing with Burnout"
 ]
 
 export default function Landing() {

@@ -11,13 +11,19 @@
 }
 
 @media only screen and (max-width: 769px) {
-  .site-container {
-    width:100%;
+  .nav-wudth {
+    width:100%
+  }
+  .site-width {
+    width:96%;
   }
 }
 
 @media (min-width: 770px) {
-  .site-container {
+  .nav-width {
+    width:1140px;
+  }
+  .site-width {
     width:1140px;
   }
 }

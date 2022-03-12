@@ -18,7 +18,7 @@ const EmergencyOption = ({ children, description, header, iconColor, link }) => 
 }
 
 const EmergencyOptions = ({ iconColor }) => {
-  const ICON_SIZE = 80;
+  const ICON_SIZE = 100;
   const options = [
     {
       icon: <FaClinicMedical size={ICON_SIZE}/>,
@@ -65,11 +65,10 @@ const EmergencyOptions = ({ iconColor }) => {
       header: 'Crisis Text Line',
       link: 'https://giveusashout.org',
       description: <Section paras={[
-      <>
-        Text "SHOUT" to 85258 to contact the <HyperRef link="https://giveusashout.org" value="Shout Crisis Text Line" />, or text "YM" if you're
-        under 19 (Free of charge - 24/7 Anonymous Text Support).
-      </>,
-      `Alternatively, SHOUT provide free of charge 24/7 mental health text support in confidentiality.`
+        <>
+          Text "SHOUT" to 85258 to contact the <HyperRef link="https://giveusashout.org" value="Shout Crisis Text Line" />, or text "YM" if you're
+          under 19 (Free of charge - 24/7 Anonymous Text Support).
+        </>,
       ]} />,
     },
     {
@@ -77,11 +76,11 @@ const EmergencyOptions = ({ iconColor }) => {
       header: 'Find Support in Your Area',
       link: 'https://hubofhope.co.uk',
       description: <Section paras={[
-        `Websites such as "The Hub of Hope" have collated a directory of local Mental Health
-        Support Services, which you can find by just typing in your postcode. By clicking on
-        "Find Support" you will be redirected to their website.`,
-        <>Additionally, <HyperRef link="https://hubofhope.co.uk" value="The Hub of Hope" /> have collated a directory of mental health support services,
-        which you can find by just typing in your postcode.</>
+        <>
+          Websites such as <HyperRef link="https://hubofhope.co.uk" value="The Hub of Hope" /> have collated a directory of local Mental Health
+          Support Services, which you can find by just typing in your postcode. By clicking on
+          "Find Support" you will be redirected to their website.
+        </>,
       ]} />,
     },
   ]

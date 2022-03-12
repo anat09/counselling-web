@@ -22,8 +22,8 @@ function AccordionItem({ title, content }) {
         className="py-5 box-border appearance-none cursor-pointer focus:outline-none flex items-center justify-between"
         onClick={toggleAccordion}
       >
-        <p className={`inline-block ${color} font-bold`}>{ title }</p>
-        <div className={`${rotate} inline-block`}>
+        <div className={`${color} font-bold text-left`}>{ title }</div>
+        <div className={`${rotate}`}>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
           </svg>

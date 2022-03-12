@@ -1,5 +1,6 @@
 module.exports = {
   content: ['./components/**/*.js', './pages/**/*.js'],
+  darkMode: 'class',
   plugins: [
     require('daisyui')
   ],

@@ -132,7 +132,7 @@
 //   console.log(windowSize)
 //   return (
 //     <nav className="bg-primary bg-opacity-25">
-//       <div className="container site-container justify-between text-gray-600 capitalize dark:text-gray-300 pt-2">
+//       <div className="container site-container justify-between text-gray-600 capitalize pt-2">
 //         <Bar/>
 //       </div>
 //     </nav>
@@ -146,7 +146,7 @@ import HamburgerMenu from './hamburgerMenu';
 
 const TitleBox = () => {
   return (
-    <div className="absolute flex-col bg-white bg-opacity-100 shadow-lg pl-12 pr-14 pb-7 pt-4 sm:pt-6 text-center lg:-mb-8 top-0 bottom-0 w-full lg:w-fit">
+    <div className="absolute flex-col bg-white bg-opacity-100 shadow-lg pl-12 pr-14 pb-7 pt-4 sm:pt-6 text-center lg:-mb-8 top-0 bottom-0 w-full lg:w-fit px-4">
       <div className="font-philosopher text-3xl tracking-widest leading-none font-bold">AT Counselling Services</div>
       <div className="font-philosopher text-primary text-base tracking-wide">{ process.env.NEXT_PUBLIC_PROFESSIONAL_NAME }</div>
     </div>
@@ -156,7 +156,7 @@ const TitleBox = () => {
 const Navbar = () => {
   return (
     <div className="bg-primary bg-opacity-25">
-      <div className="container site-container text-gray-600 capitalize">
+      <div className="container site-container nav-width text-gray-600 capitalize">
         <div className="flex lg:justify-between pb-32 sm:pb-22 md:pb-0">
           <div><TitleBox /></div>
           <div><HamburgerMenu /></div>

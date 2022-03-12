@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Accordion from './accordion';
+import Address from './address';
 import HyperRef from './hyperRef';
 import Section from './section'
 
@@ -82,7 +83,8 @@ export default function Fees() {
         `I work privately from various places in Greater Manchester and Cheshire: The Heatons, Cheadle, and South Manchester.`,
         <>
           Please note, locations may vary in terms of availability for Face-to-Face Counselling.
-          Currently, Face-to-face Counselling Sessions can only be booked in Heaton Moor, Stockport.
+          Currently, Face-to-face Counselling Sessions can only be booked at:
+          <Address/>
           Please feel free to <HyperRef link={'/contact'} value={'contact me'}/> to inquire about the possibility of face-to-face counselling in another location that the latter.
           In any location, the following measures will be put in place for your Health &#38; Safety:
         </>
