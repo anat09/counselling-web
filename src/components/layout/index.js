@@ -4,14 +4,14 @@ import Container from '../container'
 import Navbar from '../navbar'
 import Image from 'next/image'
 
-import coverImage from '../../public/assets/img/img.jpg'
+import cover from '../../public/assets/img/cover.jpg'
 import styles from './layout.module.css'
 
 const CoverImage = () => {
   return (
     <div  className={ styles.image }>
       <Image 
-        src={coverImage}
+        src={cover}
         quality={100}
         layout="fill"
         priority='true'

@@ -3,10 +3,10 @@ export const firstParas = [
   "Hi there,",
   `I am Anamaria, a counsellor & psychotherapist, offering long and short-term mental health
   support services from the area of Greater Manchester and Cheshire.`,
-  `You may be taking those small, yet overwhelming steps in looking after yourself and putting your
-  wellbeing first - something you may have been postponing for a long time. Please try not to lose sight
-  of these steps you are bravely taking right now. Reaching out takes a lot of courage, and you are here
-  now. So, let's appreciate that for a moment!`,
+  `You may be here because you are taking small, yet overwhelming steps in looking after yourself,
+  and putting your wellbeing first. I know from experience that reaching out is emotionally demanding,
+  to say the least. If this sounds like what you are going through, I hope you can give yourself
+  permission to acknowledge these steps you are bravely taking right now.`,
   `Depending on our sense of safety and the support around us, we may feel prepared to handle life
   challenges most of the time. But for those times when we feel overwhelmed, confused, or completely
   burnt out, we can use a bit of support in finding our feet.`,
