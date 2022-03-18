@@ -1,3 +1,3 @@
 export default function Container({ children }) {
-  return <div className="container site-container site-width">{children}</div>
+  return <div className="container site-container site-width bg-white">{children}</div>
 }
