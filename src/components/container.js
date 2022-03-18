@@ -1,3 +1,9 @@
 export default function Container({ children }) {
-  return <div className="container site-container site-width bg-white">{children}</div>
+  return (
+    <div className="bg-white">
+      <div className="site-container site-width">
+        {children}
+      </div>
+    </div>
+  )
 }
