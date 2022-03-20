@@ -3,6 +3,7 @@ import ContactForm from '../contactForm'
 import Container from '../container'
 import Navbar from '../navbar'
 import Image from 'next/image'
+import Footer from './footer';
 
 import cover from '../../public/assets/img/cover.jpg'
 import styles from './layout.module.css'
@@ -39,7 +40,9 @@ export default function Layout({ children }) {
         <main className={styles.main}>{children}</main>
         <hr className="translate-y-8 md:-translate-y-6"/>
         <ContactForm />
+        <Footer />
       </Container>
+      
     </>
   )
 }

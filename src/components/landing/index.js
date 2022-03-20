@@ -6,18 +6,23 @@ import SubHeader from '../subHeader';
 import TickList from '../tickList';
 
 import Icons from './icons';
-import Logo from './logo';
+import AtLogo from './atLogo';
+import BacpLogo from './bacpLogo';
+import ProfPic from './profPic';
 
 import { firstParas, secondParas, thirdParas } from './content';
 
 export const Details = () => {
   return (
     <div className="flex sm:flex-row flex-col justify-evenly items-center">
+      <div className="sm:mt-0 mt-10">
+        <AtLogo /> 
+      </div>
       <div>
         <Icons />
       </div>
-      <div className="sm:mt-0 mt-10">
-        <Logo /> 
+      <div>
+        <BacpLogo />
       </div>
     </div>
   )
@@ -95,7 +100,10 @@ const areas = [
 export default function Landing() {
   return (
     <>
-      <Section paras={firstParas} />
+      <div className="md:flex flex-grow items-center">
+        <Section paras={firstParas} />
+        <ProfPic />
+      </div>
       <Details />
       <Section paras={secondParas} />
       <SubHeader title={'Areas of Counselling'} />

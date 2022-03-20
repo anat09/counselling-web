@@ -3,6 +3,7 @@ import React from 'react';
 import Accordion from './accordion';
 import Address from './address';
 import HyperRef from './hyperRef';
+import RoomPhoto from './roomPhoto';
 import Section from './section'
 
 import Availability from './availability';
@@ -81,10 +82,13 @@ export default function Fees() {
       <Accordion items={items} />
       <Section paras={[
         `I work privately from various places in Greater Manchester and Cheshire: The Heatons, Cheadle, and South Manchester.`,
+        `Please note, locations may vary in terms of availability for Face-to-Face Counselling.
+        Currently, Face-to-face Counselling Sessions can only be booked at:`
+      ]} />
+      <RoomPhoto />
+      <Address/>
+      <Section paras={[
         <>
-          Please note, locations may vary in terms of availability for Face-to-Face Counselling.
-          Currently, Face-to-face Counselling Sessions can only be booked at:
-          <Address/>
           Please feel free to <HyperRef link={'/contact'} value={'contact me'}/> to inquire about the possibility of face-to-face counselling in another location that the latter.
           In any location, the following measures will be put in place for your Health &#38; Safety:
         </>
