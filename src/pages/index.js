@@ -4,7 +4,7 @@ import PageHeader from '../components/pageHeader'
 export default function Index() {
   return (
     <>
-      <PageHeader title="Welcome!"/>
+      {/* <PageHeader title="Welcome!"/> */}
       <Landing id="landing"/>
     </>
   )
