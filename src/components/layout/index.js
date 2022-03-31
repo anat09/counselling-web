@@ -31,12 +31,10 @@ export default function Layout({ children }) {
           content="Online and in-person counselling and psychotherapy services with Anamaria Tigan in Greater Manchester and Cheshire."
         />
       </Head>
-      <div className="z-10">
+      <div className="z-50">
         <Navbar/>
       </div>
-      <div className="-z-10">
-        <CoverImage />
-      </div>
+      <CoverImage />
       <div id="header" className="max-w-2xl px-4 py-6 sm:px-10 sm:py-10 mx-auto bg-primary text-white text-center text-xl sm:text-3xl md:text-4xl font-lato sm:rounded-lg shadow-md  lg:-translate-y-44 md:-translate-y-20">
         Counselling and Psychotherapy from Greater Manchester and Cheshire
       </div>
