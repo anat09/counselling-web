@@ -10,14 +10,12 @@ import styles from './layout.module.css'
 
 const CoverImage = () => {
   return (
-    <div  className={ styles.image }>
-      <Image 
-        src={cover}
-        quality={100}
-        layout="fill"
-        priority='true'
-      />
-    </div>
+    <Image 
+      src={cover}
+      quality={100}
+      // layout="fill"
+      priority='true'
+    />
   )
 }
 
@@ -31,9 +29,13 @@ export default function Layout({ children }) {
           content="Online and in-person counselling and psychotherapy services with Anamaria Tigan in Greater Manchester and Cheshire."
         />
       </Head>
-      <Navbar/>
-      <CoverImage />
-      <div id="header" className="max-w-2xl px-4 py-6 sm:px-10 sm:py-10 mx-auto bg-primary text-white text-center text-xl sm:text-3xl md:text-4xl font-lato sm:rounded-lg shadow-md lg:-translate-y-44 md:-translate-y-20">
+      <div className={ styles.navbar }>
+        <Navbar/>
+      </div>
+      <div className={ styles.image }>
+        <CoverImage />
+      </div>
+      <div id="header" className="max-w-2xl px-4 py-6 sm:px-10 sm:py-10 mx-auto bg-primary text-white text-center text-xl sm:text-3xl md:text-4xl font-lato sm:rounded-lg shadow-md lg:-translate-y-48 md:-translate-y-24">
         Counselling and Psychotherapy from Greater Manchester and Cheshire
       </div>
       <Container>

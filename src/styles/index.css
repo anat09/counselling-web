@@ -6,11 +6,11 @@
 
 /* :root {
   --bg-color: rgb(255,255,255);
-}
+} */
 
 body {
-  background-color: var(--bg-color);
-} */
+  background-color: white;
+}
 
 .site-container {
   margin: 0 auto;
@@ -22,7 +22,7 @@ body {
   position: relative;
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 1140px) {
   .nav-width {
     width:100%
   }
@@ -31,7 +31,7 @@ body {
   }
 }
 
-@media (min-width: 770px) {
+@media (min-width: 1140px) {
   .nav-width {
     width:1140px;
   }

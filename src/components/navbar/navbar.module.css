@@ -1,5 +1,6 @@
 .navbar {
-    z-index: 10;
+    z-index: 50;
+    margin: auto;
 }
 
 .titleBox {
