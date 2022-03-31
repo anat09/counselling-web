@@ -34,7 +34,7 @@ export default function Layout({ children }) {
       <div className="z-10">
         <Navbar/>
       </div>
-      <div className="z-0">
+      <div className="-z-10">
         <CoverImage />
       </div>
       <div id="header" className="max-w-2xl px-4 py-6 sm:px-10 sm:py-10 mx-auto bg-primary text-white text-center text-xl sm:text-3xl md:text-4xl font-lato sm:rounded-lg shadow-md  lg:-translate-y-44 md:-translate-y-20">
