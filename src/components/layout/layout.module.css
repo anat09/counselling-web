@@ -26,4 +26,9 @@
   width: 100%;
   padding-bottom: 40%;
   z-index: -10;
+  background-color: white;
+}
+
+.badge {
+  background-color: white;
 }
