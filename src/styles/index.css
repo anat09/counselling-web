@@ -4,8 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  background-color: white;
+:root {
+  --bg-color: rgb(243,243,243);
 }
 
 .site-container {
