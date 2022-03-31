@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+root {
+  background-color: white
+}
+
 .site-container {
   margin: 0 auto;
   position: relative;
