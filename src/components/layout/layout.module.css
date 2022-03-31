@@ -25,11 +25,11 @@
   position: relative;
   width: 100%;
   padding-bottom: 40%;
-  z-index: -10;
 }
 
 .imagewrap {
   background-color: white;
+  z-index: -10;
 }
 
 .badge {
