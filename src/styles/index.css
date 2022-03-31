@@ -8,6 +8,10 @@
   --bg-color: rgb(243,243,243);
 }
 
+body {
+  background: var(--bg-color);
+}
+
 .site-container {
   margin: 0 auto;
   position: relative;
