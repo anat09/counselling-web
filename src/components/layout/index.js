@@ -10,13 +10,15 @@ import styles from './layout.module.css'
 
 const CoverImage = () => {
   return (
-    <div  className={ styles.image }>
-      <Image 
-        src={cover}
-        quality={100}
-        layout="fill"
-        priority='true'
-      />
+    <div className={ styles.imagewrap }>
+      <div className={ styles.image }>
+        <Image 
+          src={cover}
+          quality={100}
+          layout="fill"
+          priority='true'
+        />
+      </div>
     </div>
   )
 }
