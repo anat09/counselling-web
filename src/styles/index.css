@@ -9,7 +9,7 @@
 }
 
 body {
-  background: var(--bg-color);
+  background-color: var(--bg-color);
 }
 
 .site-container {
