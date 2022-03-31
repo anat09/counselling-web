@@ -1,3 +1,7 @@
+.navbar {
+    z-index: 10;
+}
+
 .titleBox {
     margin-bottom: -31px;
     position: absolute;
