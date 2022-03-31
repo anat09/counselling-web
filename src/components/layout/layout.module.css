@@ -30,7 +30,7 @@
 
 .imagewrap {
   background-color: white;
-  z-index: -10;
+  z-index: -20;
 }
 
 .badge {
