@@ -4,13 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --bg-color: rgb(255,255,255);
 }
 
 body {
   background-color: var(--bg-color);
-}
+} */
 
 .site-container {
   margin: 0 auto;
