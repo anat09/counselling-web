@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 :root {
-  --bg-color: rgb(243,243,243);
+  --bg-color: rgb(255,255,255);
 }
 
 body {
