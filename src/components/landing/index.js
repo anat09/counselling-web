@@ -15,13 +15,13 @@ import { firstParas, secondParas, thirdParas } from './content';
 export const Details = () => {
   return (
     <div className="flex sm:flex-row flex-col justify-evenly items-center">
-      <div className="sm:mt-0 mt-10">
+      <div>
         <AtLogo /> 
       </div>
       <div>
         <Icons />
       </div>
-      <div>
+      <div className="sm:mt-0 mt-10">
         <BacpLogo />
       </div>
     </div>
