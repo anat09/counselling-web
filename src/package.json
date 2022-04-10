@@ -1,6 +1,6 @@
 {
-  "name": "counselling-website",
-  "version": "0.1.0",
+  "name": "counselling-app",
+  "version": "1.1.0",
   "private": true,
   "homepage": ".",
   "scripts": {

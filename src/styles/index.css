@@ -1,4 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;900&family=Philosopher&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;900&family=Philosopher&display=swap'); */
+
+@font-face {
+  font-family: "Lato";
+  src: url('../fonts/lato/Lato-Light.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url('../fonts/lato/Lato-Bold.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Lato";
+  src: url('../fonts/lato/Lato-LightItalic.ttf');
+  font-style: italic;
+}
+
 
 @tailwind base;
 @tailwind components;

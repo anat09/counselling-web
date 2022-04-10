@@ -6,6 +6,8 @@ const Footer = () => {
       <Link href='/privacy#header'><a>Privacy</a></Link>
       <div className="px-6" />
       <Link href='/disclaimer#header'><a>Disclaimer</a></Link>
+      <div className="px-6" />
+      <Link href='/romana#header'><a>În Limba Română</a></Link>
     </div>
   )
 }

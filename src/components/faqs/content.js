@@ -55,7 +55,7 @@ const second = [
     Psychotherapy) <HyperRef link='https://www.bacp.co.uk/about-therapy/types-of-therapy/' value='https://www.bacp.co.uk/about-therapy/types-of-therapy/'/>.
   </span>,
   <span className='italic'>
-    For more information on my professional background and experience, you can <HyperRef link='/experience' value='follow this link'/>, or feel free to contact me, and book an initial
+    For more information on my professional background and experience, you can <HyperRef link='/experience#header' value='follow this link'/>, or feel free to contact me, and book an initial
     consultation. I am happy to answer questions to the best of my ability.
   </span>
 ]
@@ -124,7 +124,7 @@ const fifth = [
 
 const sixth = [
   <>If you feel that you are experiencing a mental health crisis where are concerned about
-  your own safety or someone else's, please see <HyperRef link='/emergency' value='Emergency Contact'/>.</>,
+  your own safety or someone else's, please see <HyperRef link='/emergency#header' value='Emergency Contact'/>.</>,
   `Counselling is a type of talking therapy that can support you when you are not in
   immediate danger to yourself or to/from others.`
 ]

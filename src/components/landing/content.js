@@ -21,7 +21,7 @@ export const secondParas = [
   trauma, happiness, joy - everything - in our own way. I use an integrative
   approach in my work with clients, where I bring in different therapeutic techniques to help
   clients understand past and current life circumstances, in a safe and trusting environment.`,
-  `I have extensive experience in supporting clients from multicultural and multilingual
+  `I have experience in supporting clients from multicultural and multilingual
   backgrounds, as well as clients who identify as neurodivergent. I am also a trauma-informed
   practitioner, having worked extensively with survivors of neglect, emotional, sexual, and/or
   domestic abuse within various organisations across the UK.`,
@@ -29,13 +29,16 @@ export const secondParas = [
   working with you. We will work together to explore any difficulties or barriers you may be
   facing. My role is to support you in finding out what your strengths are, identify what healing
   and growth may look like for you, and how you can create a fulfilling and authentic experience
-  for yourself.`
+  for yourself.`,
+  <>
+    Pentru informații în limba română, vizitați <HyperRef link='/romana#header' value='această pagină'/>. 
+  </>,
 ]
 export const thirdParas = [
   `Wherever you identify with any of the above or are just looking for a place to talk things
   through, I look forward to working with you.`,
   <>To find out more about how I work and what you can expect from our sessions then please visit
-  &nbsp;<HyperRef link='/faqs' value='FAQs'/> where hopefully most of your questions
+  <HyperRef link='/faqs#header' value=' FAQs'/> where hopefully most of your questions
   will be answered. Alternatively, to find out more about my professional background and
-  qualifications then please visit <HyperRef link='/experience' value='Experience'/>.</>
+  qualifications then please visit <HyperRef link='/experience#header' value='Experience'/>.</>
 ]

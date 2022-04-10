@@ -16,7 +16,7 @@ export default function Contact() {
         please leave a message with your preferred contact number. I will return your voicemail/text/email within 48 hs.`,
         <>
           If you feel that you are experiencing a <span className="text-primary font-bold">mental health crisis</span> where you are concerned
-          about <span className="text-primary font-bold">your own safety</span> or someone else's, please follow the link to the <HyperRef link={'/emergency'} value={'Emergency Contact'} /> page.
+          about <span className="text-primary font-bold">your own safety</span> or someone else's, please follow the link to the <HyperRef link='/emergency#header' value='Emergency Contact' /> page.
         </>,
         <>
           Counselling is a type of talking therapy that can support you when you are

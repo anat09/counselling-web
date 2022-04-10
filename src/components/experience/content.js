@@ -30,7 +30,7 @@ export const third = [
     As you will see below, my training has been focused on various approaches in therapy,
     allowing me to deliver counselling and psychotherapy in an integrative way. This
     means that throughout our work together, I draw on my knowledge &amp; training in below
-    therapeutic modalities (see <HyperRef link={'/faq'} value={'FAQs'} /> for more information about therapy in general),
+    therapeutic modalities (see <HyperRef link='/faq#header' value='FAQs' /> for more information about therapy in general),
     along with my understanding of personal development to support you to the best of my ability.
   </>,
   'Master of Science in Counselling & Psychotherapy at Keele University. Trained in:',
@@ -70,6 +70,6 @@ export const fourth = [
   <>
     As a registered member of the <HyperRef link='https://www.bacp.co.uk' value="BACP (British Association of Counselling & Psychotherapy)" />, I
     always ensure that my work with you is safe, and conducted to high ethical standard. If
-    you have any questions regarding the above, please do not hesitate to <HyperRef link='/contact' value="contact me" /> below.
+    you have any questions regarding the above, please do not hesitate to <HyperRef link='/contact#header' value="contact me" /> below.
   </>
 ]

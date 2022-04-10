@@ -5,28 +5,9 @@ import Section from '../section';
 import SubHeader from '../subHeader';
 import TickList from '../tickList';
 
-import Icons from './icons';
-import AtLogo from './atLogo';
-import BacpLogo from './bacpLogo';
 import ProfPic from './profPic';
 
 import { firstParas, secondParas, thirdParas } from './content';
-
-export const Details = () => {
-  return (
-    <div className="flex sm:flex-row flex-col justify-evenly items-center">
-      <div>
-        <AtLogo /> 
-      </div>
-      <div>
-        <Icons />
-      </div>
-      <div className="sm:mt-0 mt-10">
-        <BacpLogo />
-      </div>
-    </div>
-  )
-}
 
 const List = ({ entries, name }) => {
   return (

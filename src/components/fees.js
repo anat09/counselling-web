@@ -89,7 +89,7 @@ export default function Fees() {
       <Address/>
       <Section paras={[
         <>
-          Please feel free to <HyperRef link={'/contact'} value={'contact me'}/> to inquire about the possibility of face-to-face counselling in another location that the latter.
+          Please feel free to <HyperRef link='/contact#header' value='contact me'/> to inquire about the possibility of face-to-face counselling in another location that the latter.
           In any location, the following measures will be put in place for your Health &#38; Safety:
         </>
       ]} />
