@@ -1,4 +1,4 @@
-import { Details } from './landing';
+import Details from './landing/details';
 import HyperRef from './hyperRef';
 import Section from './section';
 import Warning from './warning';

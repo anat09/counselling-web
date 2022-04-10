@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Availability from '../availability';
+import Details from './details';
 import Section from '../section';
 import SubHeader from '../subHeader';
 import TickList from '../tickList';
