@@ -146,11 +146,13 @@ const ContactForm = () => {
           </span>
         </label>
 
+        <div className="flex justify-center">
         <ReCAPTCHA
           sitekey={ process.env.NEXT_PUBLIC_RECAPTCHA_KEY }
           onChange={handleToken}
           onExpired={handleExpired}
         />
+        </div>
 
         { error && <ErrorMessage message={error.error}/> }
 
