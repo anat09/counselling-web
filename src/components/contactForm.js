@@ -146,7 +146,7 @@ const ContactForm = () => {
           </span>
         </label>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center py-4">
         <ReCAPTCHA
           sitekey={ process.env.NEXT_PUBLIC_RECAPTCHA_KEY }
           onChange={handleToken}
@@ -158,7 +158,7 @@ const ContactForm = () => {
 
         { success && <SuccessMessage message={successfulResponse} /> }
         
-        <div className="flex justify-center mt-6">
+        <div className="flex justify-center pt-4">
           { 
             token === null ? (
               <button
