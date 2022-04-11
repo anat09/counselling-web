@@ -29,6 +29,7 @@ export default function Layout({ children }) {
           content="Online and in-person counselling and psychotherapy services with Anamaria Tigan in Greater Manchester and Cheshire."
         />
       </Head>
+      
       <div className={ styles.navbar }>
         <Navbar/>
       </div>
@@ -44,7 +45,6 @@ export default function Layout({ children }) {
         <ContactForm />
         <Footer />
       </Container>
-      
     </>
   )
 }

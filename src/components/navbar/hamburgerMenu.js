@@ -13,7 +13,7 @@ const HamburgerMenu = () => {
 
     return (
       <>
-        <div className="hidden w-full bg-inherit lg:block">
+        <div className="hidden w-fit bg-inherit lg:block">
           <HorizontalNavbarLinks />
         </div>
         <label htmlFor="my-drawer-3" className="lg:hidden btn btn-sm z-20 fixed btn-ghost bg-transparent text-secondary" onClick={clickHandler}>

@@ -156,16 +156,14 @@ const TitleBox = () => {
 
 const Navbar = () => {
   return (
-    // <div className={ styles.navbar }>
-      <div className="bg-primary bg-opacity-25">
-        <div className="nav-container nav-width text-gray-600 capitalize">
-          <div className="flex lg:justify-between pb-32 sm:pb-22 md:pb-0">
-            <div><TitleBox /></div>
-            <div><HamburgerMenu /></div>
-          </div>
+    <div className="bg-primary bg-opacity-25">
+      <div className="nav-container nav-width text-gray-600 capitalize">
+        <div className="flex lg:justify-between pb-32 sm:pb-22 md:pb-0">
+          <div><TitleBox /></div>
+          <div><HamburgerMenu /></div>
         </div>
       </div>
-    // </div>
+    </div>
   );
 };
 

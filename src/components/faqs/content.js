@@ -42,12 +42,12 @@ const second = [
   our work for your unique experiences.`,
   `My foundation of training in 'Person-Centred therapy' allows me to work from a
   caring and non-judgemental place. This form of therapy is based on the belief that
-  everyone is capable of grow if they are in the right environment. On the way we may
+  everyone is capable of growth if they are in the right environment. On the way we may
   also incorporate techniques and exercises from:`,
   <>&#8226;&#160; Solution Focused Therapy (SFT), which can bring a focus on your strengths to identify
   how you can achieve goals that we set out together.</>,
   <>&#8226;&#160; Cognitive Behavioural Therapy (CBT), which aims to help you identify, challenge, and
-  understand any interactions between your thinking &amp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;behaviour patterns that may
+  understand any interactions between your thinking &amp; behaviour patterns that may
   influence your wellbeing.</>,
   <span className='italic'>
     For more information on these individual types of therapies you may wish to have a look at
