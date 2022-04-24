@@ -2,9 +2,9 @@ import React from 'react';
 
 const Address = () => {
   const lines = [
-    'The Heaton Moor Counselling and Therapy Centre',
-    '33b Shaw Road, Heaton Moor',
-    'Stockport, SK4 4AG',
+    'The Royal Exchange',
+    "St Ann's Square",
+    'Manchester, M2 7PE',
   ];
   return (
     <div className="flex flex-col py-10">

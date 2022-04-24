@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Accordion from './accordion';
-import Address from './address';
-import HyperRef from './hyperRef';
-import RoomPhoto from './roomPhoto';
-import Section from './section'
+import Accordion from '../accordion';
+import Address from '../address';
+import Carousel from './photos/Carousel';
+import HyperRef from '../hyperRef';
+import Section from '../section'
 
-import Availability from './availability';
-import Warning from './warning';
+import Availability from '../availability';
+import Warning from '../warning';
 
 const Precautions = () => {
   const TickIcon = () => {
@@ -85,7 +85,7 @@ export default function Fees() {
         `Please note, locations may vary in terms of availability for Face-to-Face Counselling.
         Currently, Face-to-face Counselling Sessions can only be booked at:`
       ]} />
-      <RoomPhoto />
+      <Carousel />
       <Address/>
       <Section paras={[
         <>

@@ -17,7 +17,7 @@ const HamburgerMenu = () => {
           <HorizontalNavbarLinks />
         </div>
         <label htmlFor="my-drawer-3" className="lg:hidden btn btn-sm z-20 fixed btn-ghost bg-transparent text-secondary" onClick={clickHandler}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" className="inline-block w-8 h-8 z-20 m-1 fixed stroke-current">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" className="inline-block w-8 h-8 z-20 m-1 fixed stroke-current">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
           {/* <svg xmlns="http://www.w3.org/2000/svg" className="inline-block w-8 h-8 z-20 fixed stroke-current" viewBox="0 0 20 20" fill="currentColor">
