@@ -81,7 +81,7 @@ export default function Fees() {
       ]} />
       <Accordion items={items} />
       <Section paras={[
-        `I work privately from various places in Greater Manchester and Cheshire: The Heatons, Cheadle, and South Manchester.`,
+        `I work privately from various places in Greater Manchester and Cheshire.`,
         `Please note, locations may vary in terms of availability for Face-to-Face Counselling.
         Currently, Face-to-face Counselling Sessions can only be booked at:`
       ]} />
