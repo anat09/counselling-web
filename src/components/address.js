@@ -9,9 +9,9 @@ const Address = () => {
   return (
     <div className="flex flex-col py-10">
       {
-        lines.map((line) => {
+        lines.map((line, idx) => {
           return (
-            <div className="text-center text-3xl font-philosopher">{ line }</div>
+            <div key={idx} className="text-center text-3xl font-philosopher">{ line }</div>
           )
         })
       }

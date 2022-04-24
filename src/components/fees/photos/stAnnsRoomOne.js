@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import room from '../../../public/assets/img/st-anne-room-1.jpg'
+import room from '../../../public/assets/img/st-anns-room-1.jpg'
 const RoomPhoto = () => {
   const ratio = 1.422934233;
   const height = 400;
