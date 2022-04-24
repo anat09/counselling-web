@@ -46,20 +46,20 @@ export default function Fees() {
     {
       header: "Face-to-Face Counselling",
       content: <Section paras={[
-        'I offer Face-to-Face counselling sessions from various locations – see below. Each session costs £45-£60.',
+        'I offer Face-to-Face counselling sessions from various locations - see below. Each session costs £50-£60.',
       ]}/>
     },
     {
       header: "Online & Remote Video Counselling",
       content: <Section paras={[
-        `I offer 50 minutes online counselling sessions. Each session costs £45-£60. These can be held via
+        `I offer 50 minutes online counselling sessions. Each session costs £50-£60. These can be held via
         Skype, Zoom, Google Meets, or a platform of your choice.`
       ]} />
     },
     {
       header: "Telephone Counselling",
       content: <Section paras={[
-        `I offer 50 minutes telephone counselling sessions. Each session costs £45-£60.`
+        `I offer 50 minutes telephone counselling sessions. Each session costs £50-£60.`
       ]} />
     },
     {
