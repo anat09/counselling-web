@@ -35,7 +35,7 @@ export const secondParas = [
   </>,
 ]
 export const thirdParas = [
-  `Wherever you identify with any of the above or are just looking for a place to talk things
+  `Whether you identify with any of the above or are just looking for a place to talk things
   through, I look forward to working with you.`,
   <>To find out more about how I work and what you can expect from our sessions then please visit
   <HyperRef link='/faqs#header' value=' FAQs'/> where hopefully most of your questions
