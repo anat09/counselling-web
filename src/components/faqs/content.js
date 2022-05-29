@@ -26,27 +26,27 @@ const first = [
 ]
 
 const second = [
-  <>
-    <span className="italic">
-      'An integrative counsellor aims to build a trusting and non-judgmental relationship that
-      helps you develop self-awareness. When you understand the causes of your concerns or
-      triggers for your behaviour, you can confidently set goals and develop new behaviours to
-      improve your satisfaction with life.'
-    </span>
-    &#160; Source - BACP (British Association of Counselling and Psychotherapy)
-  </>,
-  `I appreciate it can be quite confusing to hear about different types of therapy, so feel
-  free to take your time to read this summary below as an example of integrative
-  therapeutic approach. Briefly explained, I use an integrative approach in my work with
-  clients, which means that I bring techniques from modalities I have trained in, to tailor
-  our work for your unique experiences.`,
-  `My foundation of training in 'Person-Centred therapy' allows me to work from a
-  caring and non-judgemental place. This form of therapy is based on the belief that
-  everyone is capable of growth if they are in the right environment. On the way we may
-  also incorporate techniques and exercises from:`,
-  <>&#8226;&#160; Solution Focused Therapy (SFT), which can bring a focus on your strengths to identify
-  how you can achieve goals that we set out together.</>,
-  <>&#8226;&#160; Cognitive Behavioural Therapy (CBT), which aims to help you identify, challenge, and
+  // <>
+  //   <span className="italic">
+  //     'An integrative counsellor aims to build a trusting and non-judgmental relationship that
+  //     helps you develop self-awareness. When you understand the causes of your concerns or
+  //     triggers for your behaviour, you can confidently set goals and develop new behaviours to
+  //     improve your satisfaction with life.'
+  //   </span>
+  //   &#160; Source - BACP (British Association of Counselling and Psychotherapy)
+  // </>,
+  `The type of counselling I offer is called "Person-Centred Therapy", which allows me
+  to work from a caring and non-judgemental place. Briefly explained, this form of
+  therapy is based on the belief that everyone is capable of growth if they are in the
+  right environment.`,
+  `I use an integrative approach in my work with clients, which means that I can also
+  bring techniques from modalities I have trained in, to tailor our work for your unique
+  experiences. This means that on the way we may also incorporate techniques and
+  exercises from:`,
+  <>&#8226;&#160; Solution Focused Therapy (SFT), which can bring a focus on your strengths to
+  identify how you can get closer to the therapeutic goals that we set out together, to
+  improve your wellbeing.</>,
+  <>&#8226;&#160; Cognitive Behavioural Therapy (CBT), which aims to help you identify and
   understand any interactions between your thinking &amp; behaviour patterns that may
   influence your wellbeing.</>,
   <span className='italic'>
@@ -61,26 +61,21 @@ const second = [
 ]
 
 const third = [
-  `During our first session we will use the space to find out what brings you to therapy
-  and explore our contract of confidentiality, so that you have an informed decision
-  when attending our sessions. The first couple of counselling sessions may also involve
-  finding out what works for you, we may explore what has or has not worked so far.`,
-  `Depending on your psychological and emotional needs we may create a 'plan of
-  action', in which we identify together areas you wish to work on. This can always be
-  adjusted and will be reviewed throughout our work together. Above all, I want you to
-  be in control of your growth.`,
-  `Alternatively, there are times when clients benefit from less structure and wish to
-  explore life as it happens for them. Sometimes a listening ear can be just what we need
-  to overcome the difficulties we face, to feel heard, validated & share our burden with
-  someone who is objective to our situation.`,
-  `I work from a genuine and caring place, and often bring elements of psychoeducation.
-  This process aims to help your understanding of all those bits of you that make you
-  who you are. In my practice so far, this has been a key element to help my clients to
-  understand their feelings, accept or even challenge their thoughts. This allowed them
+  `During our first session we will use the space to find out what brings you to therapy.
+  Depending on your psychological and emotional needs we may identify together
+  areas you wish to work on, which will be reviewed throughout our work together.
+  Above all, I want you to be in control of your growth.
+  Alternatively, there are times when clients benefit from less structure and wish to talk
+  things through. Sometimes a listening ear can be just what we need to overcome the
+  difficulties we face, to feel heard, validated &amp; share our burden with someone who is
+  objective to our situation.`,
+  `I work from a genuine and caring place, and often bring elements of
+  psychoeducation. This process aims to help your understanding of all those bits of
+  you that make you who you are. In my practice so far, this has been a key element to
+  help my clients to make sense of their feelings and experiences. This allowed them
   to create a calmer and more enjoyable experience for themselves.`,
-  `That being said, the counselling sessions are guided by what brings you to therapy and
-  we will work together to find out what the best approach to this is for you, at your pace
-  and depending on the things you are struggling with right now.`
+  `That being said, the counselling sessions are guided by what brings you to therapy
+  and we will work together to explore what is happening for you at your pace.`
 ]
 
 const fourth = [
@@ -103,23 +98,18 @@ const fourth = [
 ]
 
 const fifth = [
-  `The type of support suitable for you depends on what brings you to counselling. You
-  may wish to choose to focus on a particular issue or concern you really wish to work
-  on. You may wish to tailor therapy sessions with your counsellor, based on your needs.
-  However, sometimes we could feel completely lost. You might feel that you're not even
-  sure where to begin. Perhaps you are longing for a change and don't know how to go
-  about it. My aim is to find all these answers with you - to enable you to look back to
-  where you began this journey and think 'I've come so far!'.`,
-  `Sometimes, finding the right counsellor for you, a person who will 'just get it', may take
-  some time. Talking to a stranger may also feel intimidating (or even terrifying) at first. I
-  want you to rest assured this is something I am very much aware of, having supported
-  hundreds of clients in single sessions of therapy (also known as one-off counselling
-  sessions).`,
-  `My aim is for you to feel comfortable to ask any questions about the process of therapy
-  and express how you feel about your sessions or your progress. In my experience, I
-  noticed that once clients found a counsellor whom they feel comfortable to share their
-  story with, this allowed them to feel safe in exploring their options, strengths,
-  weaknesses.`
+  `Sometimes, finding the right counsellor for you, a person who will "just get it", may
+  take some time. Talking to a stranger may also feel intimidating (or even terrifying) at
+  first. I want you to rest assured this is something I am very much aware of, having
+  supported hundreds of clients in single sessions of therapy.`,
+  `My aim is for you to feel comfortable to ask any questions about the process of
+  therapy and express how you feel about your sessions or your progress. In my work
+  so far, I noticed that once clients found a counsellor whom they feel comfortable to
+  share their story with, this allowed them to feel safe in exploring their feelings.`,
+  `You might feel that you&#39;re not even sure where to begin. Perhaps you are longing for
+  a change and don&#39;t know how to go about it. My aim is to find all these answers with
+  you - to enable you to look back to where you began this journey and think "I've
+  come so far!".`
 ]
 
 const sixth = [
@@ -162,7 +152,7 @@ export default [
     content: <Section paras={first}/>
   },
   {
-    header: "What does 'Integrative' mean?",
+    header: "What type(s) of counselling can you offer?",
     content: <Section paras={second} />
   },
   {
