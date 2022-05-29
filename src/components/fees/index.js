@@ -52,8 +52,7 @@ export default function Fees() {
     {
       header: "Online & Remote Video Counselling",
       content: <Section paras={[
-        `I offer 50 minutes online counselling sessions. Each session costs £50-£60. These can be held via
-        Skype, Zoom, Google Meets, or a platform of your choice.`
+        `I offer 50 minute online counselling sessions via Zoom. Each session costs £50-£60.`
       ]} />
     },
     {

@@ -12,8 +12,12 @@ export default function Contact() {
       ]} />
       <Details />
       <Section paras={[
-        `Please note, I am usually in meetings or counselling sessions. If I am unable to answer,
-        please leave a message with your preferred contact number. I will return your voicemail/text/email within 48 hs.`,
+        `Please note, I am usually in meetings or counselling sessions. If I am
+        unable to answer, please leave a voice or text message with your contact
+        number and availability for me to return your call. I will return your
+        voicemail/text/email within 48 hs. To protect your privacy, I will only return a
+        missed call if I receive communication of your availability and consent for a
+        call-back.`,
         <>
           If you feel that you are experiencing a <span className="text-primary font-bold">mental health crisis</span> where you are concerned
           about <span className="text-primary font-bold">your own safety</span> or someone else's, please follow the link to the <HyperRef link='/emergency#header' value='Emergency Contact' /> page.

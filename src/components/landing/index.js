@@ -61,7 +61,7 @@ const Skills = () => {
 
 const areas = [
   "Abuse (Emotional, Physical, Sexual, Neglectful, Narcissistic)",
-  "Anxiety & Panic Attacks",
+  "Anxiety",
   "Bullying & Harrasment",
   "Childhood Trauma & Trauma Experienced in Adulthood",
   "Dealing with Burnout",
@@ -75,7 +75,7 @@ const areas = [
   "Procrastination",
   "Relationships, Family Conflicts, & Issues",
   "Self Confidence, Self Image, & Self Criticism",
-  "Self-Harm, Suicidal Thoughts, & Ideation",
+  "Self-Harm & Suicidal Ideation",
   "Stress & Work Related Concerns",
 ]
 
