@@ -38,11 +38,11 @@ export const fourthParas = [
 ]
 export const availability = [
   `Sesiuni online și prin telefon pot fi programate între orele 10AM și 8 PM, în zilele de joi și vineri.`,
-  `Momentan, sesiunile în persoană pot fi programate doar între orele 1PM și 5 PM vinerea, în locația
-  “Heaton Moor Counselling and Therapy Centre”. Camera de consiliere se află la codul poștal SK4
-  4AG, și este foarte accesibilă atât din punct de vedere al transportului public, cât și cel personal, cu
-  parcare gratis în apropiere.`,
-  `Din păcate, locația de mai sus nu poate fi accesată de persoanele care folosesc un scaun cu roțile,
-  pentru că este la etajul 1. Pentru aceste circumstanțe, pot oferi bineînțeles sesiuni online și prin
-  telefon.`
+  // `Momentan, sesiunile în persoană pot fi programate doar între orele 1PM și 5 PM vinerea, în locația
+  // “Heaton Moor Counselling and Therapy Centre”. Camera de consiliere se află la codul poștal SK4
+  // 4AG, și este foarte accesibilă atât din punct de vedere al transportului public, cât și cel personal, cu
+  // parcare gratis în apropiere.`,
+  // `Din păcate, locația de mai sus nu poate fi accesată de persoanele care folosesc un scaun cu roțile,
+  // pentru că este la etajul 1. Pentru aceste circumstanțe, pot oferi bineînțeles sesiuni online și prin
+  // telefon.`
 ]

@@ -67,7 +67,7 @@ const third = [
   Above all, I want you to be in control of your growth.
   Alternatively, there are times when clients benefit from less structure and wish to talk
   things through. Sometimes a listening ear can be just what we need to overcome the
-  difficulties we face, to feel heard, validated &amp; share our burden with someone who is
+  difficulties we face, to feel heard, validated & share our burden with someone who is
   objective to our situation.`,
   `I work from a genuine and caring place, and often bring elements of
   psychoeducation. This process aims to help your understanding of all those bits of
@@ -106,8 +106,8 @@ const fifth = [
   therapy and express how you feel about your sessions or your progress. In my work
   so far, I noticed that once clients found a counsellor whom they feel comfortable to
   share their story with, this allowed them to feel safe in exploring their feelings.`,
-  `You might feel that you&#39;re not even sure where to begin. Perhaps you are longing for
-  a change and don&#39;t know how to go about it. My aim is to find all these answers with
+  `You might feel that you're not even sure where to begin. Perhaps you are longing for
+  a change and don't know how to go about it. My aim is to find all these answers with
   you - to enable you to look back to where you began this journey and think "I've
   come so far!".`
 ]
@@ -138,12 +138,12 @@ const seventh = [
 ]
 
 export const eighth = [
-  `Online Video/Telephone Counselling Sessions can be booked between 10am - 8pm on
+  `Online Video & Telephone Counselling Sessions can be booked between 10am - 8pm on
   Thursdays and Fridays.`,
-  `Currently, Face-to-face Counselling Sessions can only be booked between 1pm - 4pm on Thursdays and Fridays to take place
-  at The Royal Exchange, St Ann's Square, Manchester, M2 7PE. This location is accessible by public transport (bus, tram, & train). There is no parking provided within
-  the premises. However, parking is available nearby in managed car parks and on the street, which may be subject to change during certain hours.`,
-  `Please note, the above counselling space does not have disabled access unfortunately. However, I can still offer counselling services via telephone or video should you require this.`
+  // `Currently, Face-to-face Counselling Sessions can only be booked between 1pm - 4pm on Thursdays and Fridays to take place
+  // at The Royal Exchange, St Ann's Square, Manchester, M2 7PE. This location is accessible by public transport (bus, tram, & train). There is no parking provided within
+  // the premises. However, parking is available nearby in managed car parks and on the street, which may be subject to change during certain hours.`,
+  // `Please note, the above counselling space does not have disabled access unfortunately. However, I can still offer counselling services via telephone or video should you require this.`
 ]
 
 export default [

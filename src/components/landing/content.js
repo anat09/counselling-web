@@ -1,7 +1,7 @@
 import HyperRef from '../hyperRef';
 export const firstParas = [
   "Hi there,",
-  `I am Anamaria, a counsellor &amp; psychotherapist, offering long and short-term counselling from the
+  `I am Anamaria, a counsellor & psychotherapist, offering long and short-term counselling from the
   area of Greater Manchester and Cheshire.`,
   `You may be here because you are taking small, yet overwhelming steps in looking after yourself, and
   putting your wellbeing first. I know from experience that reaching out is emotionally demanding, to

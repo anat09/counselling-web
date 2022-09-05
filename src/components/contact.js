@@ -24,10 +24,10 @@ export default function Contact() {
         </>,
         <>
           Counselling is a type of talking therapy that can support you when you are
-          <span className="text-primary font-bold"> not at immediate risk</span> to yourself/to/from others;
+          <span className="text-primary font-bold"> not at immediate risk</span> to yourself or to/from others.
         </>,
       ]} />
-      <Warning />
+      {/* <Warning /> */}
     </>
   )
 }

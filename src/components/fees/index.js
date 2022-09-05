@@ -43,12 +43,12 @@ const Precautions = () => {
 
 export default function Fees() {
   const items = [
-    {
-      header: "Face-to-Face Counselling",
-      content: <Section paras={[
-        'I offer Face-to-Face counselling sessions from various locations - see below. Each session costs £50-£60.',
-      ]}/>
-    },
+    // {
+    //   header: "Face-to-Face Counselling",
+    //   content: <Section paras={[
+    //     'I offer Face-to-Face counselling sessions from various locations - see below. Each session costs £50-£60.',
+    //   ]}/>
+    // },
     {
       header: "Online & Remote Video Counselling",
       content: <Section paras={[
@@ -79,22 +79,22 @@ export default function Fees() {
         `Afterwards, I have availability for the following:`
       ]} />
       <Accordion items={items} />
-      <Section paras={[
+      {/* <Section paras={[
         `I work privately from various places in Greater Manchester and Cheshire.`,
         `Please note, locations may vary in terms of availability for Face-to-Face Counselling.
         Currently, Face-to-face Counselling Sessions can only be booked at:`
-      ]} />
-      <Carousel />
-      <Address/>
-      <Section paras={[
+      ]} /> */}
+      {/* <Carousel /> */}
+      {/* <Address/> */}
+      {/* <Section paras={[
         <>
           Please feel free to <HyperRef link='/contact#header' value='contact me'/> to inquire about the possibility of face-to-face counselling in another location that the latter.
           In any location, the following measures will be put in place for your Health &#38; Safety:
         </>
-      ]} />
-      <Precautions />
+      ]} /> */}
+      {/* <Precautions /> */}
       <Availability />
-      <Warning />
+      {/* <Warning /> */}
     </>
   )
 }

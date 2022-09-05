@@ -4,10 +4,10 @@ import TickList from '../tickList';
 export const second = [
   `I have been working in mental health settings for over 7 years, with people from various
   backgrounds and ages, across the UK. I began supporting students & young people with their mental
-  health, disability & neurodiversity in 2015 (across various universities in North- West - Greater
+  health, disability, & neurodiversity in 2015 (across various universities in North- West - Greater
   Manchester & Lancaster).`,
   `Since 2018 I have also been working with survivors of childhood sexual abuse and/or domestic
-  violence, in various settings and charities across the UK (SafeNet – Lancashire, Concrete &amp; Savana –
+  violence, in various settings and charities across the UK (SafeNet – Lancashire, Concrete & Savana –
   Staffordshire, NAPAC – Nationally). This required me to undertake trauma-informed training and
   allowed me to become a trauma informed therapist.`,
   `In my current work outside private practice, I offer single sessions of therapy, where I offer a safe,
@@ -27,7 +27,7 @@ export const third = [
   // <>
   //   As you will see below, my training has been focused on various approaches in therapy,
   //   allowing me to deliver counselling and psychotherapy in an integrative way. This
-  //   means that throughout our work together, I draw on my knowledge &amp; training in below
+  //   means that throughout our work together, I draw on my knowledge & training in below
   //   therapeutic modalities (see <HyperRef link='/faq#header' value='FAQs' /> for more information about therapy in general),
   //   along with my understanding of personal development to support you to the best of my ability.
   // </>,
