@@ -1,6 +1,6 @@
 {
   "name": "counselling-app",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "homepage": ".",
   "scripts": {
@@ -12,16 +12,16 @@
   "dependencies": {
     "autoprefixer": "latest",
     "classnames": "2.2.6",
-    "date-fns": "2.16.1",
     "daisyui": "^1.25.4",
+    "date-fns": "2.16.1",
     "gray-matter": "4.0.2",
     "next": "latest",
     "nodemailer": "^6.7.2",
     "postcss": "latest",
-    "react-icons": "^4.3.1",
-    "react-google-recaptcha": "^2.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-icons": "^4.3.1",
     "react-swipeable": "latest",
     "remark": "13.0.0",
     "remark-html": "13.0.2",

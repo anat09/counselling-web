@@ -8,7 +8,7 @@ export default function FAQs() {
   return (
     <>
       <Accordion items={items}/>
-      <Warning />
+      {/* <Warning /> */}
     </>
   )
 }

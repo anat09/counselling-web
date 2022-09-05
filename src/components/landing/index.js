@@ -37,7 +37,7 @@ const Skills = () => {
     "Students & Professionals",
   ]
   const types = [
-    "Face-to-Face",
+    "Remote Only",
     "Online Video",
     "Telephone",
   ]
