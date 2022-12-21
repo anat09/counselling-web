@@ -1,6 +1,6 @@
 {
   "name": "counselling-app",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "private": true,
   "homepage": ".",
   "scripts": {
@@ -10,12 +10,36 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^1.1.5",
+    "@chakra-ui/react": "1.8.8",
+    "@chakra-ui/system": "^1.12.1",
+    "@chakra-ui/theme-tools": "^1.3.6",
+    "@emotion/cache": "^11.7.1",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^25.2.3",
+    "@types/react-dom": "^18.0.6",
+    "apexcharts": "^3.35.2",
+    "framer-motion": "^4.1.17",
+    "react-apexcharts": "^1.4.0",
+    "react-calendar": "^3.7.0",
+    "react-custom-scrollbars-2": "^4.2.1",
+    "react-dropzone": "^12.0.4",
+    "react-is": "^18.0.0",
+    "react-table": "^7.8.0",
+    "stylis": "^4.1.1",
+    "stylis-plugin-rtl": "2.0.2",
+    "typescript": "^4.7.4",
+    "web-vitals": "^1.1.2",
     "autoprefixer": "latest",
     "classnames": "2.2.6",
     "daisyui": "^1.25.4",
     "date-fns": "2.16.1",
     "gray-matter": "4.0.2",
-    "next": "latest",
+    "next": "^12.2.5",
     "nodemailer": "^6.7.2",
     "postcss": "latest",
     "react": "^17.0.2",
@@ -27,5 +51,15 @@
     "remark-html": "13.0.2",
     "sharp": "^0.30.1",
     "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "@types/react-calendar": "^3.5.2",
+    "@types/react-table": "^7.7.12",
+    "eslint-config-next": "^12.2.5",
+    "gh-pages": "^3.2.3",
+    "@types/node": "^18.11.17",
+    "@types/react": "^18.0.26",
+    "eslint": "^8.30.0",
+    "typescript": "^4.9.4"
   }
 }

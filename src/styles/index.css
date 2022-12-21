@@ -1,3 +1,9 @@
+@import "../horizon-ui/styles/App.css";
+@import '../horizon-ui/styles/App.css';
+@import '../horizon-ui/styles/Contact.css';
+@import 'react-calendar/dist/Calendar.css';
+@import '../horizon-ui/styles/MiniCalendar.css';
+
 @font-face {
   font-family: "Lato";
   src: url('../fonts/lato/Lato-Light.ttf');

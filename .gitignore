@@ -2,4 +2,3 @@
 node_modules
 .next
 cloud-run.yaml
-run-prod.sh
