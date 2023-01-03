@@ -1,4 +1,5 @@
-const contact = async (req, res) => {
+import { NextApiRequest, NextApiResponse } from "next";
+const contact = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method Not Allowed'})
   const { email, message, name, token } = req.body
 
@@ -17,7 +18,7 @@ const contact = async (req, res) => {
     if (!response.success) return res.status(400).json({ error: "ReCAPTCHA challenge failure"})
   }
   catch (err) {
-    console.log(error)
+    console.error(err)
     return res.status(500).json({ error: 'The server failed to process the request' })
   }
   
@@ -42,8 +43,8 @@ const contact = async (req, res) => {
   try {
     await transporter.sendMail(mailData);
     return res.json({ success: `Email has been sent successfully` })
-  } catch (error) {
-    console.log(error)
+  } catch (err) {
+    console.error(err)
     return res.status(500).json({ error: 'The server failed to process the request' })
   }
 }

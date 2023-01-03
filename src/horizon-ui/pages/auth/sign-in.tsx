@@ -42,26 +42,35 @@ import {
 import { HSeparator } from '../../components/separator/Separator';
 import DefaultAuthLayout from '../../layouts/auth/Default';
 // Assets
-import Link from 'next/link';
-import { FcGoogle } from 'react-icons/fc';
 import { MdOutlineRemoveRedEye } from 'react-icons/md';
 import { RiEyeCloseLine } from 'react-icons/ri';
 
+import { LoginContext } from '../../../context/login'
+
 export default function SignIn() {
-	// Chakra color mode
 	const textColor = useColorModeValue('navy.700', 'white');
 	const textColorSecondary = 'gray.400';
-	const textColorDetails = useColorModeValue('navy.700', 'secondaryGray.600');
-	const textColorBrand = useColorModeValue('brand.500', 'white');
 	const brandStars = useColorModeValue('brand.500', 'brand.400');
-	const googleBg = useColorModeValue('secondaryGray.300', 'whiteAlpha.200');
-	const googleText = useColorModeValue('navy.700', 'white');
-	const googleHover = useColorModeValue({ bg: 'gray.200' }, { bg: 'whiteAlpha.300' });
-	const googleActive = useColorModeValue({ bg: 'secondaryGray.300' }, { bg: 'whiteAlpha.200' });
+
 	const [ show, setShow ] = React.useState(false);
+	const { credentials, setCredentials, submitCredentials } = React.useContext(LoginContext)
+
 	const handleClick = () => setShow(!show);
+	const handleEmailChange = (e: React.BaseSyntheticEvent) => {
+		setCredentials({
+			...credentials,
+			email: e.target.value,
+		})
+	}
+	const handlePasswordChange = (e: React.BaseSyntheticEvent) => {
+		setCredentials({
+			...credentials,
+			password: e.target.value,
+		})
+	}
+
 	return (
-		<DefaultAuthLayout illustrationBackground={'/img/auth/auth.png'}>
+		<DefaultAuthLayout illustrationBackground={'../horizon-ui/img/auth/auth.png'}>
 			<Flex
 				maxW={{ base: '100%', md: 'max-content' }}
 				w='100%'
@@ -92,7 +101,7 @@ export default function SignIn() {
 					mx={{ base: 'auto', lg: 'unset' }}
 					me='auto'
 					mb={{ base: '20px', md: 'auto' }}>
-					<Button
+					{/* <Button
 						fontSize='sm'
 						me='0px'
 						mb='26px'
@@ -107,12 +116,12 @@ export default function SignIn() {
 						_focus={googleActive}>
 						<Icon as={FcGoogle} w='20px' h='20px' me='10px' />
 						Sign in with Google
-					</Button>
+					</Button> */}
 					<Flex align='center' mb='25px'>
 						<HSeparator />
-						<Text color='gray.400' mx='14px'>
+						{/* <Text color='gray.400' mx='14px'>
 							or
-						</Text>
+						</Text> */}
 						<HSeparator />
 					</Flex>
 					<FormControl>
@@ -125,10 +134,12 @@ export default function SignIn() {
 							fontSize='sm'
 							ms={{ base: '0px', md: '0px' }}
 							type='email'
-							placeholder='mail@simmmple.com'
+							// placeholder='email...'
 							mb='24px'
 							fontWeight='500'
 							size='lg'
+							value={credentials.email}
+							onChange={handleEmailChange}
 						/>
 						<FormLabel ms='4px' fontSize='sm' fontWeight='500' color={textColor} display='flex'>
 							Password<Text color={brandStars}>*</Text>
@@ -137,11 +148,13 @@ export default function SignIn() {
 							<Input
 								isRequired={true}
 								fontSize='sm'
-								placeholder='Min. 8 characters'
+								// placeholder='Min. 8 characters'
 								mb='24px'
 								size='lg'
 								type={show ? 'text' : 'password'}
 								variant='auth'
+								value={credentials.password}
+								onChange={handlePasswordChange}
 							/>
 							<InputRightElement display='flex' alignItems='center' mt='4px'>
 								<Icon
@@ -164,19 +177,19 @@ export default function SignIn() {
 									Keep me logged in
 								</FormLabel>
 							</FormControl>
-							<Link href='/auth/forgot-password'>
+							{/* <Link href='/auth/forgot-password'>
 								<a>
 									<Text color={textColorBrand} fontSize='sm' w='124px' fontWeight='500'>
 										Forgot password?
 									</Text>
 								</a>
-							</Link>
+							</Link> */}
 						</Flex>
-						<Button fontSize='sm' variant='brand' fontWeight='500' w='100%' h='50' mb='24px'>
+						<Button fontSize='sm' variant='brand' fontWeight='500' w='100%' h='50' mb='24px' onClick={submitCredentials}>
 							Sign In
 						</Button>
 					</FormControl>
-					<Flex flexDirection='column' justifyContent='center' alignItems='start' maxW='100%' mt='0px'>
+					{/* <Flex flexDirection='column' justifyContent='center' alignItems='start' maxW='100%' mt='0px'>
 						<Text color={textColorDetails} fontWeight='400' fontSize='14px'>
 							Not registered yet?
 							<Link href='/auth/sign-up'>
@@ -187,7 +200,7 @@ export default function SignIn() {
 								</a>
 							</Link>
 						</Text>
-					</Flex>
+					</Flex> */}
 				</Flex>
 			</Flex>
 		</DefaultAuthLayout>

@@ -41,7 +41,7 @@ function AuthIllustration(props: { children: ReactNode; illustrationBackground: 
 							w='fit-content'>
 							<Icon as={FaChevronLeft} me='12px' h='13px' w='8px' color='secondaryGray.600' />
 							<Text ms='0px' fontSize='sm' color='secondaryGray.600'>
-								Back to Simmmple
+								Back to Dashboard
 							</Text>
 						</Flex>
 					</a>

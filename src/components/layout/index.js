@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import ContactForm from '../contactForm'
 import Container from '../container'
 import Navbar from '../navbar'
@@ -21,15 +20,7 @@ const CoverImage = () => {
 
 export default function Layout({ children }) {
   return (
-    <>
-      <Head>
-        <title>AT Counselling Services</title>
-        <meta
-          name="description"
-          content="Online and in-person counselling and psychotherapy services with Anamaria Tigan in Greater Manchester and Cheshire."
-        />
-      </Head>
-      
+    <>     
       <div className={ styles.navbar }>
         <Navbar/>
       </div>

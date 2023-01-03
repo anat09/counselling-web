@@ -15,7 +15,7 @@ import {
 // import RTL from 'pages/rtl/rtl-default'
 
 // Auth Imports
-import SignInCentered from './pages/auth/sign-in'
+import Login from '../pages/login'
 import { IRoute } from './types/navigation'
 
 const routes: IRoute[] = [
@@ -57,10 +57,10 @@ const routes: IRoute[] = [
   // },
   {
     name: 'Sign In',
-    layout: '/auth',
-    path: '/sign-in',
+    layout: '/',
+    path: '/login',
     icon: <Icon as={MdLock} width='20px' height='20px' color='inherit' />,
-    component: SignInCentered
+    component: Login
   },
   // {
   //   name: 'RTL Admin',
