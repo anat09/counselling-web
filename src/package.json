@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^0.1.6",
     "autoprefixer": "latest",
     "classnames": "2.2.6",
     "daisyui": "^1.25.4",
