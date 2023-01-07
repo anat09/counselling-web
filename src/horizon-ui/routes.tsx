@@ -16,16 +16,17 @@ import {
 
 // Auth Imports
 import Login from '../pages/login'
+import MainDashboard from '../pages/admin'
 import { IRoute } from './types/navigation'
 
 const routes: IRoute[] = [
-  // {
-  //   name: 'Main Dashboard',
-  //   layout: '/admin',
-  //   path: '/default',
-  //   icon: <Icon as={MdHome} width='20px' height='20px' color='inherit' />,
-  //   component: MainDashboard
-  // },
+  {
+    name: 'Dashboard',
+    layout: '/',
+    path: 'admin',
+    icon: <Icon as={MdHome} width='20px' height='20px' color='inherit' />,
+    component: MainDashboard
+  },
   // {
   //   name: 'NFT Marketplace',
   //   layout: '/admin',
@@ -58,7 +59,7 @@ const routes: IRoute[] = [
   {
     name: 'Sign In',
     layout: '/',
-    path: '/login',
+    path: 'login',
     icon: <Icon as={MdLock} width='20px' height='20px' color='inherit' />,
     component: Login
   },

@@ -107,16 +107,16 @@ export default function HeaderLinks(props: { secondary: boolean }) {
 					</Flex>
 					<Flex flexDirection='column'>
 						<MenuItem _hover={{ bg: 'none' }} _focus={{ bg: 'none' }} px='0' borderRadius='8px' mb='10px'>
-							<ItemContent info='Horizon UI Dashboard PRO' />
+							<ItemContent info='New Inquiry!' description="Tommy Smith inquired using the contact form." />
 						</MenuItem>
-						<MenuItem _hover={{ bg: 'none' }} _focus={{ bg: 'none' }} px='0' borderRadius='8px' mb='10px'>
+						{/* <MenuItem _hover={{ bg: 'none' }} _focus={{ bg: 'none' }} px='0' borderRadius='8px' mb='10px'>
 							<ItemContent info='Horizon Design System Free' />
-						</MenuItem>
+						</MenuItem> */}
 					</Flex>
 				</MenuList>
 			</Menu>
 
-			<Menu>
+			{/* <Menu>
 				<MenuButton p='0px'>
 					<Icon mt='6px' as={MdInfoOutline} color={navbarIcon} w='18px' h='18px' me='10px' />
 				</MenuButton>
@@ -155,7 +155,7 @@ export default function HeaderLinks(props: { secondary: boolean }) {
 						</Link>
 					</Flex>
 				</MenuList>
-			</Menu>
+			</Menu> */}
 
 			<Button
 				variant='no-hover'
@@ -179,7 +179,7 @@ export default function HeaderLinks(props: { secondary: boolean }) {
 					<Avatar
 						_hover={{ cursor: 'pointer' }}
 						color='white'
-						name='Adela Parkson'
+						name='Anamaria Tigan'
 						bg='#11047A'
 						size='sm'
 						w='40px'
@@ -198,16 +198,16 @@ export default function HeaderLinks(props: { secondary: boolean }) {
 							fontSize='sm'
 							fontWeight='700'
 							color={textColor}>
-							👋&nbsp; Hey, Adela
+							👋&nbsp; Hey, Ana
 						</Text>
 					</Flex>
 					<Flex flexDirection='column' p='10px'>
 						<MenuItem _hover={{ bg: 'none' }} _focus={{ bg: 'none' }} borderRadius='8px' px='14px'>
 							<Text fontSize='sm'>Profile Settings</Text>
 						</MenuItem>
-						<MenuItem _hover={{ bg: 'none' }} _focus={{ bg: 'none' }} borderRadius='8px' px='14px'>
+						{/* <MenuItem _hover={{ bg: 'none' }} _focus={{ bg: 'none' }} borderRadius='8px' px='14px'>
 							<Text fontSize='sm'>Newsletter Settings</Text>
-						</MenuItem>
+						</MenuItem> */}
 						<MenuItem
 							_hover={{ bg: 'none' }}
 							_focus={{ bg: 'none' }}
