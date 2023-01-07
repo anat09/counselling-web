@@ -35,6 +35,7 @@ import {
 	Input,
 	InputGroup,
 	InputRightElement,
+	Spinner,
 	Text,
 	useColorModeValue
 } from '@chakra-ui/react';
@@ -45,7 +46,7 @@ import DefaultAuthLayout from '../../layouts/auth/Default';
 import { MdOutlineRemoveRedEye } from 'react-icons/md';
 import { RiEyeCloseLine } from 'react-icons/ri';
 
-import { LoginContext } from '../../../context/login'
+import { LoginContext } from '../../../contexts/login'
 
 export default function SignIn() {
 	const textColor = useColorModeValue('navy.700', 'white');
@@ -53,7 +54,7 @@ export default function SignIn() {
 	const brandStars = useColorModeValue('brand.500', 'brand.400');
 
 	const [ show, setShow ] = React.useState(false);
-	const { credentials, setCredentials, submitCredentials } = React.useContext(LoginContext)
+	const { credentials, loading, setCredentials, submitCredentials } = React.useContext(LoginContext)
 
 	const handleClick = () => setShow(!show);
 	const handleEmailChange = (e: React.BaseSyntheticEvent) => {
@@ -186,7 +187,7 @@ export default function SignIn() {
 							</Link> */}
 						</Flex>
 						<Button fontSize='sm' variant='brand' fontWeight='500' w='100%' h='50' mb='24px' onClick={submitCredentials}>
-							Sign In
+							{ loading ? <Spinner /> : "Sign In" }
 						</Button>
 					</FormControl>
 					{/* <Flex flexDirection='column' justifyContent='center' alignItems='start' maxW='100%' mt='0px'>

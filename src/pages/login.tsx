@@ -5,7 +5,7 @@ import { NextPageContext } from 'next'
 import SignIn from '../horizon-ui/pages/auth/sign-in'
 
 import { login } from '../actions/login'
-import { LoginContext } from '../context/login'
+import { LoginContext } from '../contexts/login'
 import { getAdminProps } from '../getAdminProps'
 
 export default function Login() {
@@ -14,21 +14,26 @@ export default function Login() {
 		email: "",
 		password: ""
 	})
+	const [ loading, setLoading ] = useState(false)
 
 	const submitCredentials = () => {
+		setLoading(true)
 		login(credentials.email, credentials.password)
 			.then((res) => {
 				if (res.status === 200)
 					router.push("/admin")
-				else
+				else {
 					console.error(res.body)
+					setLoading(false)
+				}
 			})
 			.catch((err) => {
+				setLoading(false)
 				console.error(err)
 			})
 	}
 
-	const context = { credentials, setCredentials, submitCredentials }
+	const context = { credentials, loading, setCredentials, submitCredentials }
 	return (
 		<LoginContext.Provider value={context}>
 			<SignIn />

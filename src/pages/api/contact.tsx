@@ -42,11 +42,12 @@ const contact = async (req: NextApiRequest, res: NextApiResponse) => {
 
   try {
     await transporter.sendMail(mailData);
-    return res.json({ success: `Email has been sent successfully` })
   } catch (err) {
     console.error(err)
     return res.status(500).json({ error: 'The server failed to process the request' })
   }
+  
+  return res.json({ success: `Email has been sent successfully` })
 }
 
 export default contact;

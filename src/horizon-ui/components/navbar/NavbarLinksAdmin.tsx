@@ -19,6 +19,7 @@ import { SearchBar } from '../navbar/searchBar/SearchBar';
 import { SidebarResponsive } from '../sidebar/Sidebar';
 import PropTypes from 'prop-types';
 import React from 'react';
+import { useRouter } from 'next/router';
 // Assets
 import navImage from '../../img/layout/Navbar.png';
 import { MdNotificationsNone, MdInfoOutline } from 'react-icons/md';
@@ -26,7 +27,11 @@ import { IoMdMoon, IoMdSunny } from 'react-icons/io';
 import { FaEthereum } from 'react-icons/fa';
 import routes from '../../routes';
 import { Image } from '../image/Image';
+
+import { logout } from '../../../actions/logout'
+
 export default function HeaderLinks(props: { secondary: boolean }) {
+	const router = useRouter()
 	const { secondary } = props;
 	const { colorMode, toggleColorMode } = useColorMode();
 	// Chakra Color Mode
@@ -43,6 +48,19 @@ export default function HeaderLinks(props: { secondary: boolean }) {
 		'14px 17px 40px 4px rgba(112, 144, 176, 0.06)'
 	);
 	const borderButton = useColorModeValue('secondaryGray.500', 'whiteAlpha.200');
+
+	const handleLogout = () => {
+		logout()
+			.then((res) => {
+				if (res.status === 200)
+					router.push("/login")
+				else {
+					console.error(res.body)
+				}
+			})
+			.catch((err) => console.error(err))
+	}
+
 	return (
 		<Flex
 			w={{ sm: '100%', md: 'auto' }}
@@ -107,7 +125,7 @@ export default function HeaderLinks(props: { secondary: boolean }) {
 					</Flex>
 					<Flex flexDirection='column'>
 						<MenuItem _hover={{ bg: 'none' }} _focus={{ bg: 'none' }} px='0' borderRadius='8px' mb='10px'>
-							<ItemContent info='New Inquiry!' description="Tommy Smith inquired using the contact form." />
+							<ItemContent info='New Enquiry!' description="Tommy Smith enquired using the contact form." />
 						</MenuItem>
 						{/* <MenuItem _hover={{ bg: 'none' }} _focus={{ bg: 'none' }} px='0' borderRadius='8px' mb='10px'>
 							<ItemContent info='Horizon Design System Free' />
@@ -213,7 +231,9 @@ export default function HeaderLinks(props: { secondary: boolean }) {
 							_focus={{ bg: 'none' }}
 							color='red.400'
 							borderRadius='8px'
-							px='14px'>
+							px='14px'
+							onClick={handleLogout}
+						>
 							<Text fontSize='sm'>Log out</Text>
 						</MenuItem>
 					</Flex>
