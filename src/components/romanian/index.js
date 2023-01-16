@@ -34,7 +34,7 @@ export default function Romanian() {
     <>
       <div className="md:flex flex-grow items-center">
         <Section paras={firstParas} />
-        <ProfPic />
+        {/* <ProfPic /> */}
       </div>
       <Section paras={secondParas} />
       <Details />
