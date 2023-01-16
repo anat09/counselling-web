@@ -1,4 +1,4 @@
-import EmergencyOptions from '../components/emergencyOptions.js'
+import EmergencyOptions from './emergencyOptions.js'
 import Section from './section';
 
 export default function Emergency() {

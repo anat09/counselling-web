@@ -46,7 +46,7 @@ const contact = async (req: NextApiRequest, res: NextApiResponse) => {
     console.error(err)
     return res.status(500).json({ error: 'The server failed to process the request' })
   }
-  
+
   return res.json({ success: `Email has been sent successfully` })
 }
 
