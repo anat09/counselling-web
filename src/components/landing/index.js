@@ -60,22 +60,21 @@ const Skills = () => {
 }
 
 const areas = [
-  "Abuse (Emotional, Physical, Sexual, Neglectful, Narcissistic)",
-  "Anxiety",
+  "Abuse (Emotional, Physical, Sexual, Neglect)",
+  "Anxiety & Worrying",
   "Bullying & Harrasment",
   "Childhood Trauma & Trauma Experienced in Adulthood",
   "Dealing with Burnout",
   "Depression & Unhappiness",
   "Domestic Abuse",
   "Emotional Regulation",
-  "Grief, Loss, & Bereavement (incl. Perinatal Bereavement)",
-  "Issues with Identity (Personal & Gender-related)",
-  "Neurodiversity",
+  "Grief, Loss, & Bereavement",
+  "Identity (Personal & Gender-related)",
+  "Neurodivergent Experiences",
   "Personal Growth & Development",
   "Procrastination",
-  "Relationships, Family Conflicts, & Issues",
+  "Relationship Difficulties & Family Conflicts",
   "Self Confidence, Self Image, & Self Criticism",
-  "Self-Harm & Suicidal Ideation",
   "Stress & Work Related Concerns",
 ]
 

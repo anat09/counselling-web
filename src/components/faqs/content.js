@@ -17,12 +17,6 @@ const first = [
   `My aim is to work collaboratively with you, to identify what is a stressor for you and
   how we can enrich your wellbeing, given your unique life circumstances. My training
   allows me to provide both counselling and/or psychotherapy.`,
-  <span className='italic'>
-    *You may notice that 'therapy &#38; therapist', 'counselling 	&#38; counsellor', and 'psychotherapy 	&#38;
-    psychotherapist’ are used interchangeably by mental health professionals. This is because
-    Counselling is a form of Therapy and Psychology is the science behind human cognitive behaviour. For further information on counselling in general, see &nbsp;
-    <HyperRef link='https://www.bacp.co.uk/about-therapy/what-is-counselling/' value='https://www.bacp.co.uk/about-therapy/what-is-counselling'/>.
-  </span>
 ]
 
 const second = [
@@ -41,19 +35,14 @@ const second = [
   right environment.`,
   `I use an integrative approach in my work with clients, which means that I can also
   bring techniques from modalities I have trained in, to tailor our work for your unique
-  experiences. This means that on the way we may also incorporate techniques and
-  exercises from:`,
-  <>&#8226;&#160; Solution Focused Therapy (SFT), which can bring a focus on your strengths to
-  identify how you can get closer to the therapeutic goals that we set out together, to
-  improve your wellbeing.</>,
-  <>&#8226;&#160; Cognitive Behavioural Therapy (CBT), which aims to help you identify and
-  understand any interactions between your thinking &amp; behaviour patterns that may
-  influence your wellbeing.</>,
-  <span className='italic'>
-    For more information on these individual types of therapies you may wish to have a look at
-    the following resource brought together by BACP (British Association of Counselling and
-    Psychotherapy) <HyperRef link='https://www.bacp.co.uk/about-therapy/types-of-therapy/' value='https://www.bacp.co.uk/about-therapy/types-of-therapy/'/>.
-  </span>,
+  experiences. On the way we may also incorporate techniques and exercises that focus on
+  your strengths, self-care, values, and self-compassion.`,
+  // <>&#8226;&#160; Solution Focused Therapy (SFT), which can bring a focus on your strengths to
+  // identify how you can get closer to the therapeutic goals that we set out together, to
+  // improve your wellbeing.</>,
+  // <>&#8226;&#160; Cognitive Behavioural Therapy (CBT), which aims to help you identify and
+  // understand any interactions between your thinking &amp; behaviour patterns that may
+  // influence your wellbeing.</>,
   <span className='italic'>
     For more information on my professional background and experience, you can <HyperRef link='/experience#header' value='follow this link'/>, or feel free to contact me, and book an initial
     consultation. I am happy to answer questions to the best of my ability.
@@ -62,13 +51,12 @@ const second = [
 
 const third = [
   `During our first session we will use the space to find out what brings you to therapy.
-  Depending on your psychological and emotional needs we may identify together
+  Depending on what is going on for you, we may identify together
   areas you wish to work on, which will be reviewed throughout our work together.
-  Above all, I want you to be in control of your growth.
-  Alternatively, there are times when clients benefit from less structure and wish to talk
-  things through. Sometimes a listening ear can be just what we need to overcome the
-  difficulties we face, to feel heard, validated & share our burden with someone who is
-  objective to our situation.`,
+  Above all, I want you to be in control of your growth.`,
+  `There are times we need to talk things through and sometimes a therapeutic space
+  can be just what we need to overcome the difficulties we face, to feel heard, validated & share
+  how we feel with someone who is able and willing to sit with us in that vulnerable space.`,
   `I work from a genuine and caring place, and often bring elements of
   psychoeducation. This process aims to help your understanding of all those bits of
   you that make you who you are. In my practice so far, this has been a key element to
@@ -134,12 +122,12 @@ const seventh = [
   them. They are also securely kept in accordance with GDPR (General Data Protection
   Regulation) Act (2018). Counsellors sometimes use their notes for purposes of case
   work evaluation with their supervisor. This is to ensure your work with them is safe
-  and regulated. Again, these notes will not contain any identifiable information.`
+  Again, these notes will not contain any identifiable information.`
 ]
 
 export const eighth = [
-  `Online Video & Telephone Counselling Sessions can be booked between 10am - 8pm on
-  Thursdays and Fridays.`,
+  `Online Video & Telephone Counselling Sessions can be booked between 10am - 7pm on
+   Fridays.`,
   // `Currently, Face-to-face Counselling Sessions can only be booked between 1pm - 4pm on Thursdays and Fridays to take place
   // at The Royal Exchange, St Ann's Square, Manchester, M2 7PE. This location is accessible by public transport (bus, tram, & train). There is no parking provided within
   // the premises. However, parking is available nearby in managed car parks and on the street, which may be subject to change during certain hours.`,

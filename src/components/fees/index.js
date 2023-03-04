@@ -65,7 +65,7 @@ export default function Fees() {
       header: "Concessions and Reduced Rates",
       content: <Section paras={[
         `I have limited spaces for discounted counselling fees for clients who may be on a low income,
-        unemployed, students or counsellors in training. I also offer a discounted rate for booking counselling sessions in a block of six or more.
+        unemployed, students or counsellors in training.
         Please do not hesitate to contact me to make any arrangements. I endeavour to support you to the best of my ability.`
       ]} />
     },
