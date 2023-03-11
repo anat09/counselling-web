@@ -126,12 +126,11 @@ const seventh = [
 ]
 
 export const eighth = [
-  `Online Video & Telephone Counselling Sessions can be booked between 10am - 7pm on
-   Fridays.`,
-  // `Currently, Face-to-face Counselling Sessions can only be booked between 1pm - 4pm on Thursdays and Fridays to take place
-  // at The Royal Exchange, St Ann's Square, Manchester, M2 7PE. This location is accessible by public transport (bus, tram, & train). There is no parking provided within
-  // the premises. However, parking is available nearby in managed car parks and on the street, which may be subject to change during certain hours.`,
-  // `Please note, the above counselling space does not have disabled access unfortunately. However, I can still offer counselling services via telephone or video should you require this.`
+  `Online Video & Telephone Counselling Sessions can be booked between 8AM - 6PM on
+   Tuesday, Wednesday & Thursday.`,
+  `Face-to-face Counselling Sessions can only be booked between 8AM - 4PM on Friday and will take place
+   at The Wellbeing Place, Manchester, M21 0AE. This location is accessible by public transport. Free parking is available nearby (2 hrs max.)`,
+  `Please note, the above counselling space does not have disabled access as the counselling room is located on the 2nd Floor.`
 ]
 
 export default [
