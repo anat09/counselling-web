@@ -43,37 +43,36 @@ const Precautions = () => {
 
 export default function Fees() {
   const items = [
-    // {
-    //   header: "Face-to-Face Counselling",
-    //   content: <Section paras={[
-    //     'I offer Face-to-Face counselling sessions from various locations - see below. Each session costs £50-£60.',
-    //   ]}/>
-    // },
     {
-      header: "Online & Remote Video Counselling",
+      header: "Face-to-Face Counselling",
       content: <Section paras={[
-        `I offer 50 minute online counselling sessions via Zoom. Each session costs £50-£60.`
+        'I offer 50 minute Face-to-Face counselling sessions at The Wellbeing Place (Chorlton, Manchester), on Friday. Each session costs £50.',
+      ]}/>
+    },
+    {
+      header: "Video - Online Counselling",
+      content: <Section paras={[
+        `I offer 50 minute online counselling sessions. Each session costs £50.`
       ]} />
     },
     {
       header: "Telephone Counselling",
       content: <Section paras={[
-        `I offer 50 minutes telephone counselling sessions. Each session costs £50-£60.`
+        `I offer 50 minutes telephone counselling sessions. Each session costs £50.`
       ]} />
     },
     {
       header: "Concessions and Reduced Rates",
       content: <Section paras={[
         `I have limited spaces for discounted counselling fees for clients who may be on a low income,
-        unemployed, students or counsellors in training.
-        Please do not hesitate to contact me to make any arrangements. I endeavour to support you to the best of my ability.`
+        unemployed, students or counsellors in training. Please contact me to discuss your situation, if needed.`
       ]} />
     },
   ]
   return (
     <>
       <Section paras={[
-        `I usually have availability to offer a free initial 20 minutes telephone consultation. This is a
+        `I usually have availability to offer a free initial 20 minutes video consultation. This is a
         conversation where we can discuss how and if I can support you. It is also an opportunity for
         you to see if I am the right person for you.`,
         `Afterwards, I have availability for the following:`
