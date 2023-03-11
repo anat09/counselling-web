@@ -83,7 +83,7 @@ export default function Landing() {
     <>
       <div className="md:flex flex-grow items-center">
         <Section paras={firstParas} />
-        <ProfPic />
+        {/* <ProfPic /> */}
       </div>
       <Details />
       <Section paras={secondParas} />

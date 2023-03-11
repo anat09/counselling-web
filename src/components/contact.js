@@ -18,6 +18,7 @@ export default function Contact() {
         voicemail/text/email within 48 hs. To protect your privacy, I will only return a
         missed call if I receive communication of your availability and consent for a
         call-back.`,
+        `Please note I can only offer a free initial consultation via video call and can only support clients who reside in the UK.`,
         <>
           If you feel that you are experiencing a <span className="text-primary font-bold">mental health crisis</span> where you are concerned
           about <span className="text-primary font-bold">your own safety</span> or someone else's, please follow the link to the <HyperRef link='/emergency#header' value='Emergency Contact' /> page.
