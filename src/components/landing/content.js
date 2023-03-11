@@ -1,7 +1,7 @@
 import HyperRef from '../hyperRef';
 export const firstParas = [
   "Hi there,",
-  `I am Anamaria, a counsellor & psychotherapist, offering long and short-term counselling from the
+  `I am Anamaria, a counsellor & psychotherapist, offering face to face and remote counselling from the
   area of Greater Manchester and Cheshire.`,
   `You may be here because you are taking small, yet overwhelming steps in looking after yourself, and
   putting your wellbeing first. I know from experience that reaching out is emotionally demanding, to
@@ -11,7 +11,7 @@ export const firstParas = [
   challenges most of the time. But for those times when we feel overwhelmed, confused, or
   completely burnt out, we can use a bit of support in finding our feet.`,
   `This website will hopefully give you an idea about how I work as a counsellor and whether we could
-  work together. If you would like to get in touch to book a first initial consultation, or if you have any
+  work together. If you would like to get in touch to book a first initial video consultation, or if you have any
   inquiries, please feel free to use the following contact details:`
 ]
 export const secondParas = [
@@ -22,7 +22,7 @@ export const secondParas = [
   current life circumstances, in a safe and trusting environment.`,
   `I have experience in supporting clients from multicultural and multilingual backgrounds, as well as
   clients who identify as neurodivergent. I am also a trauma-informed practitioner, having worked
-  extensively with survivors of neglect, emotional, sexual, and/or domestic abuse within various
+  extensively with survivors of neglect, emotional, sexual, and/or domestic abuse, within various
   organisations across the UK.`,
   `Our counselling sessions will be guided by what brings you to therapy, and I look forward to working
   with you. We will work together to explore any difficulties or barriers you may be facing. My role is
