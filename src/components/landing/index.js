@@ -37,7 +37,7 @@ const Skills = () => {
     "Students & Professionals",
   ]
   const types = [
-    "Remote Only",
+    "Face to Face",
     "Online Video",
     "Telephone",
   ]
@@ -60,20 +60,19 @@ const Skills = () => {
 }
 
 const areas = [
-  "Abuse (Emotional, Physical, Sexual, Neglect)",
   "Anxiety & Worrying",
   "Bullying & Harrasment",
   "Childhood Trauma & Trauma Experienced in Adulthood",
   "Dealing with Burnout",
   "Depression & Unhappiness",
-  "Domestic Abuse",
   "Emotional Regulation",
   "Grief, Loss, & Bereavement",
   "Identity (Personal & Gender-related)",
+  "Impact of Abuse (Emotional, Physical, Sexual, Neglect)",
   "Neurodivergent Experiences",
   "Personal Growth & Development",
   "Procrastination",
-  "Relationship Difficulties & Family Conflicts",
+  "Relationship Difficulties",
   "Self Confidence, Self Image, & Self Criticism",
   "Stress & Work Related Concerns",
 ]

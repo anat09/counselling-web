@@ -50,7 +50,7 @@ const second = [
 ]
 
 const third = [
-  `During our first session we will use the space to find out what brings you to therapy.
+  `During our first session we will use the space to find out what brings you to therapy (either as an individual or as a couple).
   Depending on what is going on for you, we may identify together
   areas you wish to work on, which will be reviewed throughout our work together.
   Above all, I want you to be in control of your growth.`,
@@ -59,7 +59,7 @@ const third = [
   how we feel with someone who is able and willing to sit with us in that vulnerable space.`,
   `I work from a genuine and caring place, and often bring elements of
   psychoeducation. This process aims to help your understanding of all those bits of
-  you that make you who you are. In my practice so far, this has been a key element to
+  you that make you who you are and understand your relationship(s). In my practice so far, this has been a key element to
   help my clients to make sense of their feelings and experiences. This allowed them
   to create a calmer and more enjoyable experience for themselves.`,
   `That being said, the counselling sessions are guided by what brings you to therapy
@@ -87,7 +87,7 @@ const fourth = [
 
 const fifth = [
   `Sometimes, finding the right counsellor for you, a person who will "just get it", may
-  take some time. Talking to a stranger may also feel intimidating (or even terrifying) at
+  take some time. Talking to a stranger may also feel intimidating at
   first. I want you to rest assured this is something I am very much aware of, having
   supported hundreds of clients in single sessions of therapy.`,
   `My aim is for you to feel comfortable to ask any questions about the process of
@@ -108,7 +108,7 @@ const sixth = [
 ]
 
 const seventh = [
-  `Each counselling session is confidential, between yourself and your counsellor. The
+  `Each counselling session is confidential, between yourself (or yourselves) and your counsellor. The
   only instance in which this confidentiality will be breached is if:`,
   `- Your safety or someone else's is at immediate risk;`,
   `- The safety of Children/Young Adults/ Vulnerable Adults is at risk, in accordance with

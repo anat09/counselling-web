@@ -59,7 +59,7 @@ export const fourth = [
     "Certificate in Trauma-Informed Counselling;",
     "Certificate in Working with children;",
     "Level 3 Training in Safeguarding Adults, Children and Vulnerable Adults;",
-    "Certificate in Level 1 (Foundation) in Cognitive Behavioural Therapy;"
+    "Couples Counselling Training (The Counselling Academy);"
   ]} />,
   `I also often attend Continuous Professional Development workshops, where I develop further skills
   to work with difficulties most of my clients may experience. Workshops I attended so far focused on:`,
