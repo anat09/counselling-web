@@ -44,21 +44,33 @@ const Precautions = () => {
 export default function Fees() {
   const items = [
     {
-      header: "Face-to-Face Counselling",
+      header: "Face-to-Face Individual Counselling",
       content: <Section paras={[
         'I offer 50 minute Face-to-Face counselling sessions at The Wellbeing Place (Chorlton, Manchester), on Friday. Each session costs £50.',
       ]}/>
     },
     {
-      header: "Video - Online Counselling",
+      header: "Video - Online Individual Counselling",
       content: <Section paras={[
         `I offer 50 minute online counselling sessions. Each session costs £50.`
       ]} />
     },
     {
-      header: "Telephone Counselling",
+      header: "Face-to-Face Couples Counselling",
       content: <Section paras={[
-        `I offer 50 minutes telephone counselling sessions. Each session costs £50.`
+        'I offer 50 minute Face-to-Face couples counselling sessions at The Wellbeing Place (Chorlton, Manchester), on Friday. Each session costs £70.',
+      ]}/>
+    },
+    {
+      header: "Video - Online Couples Counselling",
+      content: <Section paras={[
+        `I offer 50 minute online couples counselling sessions. Each session costs £70.`
+      ]} />
+    },
+    {
+      header: "Telephone Individual Counselling",
+      content: <Section paras={[
+        `I offer 50 minutes telephone counselling sessions. Each session costs £50. Please note: I do not offer telephone counselling to couples.`
       ]} />
     },
     {
