@@ -1,5 +1,5 @@
 import EmergencyOptions from './emergencyOptions'
-import Section from './section.js';
+import Section from './section';
 
 export default function Emergency() {
   return (
