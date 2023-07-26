@@ -26,7 +26,7 @@ const Blog = ({ blogs }: BlogProps) => {
       { blogs.map((blog) => {
         return (
           <Link
-            href={`/blog/${blog.slug}`}
+            href={`/blog/${blog.slug}#header`}
             key={blog.id}
           >
             <a>
