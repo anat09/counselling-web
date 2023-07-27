@@ -1,6 +1,6 @@
 // next.config.js
 module.exports = {
   images: {
-    domains: ['storage.googleapis.com'],
+    domains: ['firebasestorage.googleapis.com'],
   },
 }

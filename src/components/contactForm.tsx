@@ -152,6 +152,7 @@ const ContactForm = () => {
           sitekey={ process.env.NEXT_PUBLIC_RECAPTCHA_KEY as string }
           onChange={handleToken}
           onExpired={handleExpired}
+          aria-required
         />
         </div>
 
@@ -160,26 +161,13 @@ const ContactForm = () => {
         { success && <SuccessMessage message={successfulResponse} /> }
         
         <div className="flex justify-center pt-4">
-          { 
-            token === null ? (
-              <button
-                disabled
-                name="submit"
-                type="submit"
-                className="px-4 py-2 text-white transition-colors duration-200 transform bg-secondary rounded-md focus:outline-none"
-              >
-                Send Message
-              </button>
-            ) : (
-              <button
-                name="submit"
-                type="submit"
-                className="px-4 py-2 text-white transition-colors duration-200 transform bg-secondary rounded-md hover:bg-secondaryDark focus:outline-none focus:bg-secondaryDark"
-              >
-                Send Message
-              </button>
-            )
-          }
+          <button
+            name="submit"
+            type="submit"
+            className="btn btn-secondary text-white"
+          >
+            Send Message
+          </button>
         </div>
         </form>
       </div>

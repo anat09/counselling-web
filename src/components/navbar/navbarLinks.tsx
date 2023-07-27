@@ -8,6 +8,10 @@ export const routes = [
     name: "Home"
   },
   {
+    link: "/blog#header",
+    name: "Blog"
+  },
+  {
     link: "/experience#header",
     name: "Experience"
   },
@@ -25,7 +29,7 @@ export const routes = [
   },
   {
     link: "/emergency#header",
-    name: "Emergency Contacts"
+    name: "Emergency"
   },
 ]
 

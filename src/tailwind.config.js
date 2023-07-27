@@ -16,6 +16,23 @@ module.exports = {
     xl: { min: '1159px' }, // Desktop wide.
     xxl: { min: '1359px' } // Desktop widescreen.
   },
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: '#8D9C71',
+          "primary-focus": '#707C5A',
+          secondary: '#80719c',
+          "secondary-focus": '#665A7C',
+          accent: '#998DAF',
+          info: '#3ABFF8',
+          success: '~36D399',
+          warning: '~FBBD23',
+          error: '#F87272'
+        }
+      }
+    ],
+  },
   theme: {
     extend: {
       colors: {

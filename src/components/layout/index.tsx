@@ -25,7 +25,7 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   return (
-    <>
+    <div data-them="mytheme">
       <Head>
         <title>AT Counselling Services</title>
         <meta
@@ -49,6 +49,6 @@ export default function Layout({ children }: LayoutProps) {
         <ContactForm />
         <Footer />
       </Container>
-    </>
+    </div>
   )
 }
