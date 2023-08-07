@@ -48,6 +48,7 @@ module.exports = {
         secondary: '#80719c',
         secondaryDark: '#665A7C',
         detailsIcons: '#fb923c',
+        coolwhite: "#eaf0e7",
       },
       spacing: {
         28: '7rem',

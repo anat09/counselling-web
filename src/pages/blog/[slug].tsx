@@ -1,12 +1,17 @@
-import { BlogContent, getBlog, getBlogs } from "actions/blogs";
+import { ReactElement } from "react";
+import { BlogLayout } from "components/layout";
+import { BlogContent, getBlog, getBlogs } from "actions/blog";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
-const BlogPost = ({ blog }: { blog: BlogContent }) => {
+const BlogEntry = ({ blog }: { blog: BlogContent }) => {
   return (
     <article
       className={`
-        py-8 md:py-0
+        bg-coolwhite
+        flex-1
+        my-2
+        rounded-xl
         prose-xl
         prose-stone
         prose-p:font-lato
@@ -17,6 +22,7 @@ const BlogPost = ({ blog }: { blog: BlogContent }) => {
       `}
     >
       <ReactMarkdown
+        className="p-4"
         children={blog.content}
         remarkPlugins={[remarkGfm]}
       />
@@ -24,17 +30,28 @@ const BlogPost = ({ blog }: { blog: BlogContent }) => {
   )
 }
 
-export default BlogPost
+export default BlogEntry
 
 export async function getStaticPaths() {
   const blogs = await getBlogs();
   const paths = blogs.map((blog) => ({
     params: { slug: blog.slug.toString() },
   }))
-  return { paths, fallback: false }
+  return { paths, fallback: 'blocking' }
 }
 
 export async function getStaticProps({ params }: { params: { slug: string } }) {
   const blog = await getBlog(params.slug);
-  return { props: { blog } }
+  return { 
+    props: { blog },
+    revalidate: 3600 * 24 // 24 hours
+  }
+}
+
+BlogEntry.getLayout = function getLayout(page: ReactElement) {
+  return (
+    <BlogLayout>
+      { page }
+    </BlogLayout>
+  )
 }

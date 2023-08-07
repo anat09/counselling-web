@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
-import { HorizontalNavbarLinks, VerticalNavbarLinks } from './navbarLinks'
+import { HorizontalNavbarLinks, VerticalNavbarLinks, LinkProps } from './NavbarLinks'
 
-const HamburgerMenu = () => {
+interface HamburgerMenu {
+  routes: LinkProps[]
+}
+
+const HamburgerMenu = ({ routes }: HamburgerMenu) => {
     const [isOpen, setIsOpen] = useState(false);
     const [hide, setHide] = useState('hidden');
 
@@ -12,9 +16,9 @@ const HamburgerMenu = () => {
     const fullPage = isOpen ? 'fixed h-screen w-full z-20' : hide;
 
     return (
-      <>
+      <div>
         <div className="hidden w-fit bg-inherit lg:block">
-          <HorizontalNavbarLinks />
+          <HorizontalNavbarLinks routes={routes} />
         </div>
         <label htmlFor="my-drawer-3" className="lg:hidden btn btn-lg z-20 fixed btn-ghost bg-transparent text-secondary" onClick={clickHandler}>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" className="inline-block w-8 h-8 z-20 m-1 fixed stroke-current">
@@ -29,11 +33,11 @@ const HamburgerMenu = () => {
           <div className="drawer-side">
             <label htmlFor="my-drawer-3" className="drawer-overlay" onClick={clickHandler}></label> 
             <ul className="p-4 overflow-y-auto menu w-full bg-white flex-col">
-              <VerticalNavbarLinks onClick={clickHandler} />
+              <VerticalNavbarLinks routes={routes} onClick={clickHandler} />
             </ul>
           </div>
         </div>
-      </>
+      </div>
     );
 };
 
