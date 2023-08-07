@@ -8,6 +8,7 @@ const ProfPic = () => {
     <div className="flex justify-center rounded-xl overflow-hidden">
       {/* <div className="border-4 w-auto xs:h-auto sm:h-80 border-primary"> */}
         <Image
+          alt="Anamaria Tigan"
           src={pic}
           quality={100}
           width={height * ratio}

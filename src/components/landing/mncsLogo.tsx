@@ -6,6 +6,7 @@ const MNCSLogo = () => {
   const height = 150;
   return (
     <Image 
+      alt="MNCS Accredited Logo"
       src={logo}
       quality={100}
       width={height * ratio}

@@ -5,7 +5,8 @@ const BACPLogo = () => {
   const ratio = 2.249728556;
   const height = 150;
   return (
-    <Image 
+    <Image
+      alt="BACP Logo"
       src={logo}
       quality={100}
       width={height * ratio}

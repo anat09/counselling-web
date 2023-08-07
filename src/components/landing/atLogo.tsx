@@ -6,6 +6,7 @@ const ATLogo = () => {
   const height = 300;
   return (
     <Image 
+      alt="AT Counselling Services Logo"
       src={logo}
       quality={100}
       width={height * ratio}

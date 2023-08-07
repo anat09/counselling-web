@@ -8,6 +8,7 @@ const RoomPhoto = () => {
     <div className="flex justify-center">
       {/* <div className="border-4 w-auto xs:h-auto sm:h-80 border-primary"> */}
         <Image
+          alt="St Ann's Room 1"
           src={room}
           quality={100}
           width={height * ratio}
