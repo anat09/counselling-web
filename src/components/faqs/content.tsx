@@ -126,11 +126,9 @@ const seventh = [
 ]
 
 export const eighth = [
-  `Online Video & Telephone Counselling Sessions can be booked between 8AM - 6PM on
-   Tuesday, Wednesday & Thursday.`,
-  `Face-to-face Counselling Sessions can only be booked between 8AM - 4PM on Friday and will take place
-   at The Wellbeing Place, Manchester, M21 0AE. This location is accessible by public transport. Free parking is available nearby (2 hrs max.)`,
-  `Please note, the above counselling space does not have disabled access as the counselling room is located on the 2nd Floor.`
+  `Online Video & Telephone Counselling Sessions can be booked on
+   Tuesday & Wednesdays.`,
+  `Face-to-face Counselling Sessions can only be booked Thursdays and Fridays in the M20 & M21 areas.`
 ]
 
 export default [

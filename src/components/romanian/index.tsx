@@ -11,7 +11,7 @@ import ProfPic from '../landing/profPic';
 import { firstParas, secondParas, thirdParas, fourthParas, availability } from './content';
 
 const areas = [
-  "Abuz (Fie emoțional, fizic, sexual, domestic, neglect sau narcisism)",
+
   "Anxietate și atacuri de panică",
   "Creștere și dezvoltare personală",
   "Depresie și nefericire",
@@ -19,15 +19,12 @@ const areas = [
   "Dificultăți de identitate personală, culturală sau sexuală",
   "Dificultăți sau conflicte în relație sau familie",
   "Extenuare psihică (cunoscută drept “Burnout”)",
-  "Gânduri de suicid și /sau automutilare",
   "Hărțuire (cunoscută drept “Bullying”)",
   "Încrederea, imaginea, și critica de sine",
   "Neurodiversitate",
   "Procrastinare",
   "Regulare emoțională",
-  "Stress și dificultăți în locul de muncă",
-  "Trauma suferită în copilărie sau maturitate",
-]
+  "Stress și dificultăți în locul de muncă",]
 
 export default function Romanian() {
   return (

@@ -12,8 +12,8 @@ export const firstParas = [
   challenges most of the time. But for those times when we feel overwhelmed, confused,
   or experience burnout, we can use a bit of support in finding our way back to ourselves.`,
   `This website will hopefully give you an idea about how I work as a counsellor and whether we could
-  work together. If you would like to get in touch to book a first initial video consultation, or if you have any
-  inquiries, please feel free to use the following contact details:`
+  work together. If you would like to get in touch to book a first session, or if you have any
+  questions, please feel free to use the following contact details:`
 ]
 export const secondParas = [
   "Here's a little bit about how I work.",
