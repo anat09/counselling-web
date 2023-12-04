@@ -64,14 +64,12 @@ const Skills = () => {
 
 const areas = [
   "Anxiety & Worrying",
-  "Bullying & Harrasment",
-  "Childhood Trauma & Trauma Experienced in Adulthood",
+  "Bullying",
   "Dealing with Burnout",
   "Depression & Unhappiness",
   "Emotional Regulation",
   "Grief, Loss, & Bereavement",
   "Identity (Personal & Gender-related)",
-  "Impact of Abuse (Emotional, Physical, Sexual, Neglect)",
   "Neurodivergent Experiences",
   "Personal Growth & Development",
   "Procrastination",

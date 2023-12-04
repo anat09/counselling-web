@@ -19,8 +19,7 @@ export const secondParas = [
   personal, emoțional, sau chiar și profesional.`,
   `Am creat această pagină pentru a-ți da oportunitatea să afli și în limba română puțin despre modul
   în care lucrez și să afli dacă am putea lucra împreună. De asemenea dacă dorești să aranjezi o primă
-  sesiune sau o conversație introductivă video de 20 de minute, te rog nu ezita să folosești
-  următoarele date de contact:`
+  sesiune de consiliere, te rog nu ezita să folosești următoarele date de contact:`
 ]
 export const thirdParas = [
   `Clienții mei beneficiază de un spațiu în care își pot exprima sentimentele, fără presiuni sau judecăți
@@ -37,12 +36,11 @@ export const fourthParas = [
   `Fiecare sesiune de consiliere durează 50 de minute și costă 50 de lire.`
 ]
 export const availability = [
-  `Sesiuni online și prin telefon pot fi programate între orele 8AM și 6 PM, în zilele de marti, miercuri și joi.`,
-  `Momentan, sesiunile în persoană pot fi programate doar între orele 8AM și 4PM vinerea, în locația
-   “The Wellbeing Place” (Chrolton). Camera de consiliere se află la codul poștal M21 0AE, 
+  `Sesiuni online și prin telefon pot fi programate în zilele de marti și miercuri.`,
+  `Momentan, sesiunile în persoană pot fi programate doar joi si vineri. Camera de consiliere se află la codul poștal M21 și M20, 
   și este foarte accesibilă atât din punct de vedere al transportului public, cât și cel personal, cu
-  parcare gratis în apropiere (2 ore max.).`,
-   `Din păcate, locația de mai sus nu poate fi accesată de persoanele care folosesc un scaun cu roțile,
-   pentru că este la etajul 2. Pentru aceste circumstanțe, pot oferi bineînțeles sesiuni online și prin
+  parcare gratis în apropierea centrului.`,
+   `Din păcate, locațiile de mai sus nu pot fi accesate de persoanele care folosesc un scaun cu roțile,
+   pentru că sunt situate la etajul 2 și 3. Pentru aceste circumstanțe, pot oferi bineînțeles sesiuni online și prin
    telefon.`
 ]

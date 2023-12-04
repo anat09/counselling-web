@@ -46,7 +46,7 @@ export default function Fees() {
     {
       header: "Face-to-Face Individual Counselling",
       content: <Section paras={[
-        'I offer 50 minute Face-to-Face counselling sessions at The Wellbeing Place (Chorlton, Manchester), on Friday. Each session costs £50.',
+        'I offer 50 minute Face-to-Face counselling sessions in Cholrton & Didsbury, Manchester. Each session costs £50.',
       ]}/>
     },
     {
@@ -58,7 +58,7 @@ export default function Fees() {
     {
       header: "Face-to-Face Couples Counselling",
       content: <Section paras={[
-        'I offer 50 minute Face-to-Face couples counselling sessions at The Wellbeing Place (Chorlton, Manchester), on Friday. Each session costs £70.',
+        'I offer 50 minute Face-to-Face couples counselling sessions in Cholrton & Didsbury, Manchester. Each session costs £70.',
       ]}/>
     },
     {
@@ -84,10 +84,7 @@ export default function Fees() {
   return (
     <>
       <Section paras={[
-        `I usually have availability to offer a free initial 20 minutes video consultation. This is a
-        conversation where we can discuss how and if I can support you. It is also an opportunity for
-        you to see if I am the right person for you.`,
-        `Afterwards, I have availability for the following:`
+        `Please see below counselling fees.`,
       ]} />
       <Accordion items={items} />
       {/* <Section paras={[
