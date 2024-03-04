@@ -56,7 +56,7 @@ module.exports = {
       },
       backgroundImage: {
         'cover-image': "url('/assets/img/img.png')",
-      }
+      },
     },
   },
 }

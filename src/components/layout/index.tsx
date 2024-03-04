@@ -40,13 +40,13 @@ export default function Layout({ children }: LayoutProps) {
       <div className={ styles.image }>
         <CoverImage />
       </div>
-      <div id="header" className="max-w-2xl px-4 py-6 sm:px-10 sm:py-10 mx-auto bg-primary text-white text-center text-xl sm:text-3xl md:text-4xl font-lato sm:rounded-lg shadow-md lg:-translate-y-48 md:-translate-y-24">
-        Counselling and Psychotherapy for Individuals and Couples <br/> Delivered Online and In-Person
+      <div id="header" className="max-w-xl px-4 py-6 sm:px-10 sm:py-10 mx-auto bg-primary text-white text-center text-xl sm:text-3xl md:text-4xl font-lato sm:rounded-lg shadow-md lg:-translate-y-[37rem] md:-translate-y-24">
+        Counselling and Psychotherapy <br/> Available for Online Therapy
       </div>
       <Container>
         <main className={styles.main}>{children}</main>
         <hr className="translate-y-8 md:-translate-y-6"/>
-        <ContactForm />
+        <div id="contact"><ContactForm /></div>
         <Footer />
       </Container>
     </>

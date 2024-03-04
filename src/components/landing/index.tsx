@@ -1,10 +1,11 @@
 import React from 'react';
 
-import Availability from '../availability';
+
 import Details from './details';
 import Section from '../section';
 import SubHeader from '../subHeader';
 import TickList from '../tickList';
+import FAQs from '../faqs';
 
 import { firstParas, secondParas, thirdParas } from './content';
 
@@ -35,9 +36,9 @@ const Skills = () => {
     "Spanish & Italian*"
   ]
   const clients = [
-    "Young Adults",
     "Adults",
     "Students & Professionals",
+    "Older Adults",
   ]
   const types = [
     "Face to Face",
@@ -52,11 +53,9 @@ const Skills = () => {
         <List entries={types} name={"Counselling Available"}/>
       </div>
       <Section paras={[
-        `*Please note that I am officially a bilingual practioner in English and Romanian,
-        with a strong understanding of Spanish and Italian. Whilst I may not always be
-        able to offer direct counselling in Spanish or Italian, I have extensive experience
-        in using my knowledge of certain terminologies and processes that clients
-        may experience in these languages.`
+        `*I can offer therapy in both English and/or Romanian, and I have a strong understanding of Spanish and Italian.`,
+        `To find out more about how I work and what you can expect from our sessions, please see "Frequently Asked Questions" below, where hopefully most of your questions
+  will be answered. If you have any further questions, please do not hesitate to contact me.`
       ]} />
     </>
   )
@@ -91,7 +90,8 @@ export default function Landing() {
       <TickList list={areas} />
       <Section paras={thirdParas} />
       <Skills />
-      <Availability />
+      <SubHeader title={'Frequently Asked Questions - FAQs'} />
+      <FAQs />
     </>
   )
 }

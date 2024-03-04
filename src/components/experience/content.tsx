@@ -2,21 +2,15 @@ import HyperRef from '../hyperRef';
 import TickList from '../tickList';
 
 export const second = [
-  `I have worked in mental health settings for over 8 years, with people from various
+  `I have worked in mental health settings for nearly 10 years, with people from various
   backgrounds and ages, across the UK. I began supporting students & young people with their mental
   health, disability, & neurodivergent experiences (across various universities in North- West - Greater
-  Manchester & Lancaster).`,
-  `Since 2018 I have also been working with survivors of childhood sexual abuse and/or domestic
-  violence, in various settings and charities across the UK (SafeNet – Lancashire, Concrete & Savana –
-  Staffordshire, NAPAC – Nationally). This required me to undertake trauma-informed training and
-  allowed me to become a trauma informed therapist.`,
-  `Throughout my career I have offered hundrends of single sessions of therapy, as well as comprehensive
-  mental health and risk assessments with clients, to establish the best therapeutic approach suitable
-  for them going forward.`,
-  `My work experience allows me to facilitate conversations with you as a client, where we can identify
+  Manchester & Lancaster) and worked with various organisations across the country as a practitoner 
+  (SafeNet, Savana - Stoke-on-Trent, & various EAP Companies such as Bupa, Health Assured, HealthHero).`,
+  `This extensive work experience allows me to facilitate conversations with you as a client, where we can identify
   together what works for you and if this is the right therapeutic space for you. Across all my
-  experience I worked collaboratively with people, and supported them in building their confidence,
-  learning about themselves. Diversity and inclusion also played a big role in my work so far, which
+  experience I worked collaboratively with people, and supported them in building their confidence, and self-awareness. 
+  Diversity and inclusion also played a big role in my work so far, which
   allows me to confidently explore any impact of multiculturalism, neurodiversity, and differences on
   your wellbeing.`
 ]
@@ -31,13 +25,13 @@ export const third = [
   // </>,
   `My training has been focused on Person Centred Therapy, as well as elements of other approaches
   in therapy, allowing me to deliver counselling and psychotherapy in an
-  integrative way. This means that throughout our work together, I draw on my knowledge and below
+  integrative way. This means that throughout our work together, I draw on my knowledge from below
   training, along with my understanding of personal development to support you to the best of my
   ability.`,
   
   <TickList list={[
-  'Master of Science in Counselling & Psychotherapy at Keele University.',
-  'Bachelor of Science in Psychology at Lancaster University.'
+  'Master of Science in Counselling & Psychotherapy',
+  'Bachelor of Science in Psychology'
  ]} />
   // <TickList list={[
   //   "Person-centred Therapy (PCT);",
@@ -56,7 +50,6 @@ export const third = [
 
 export const fourth = [
   <TickList list={[
-    "Certificate in Trauma-Informed Counselling;",
     "Certificate in Working with children;",
     "Level 3 Training in Safeguarding Adults, Children and Vulnerable Adults;",
     "Couples Counselling Training (The Counselling Academy);"
@@ -64,16 +57,18 @@ export const fourth = [
   `I also often attend Continuous Professional Development workshops, where I develop further skills
   to work with difficulties most of my clients may experience. Workshops I attended so far focused on:`,
   <TickList list={[
-    "Single Sessions Therapies on topics such as Resilience & Jealousy;",
-    `Workshops on working with Neurodiversity, GSRD (Gender, Sexual, and Relationship Diversity),
-     Building Trust, Anxiety, Procrastination, Multilingual Clients;`,
-    "Understanding the Neurobiology of Trauma;",
+    "Single Sessions Therapies on topics such as resilience, procrastination, jealousy;",
+    `Workshops on working with Neurodiversity, GSRD (Gender, Sexual, and Relationship Diversity);`,
+    `Workshops within cultural differences and intersectionality of race, gender, disability;`,
+    `Workshops on building therapeutic trust, anxiety and stress, chronic illness;`,
+    `Workshops in Compassionate Focused Therapy;`,
+    `Workshops in Cognitive Behavioural Therapy;`,
+    `Workshops in Solution Focused Therapy;`
     // "Understanding the Mental Health Capacity Act.",
   ]} />,
   <>
     As a registered member of the <HyperRef link='https://www.bacp.co.uk' value="BACP (British Association of Counselling & Psychotherapy)" /> 
-    and <HyperRef link='https://nationalcounsellingsociety.org' value="NCS (National Counselling Society)" />, I
-    always ensure that my work with you is safe, and conducted to high ethical standard. If
-    you have any questions regarding the above, please do not hesitate to <HyperRef link='/contact#header' value="contact me" /> below.
+    and <HyperRef link='https://nationalcounsellingsociety.org' value="NCPS (National Counselling Society)" />, I
+    always ensure that my work with you is safe, and conducted to high ethical standard.
   </>
 ]

@@ -9,18 +9,10 @@ export const routes = [
   },
   {
     link: "/experience#header",
-    name: "Experience"
+    name: "About"
   },
   {
-    link: "/faqs#header",
-    name: "FAQs"
-  },
-  {
-    link: "/fees#header",
-    name: "Fees"
-  },
-  {
-    link: "/contact#header",
+    link: "/#contact",
     name: "Contact"
   },
   {
