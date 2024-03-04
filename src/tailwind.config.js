@@ -55,7 +55,7 @@ module.exports = {
         'philosopher': 'Philosopher',
       },
       backgroundImage: {
-        'cover-image': "url('/assets/img/img.png')",
+        'cover-image': "url('/assets/img/cover.jpg')",
       },
     },
   },
