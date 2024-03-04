@@ -14,8 +14,8 @@ const first = [
   counselling and psychotherapy, we can begin to observe ourselves through someone
   else's lens - a lens much clearer than ours. This can bring reassurance, and a huge sense
   of hope.`,
-  `My aim is to work collaboratively with you, to identify what is a stressor for you and
-  how we can enrich your wellbeing, given your unique life circumstances. My training
+  `My aim is to work collaboratively with you to find out how we can enrich your wellbeing, 
+  given your unique life circumstances. My training
   allows me to provide both counselling and/or psychotherapy.`,
 ]
 
@@ -29,36 +29,34 @@ const second = [
   //   </span>
   //   &#160; Source - BACP (British Association of Counselling and Psychotherapy)
   // </>,
-  `The type of counselling I offer is called "Person-Centred Therapy", which allows me
-  to work from a caring and non-judgemental place. Briefly explained, this form of
-  therapy is based on the belief that everyone is capable of growth if they are in the
-  right environment.`,
-  `I use an integrative approach in my work with clients, which means that I can also
-  bring techniques from modalities I have trained in, to tailor our work for your unique
-  experiences. On the way we may also incorporate techniques and exercises that focus on
-  your strengths, self-care, values, and self-compassion.`,
+  `I use an integrative approach in my work with clients, focusing on building a trusting 
+  and non-judgemental relationship with you as a client. My main approach is "Person-Centred Therapy". 
+  Briefly explained, this form of therapy is based on the belief that everyone is able to grow, if they are in the
+  right supportive environment.`,
+  `As an integrative practitioner however, I tailor our work for your unique experiences. I often bring 
+  techniques and exercises that focus on identifying strengths, values, and developing self-compassion, as clients found 
+  these truly beneficial. These are informed by my traiing and other modalities, such as Solution Focused Therapy (SFT), Compassionate Focused Therapy (CFT), 
+  and Cognitive Behavioural Therapy (CBT).`,
+  `I strongly believe there isn't a "one size fits all" type of therapy, and that it has to work for you. 
+  If you are looking for a space to talk and learn about yourself, I am here to support you.`,
   // <>&#8226;&#160; Solution Focused Therapy (SFT), which can bring a focus on your strengths to
   // identify how you can get closer to the therapeutic goals that we set out together, to
   // improve your wellbeing.</>,
   // <>&#8226;&#160; Cognitive Behavioural Therapy (CBT), which aims to help you identify and
   // understand any interactions between your thinking &amp; behaviour patterns that may
   // influence your wellbeing.</>,
-  <span className='italic'>
-    For more information on my professional background and experience, you can <HyperRef link='/experience#header' value='follow this link'/>, or feel free to contact me, and book an initial
-    consultation. I am happy to answer questions to the best of my ability.
-  </span>
 ]
 
 const third = [
-  `During our first session we will use the space to find out what brings you to therapy (either as an individual or as a couple).
-  Depending on what is going on for you, we may identify together
+  `During our first session we will use the space to find out what brings you to therapy.
+  Depending on what is going on for you, we will identify together
   areas you wish to work on, which will be reviewed throughout our work together.
   Above all, I want you to be in control of your growth.`,
   `There are times we need to talk things through and sometimes a therapeutic space
-  can be just what we need to overcome the difficulties we face, to feel heard, validated & share
+  can be just what we need to overcome the difficulties we face, to feel heard, and share
   how we feel with someone who is able and willing to sit with us in that vulnerable space.`,
   `I work from a genuine and caring place, and often bring elements of
-  psychoeducation. This process aims to help your understanding of all those bits of
+  psychoeducation - This process aims to help your understanding of all those bits of
   you that make you who you are and understand your relationship(s). In my practice so far, this has been a key element to
   help my clients to make sense of their feelings and experiences. This allowed them
   to create a calmer and more enjoyable experience for themselves.`,
@@ -67,37 +65,27 @@ const third = [
 ]
 
 const fourth = [
-  `Counselling sessions usually last 50 minutes each and may take place weekly or
-  fortnightly. There is no obligation for you to continue our work if you feel I am not the
+  `Counselling sessions usually last 50 minutes each and take place weekly. 
+  There is no obligation for you to continue our work if you feel I am not the
   right counsellor for you, or if you feel that you wish to take a break from self-
   exploration.`,
   `The number of sessions you will have depends on what you wish to explore. Some
   people find that a few sessions can provide them with enough insight to return to their
-  daily life activities, with a different mindset. Others find it more difficult and need a bit
-  more time to begin to trust their counsellor.`,
+  daily life activities, with a different mindset. Others find it more benecifial to extend 
+  their support and work on their difficulties for longer`,
   `We often find it difficult to trust others, once we've experienced a loss (of a loved one,
   of our old selves, of something very dear to us). We also may find it difficult to let
   others in, once we experienced a traumatic event - this could seem insignificant to
   others, and yet it has tremendous implications on our wellbeing. We all experience
-  sadness, loss, trauma, happiness, joy - everything - in our own way.`,
+  sadness, loss, trauma, happiness, joy - everything - in our own way and at our pace. 
+  Your wellbeing and recovery doesn't have a set number of sessions. It is unique to you.`,
   `As your counsellor, I endeavour to be there for you, to provide a safe space where you
-  can begin to build that trust and discover yourself. Whichever option resonates with
+  can begin to build that trust and discover yourself. If this resonates with
   you, feel free to contact me, to discuss your circumstances.`
 ]
 
 const fifth = [
-  `Sometimes, finding the right counsellor for you, a person who will "just get it", may
-  take some time. Talking to a stranger may also feel intimidating at
-  first. I want you to rest assured this is something I am very much aware of, having
-  supported hundreds of clients in single sessions of therapy.`,
-  `My aim is for you to feel comfortable to ask any questions about the process of
-  therapy and express how you feel about your sessions or your progress. In my work
-  so far, I noticed that once clients found a counsellor whom they feel comfortable to
-  share their story with, this allowed them to feel safe in exploring their feelings.`,
-  `You might feel that you're not even sure where to begin. Perhaps you are longing for
-  a change and don't know how to go about it. My aim is to find all these answers with
-  you - to enable you to look back to where you began this journey and think "I've
-  come so far!".`
+  `Therapy Sessions are £60 per session. I have limited availability for reduced rates for students, unemployed, and low income earners. Please contact me to discuss this.`,
 ]
 
 const sixth = [
@@ -126,9 +114,9 @@ const seventh = [
 ]
 
 export const eighth = [
-  `Online Video & Telephone Counselling Sessions can be booked on
-   Tuesday & Wednesdays.`,
-  `Face-to-face Counselling Sessions can only be booked Thursdays and Fridays in the M20 & M21 areas.`
+  `Online Therapy Sessions can be booked on
+   Tuesday - Thursdays.`,
+  `Face-to-face Counselling Sessions can only be booked Fridays in M21 (Manchester, Chorlton-cum-Hardy).`
 ]
 
 export default [
@@ -149,7 +137,7 @@ export default [
     content: <Section paras={fourth} />
   },
   {
-    header: "How will I know if this is for me?",
+    header: "How much does it cost?",
     content: <Section paras={fifth} />
   },
   {

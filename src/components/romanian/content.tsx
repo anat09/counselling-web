@@ -1,8 +1,8 @@
 import HyperRef from '../hyperRef';
 export const firstParas = [
   "Bună,",
-  `Sunt Anamaria (Ea/Ei), psiholog și terapeut din zona Manchester-ului și Cheshire. Ofer sesiuni de consiliere
-  atât pe termen îndelungat cât și pe termen scurt, în persoană, online sau prin telefon.`,
+  `Sunt Anamaria (Ea), psiholog și terapeut, ofer sesiuni de consiliere
+  atât pe termen îndelungat cât și pe termen scurt, în persoană (Manchester, M21), online sau prin telefon.`,
   `Când trecem prin dificultăți în urma cărora ne simțim nefericiți, dezamăgiți, iritați sau chiar
   înfricoșați, este absolut normal să ne dorim un spațiu în care să ne putem reculege.`,
   `Probabil ești aici pentru că îți dorești să găsești acel spațiu în care să te simți ascultat. Iar dacă este
@@ -33,14 +33,14 @@ export const thirdParas = [
 export const fourthParas = [
   `Fie că te identifici cu circumstanțele enumerate mai sus, sau pur și simplu îți dorești un spațiu în care
   să-ți dezvolți auto cunoașterea emoțională, sunt aici și abia aștept să lucrăm împreună.`,
-  `Fiecare sesiune de consiliere durează 50 de minute și costă 50 de lire.`
+  `Fiecare sesiune de consiliere durează 50 de minute și costă 60 de lire.`
 ]
 export const availability = [
-  `Sesiuni online și prin telefon pot fi programate în zilele de marti și miercuri.`,
-  `Momentan, sesiunile în persoană pot fi programate doar joi si vineri. Camera de consiliere se află la codul poștal M21 și M20, 
+  `Sesiuni online și prin telefon pot fi programate în zilele de marti - vineri`,
+  `Momentan, sesiunile în persoană pot fi programate doar vineri. Camera de consiliere se află la codul poștal M21 
   și este foarte accesibilă atât din punct de vedere al transportului public, cât și cel personal, cu
   parcare gratis în apropierea centrului.`,
-   `Din păcate, locațiile de mai sus nu pot fi accesate de persoanele care folosesc un scaun cu roțile,
-   pentru că sunt situate la etajul 2 și 3. Pentru aceste circumstanțe, pot oferi bineînțeles sesiuni online și prin
+   `Din păcate, locația de mai sus nu poate fi accesata de persoanele care folosesc un scaun cu roțile,
+   pentru că e situata la 3. Pentru aceste circumstanțe, pot oferi bineînțeles sesiuni online și prin
    telefon.`
 ]

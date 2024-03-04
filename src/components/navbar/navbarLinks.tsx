@@ -4,27 +4,19 @@ import { useRouter } from 'next/router';
 
 export const routes = [
   {
-    link: "/#header",
+    link: "/#title",
     name: "Home"
   },
   {
-    link: "/experience#header",
-    name: "Experience"
+    link: "/experience#title",
+    name: "About"
   },
   {
-    link: "/faqs#header",
-    name: "FAQs"
-  },
-  {
-    link: "/fees#header",
-    name: "Fees"
-  },
-  {
-    link: "/contact#header",
+    link: "/#contact",
     name: "Contact"
   },
   {
-    link: "/emergency#header",
+    link: "/emergency#title",
     name: "Emergency Contacts"
   },
 ]
@@ -37,6 +29,7 @@ interface LinkProps {
 export const HorizontalNavbarLinks = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
+  console.log(currentRoute)
   
 
   const CurrentLink = ({ link, name }: LinkProps) => <Link href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide text-gray-600 hover:text-gray-800 transition-colors duration-200 transform border-primaryDark">{ name }</a></Link>
@@ -46,7 +39,7 @@ export const HorizontalNavbarLinks = () => {
     <div className="font-philospher text-lg pt-12 pb-4">
       {
         routes.map((route, idx) => (
-          currentRoute === route.link
+          currentRoute === route.link.split('#')[0] && route.name !== 'Contact'
           ?
           <CurrentLink
             key={idx}
