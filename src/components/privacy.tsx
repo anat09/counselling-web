@@ -3,7 +3,7 @@ import SubHeader from './subHeader';
 
 const Privacy = () => {
   return (
-    <>
+    <><SubHeader title='Privacy Policy' />
       <SubHeader title="How ‘AT Counselling Services’ obtains personal information and reasons to do so" />
       <Section paras={[
         `‘AT Counselling Services’ will use the information that you have provided in order for

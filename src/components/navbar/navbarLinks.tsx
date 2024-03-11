@@ -8,14 +8,6 @@ export const routes = [
     name: "Home"
   },
   {
-    link: "/experience#title",
-    name: "About"
-  },
-  {
-    link: "/#contact",
-    name: "Contact"
-  },
-  {
     link: "/emergency#title",
     name: "Emergency Contacts"
   },
@@ -36,7 +28,7 @@ export const HorizontalNavbarLinks = () => {
   const OtherLink = ({ link, name }: LinkProps) => <Link href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide border-transparent text-gray-600 hover:text-gray-800 transition-colors duration-200 transform hover:border-primaryDark">{ name }</a></Link>
 
   return (
-    <div className="font-philospher text-lg pt-12 pb-4">
+    <div className="font-philospher text-2xl pt-12 pb-4">
       {
         routes.map((route, idx) => (
           currentRoute === route.link.split('#')[0] && route.name !== 'Contact'

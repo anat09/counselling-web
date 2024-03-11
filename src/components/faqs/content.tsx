@@ -1,50 +1,51 @@
 import HyperRef from '../hyperRef';
 import Section from '../section';
+import TickList from '../tickList';
 
 const first = [
-  `Counselling and psychotherapy are types of talking therapy* in which you can explore
-  your feelings, emotions, and thoughts in a non-judgemental, safe, and confidential
-  environment. Counselling can offer you that space for a shorter period of time, whilst
-  psychotherapy will most definitely take place over a longer period of time. The latter
-  tends to focus on deep rooted difficulties and the impact of past experiences on who
-  we are, which takes time to uncover and explore.`,
-  `Healing, change, recovery - these are all things that you can achieve through talking
-  therapies. Whilst your therapist may not be able to give you direct advice, they can
-  support you in finding out what feels right for you, in a safe manner, at your pace. In
-  counselling and psychotherapy, we can begin to observe ourselves through someone
-  else's lens - a lens much clearer than ours. This can bring reassurance, and a huge sense
-  of hope.`,
-  `My aim is to work collaboratively with you to find out how we can enrich your wellbeing, 
-  given your unique life circumstances. My training
-  allows me to provide both counselling and/or psychotherapy.`,
+  
+  `I use an integrative approach in my work with clients, focusing on building a trusting 
+  and non-judgemental relationship with you as a client.I hold and MSc (Master of Science) in Counselling and Psychotherapy 
+  and BSc (Bachelor of Science) in Psychology.`, 
+ ` My training background includes extensive training in Person-Centred Therapy, complemented by techniques from 
+  other therapeutic modalities such as Solution Focused Therapy (SFT), 
+  Compassionate Focused Therapy (CFT), and Cognitive Behavioural Therapy (CBT). This blend allows me to offer 
+  counselling and psychotherapy that is both integrative and adaptive to your individual needs. I strongly believe there 
+  isn't a "one size fits all" type of therapy, and that it has to work for you.`,
+
+  `My commitment to professional growth includes regular participation in 
+  Continuous Professional Development (CPD) workshops. These workshops have covered a range of topics, including:`,  
+  <TickList list={[
+  
+  `Emotional Resilience and Agility, Building Self-Confidence, Procrastination, Jealousy;`,
+  `Neurodiversity, GSRD (Gender, Sexual, and Relationship Diversity);`,
+  `Cultural differences and Intersectionality of Race, Gender, Disability;`,
+  `Building Therapeutic Trust and Rapport, Grief and Loss;`,
+  `Managing and Holding Difficult Conversations in the Therapy Room`, 
+  `Anxiety and Stress, Chronic illness and Cancer;`,
+]} />
+
 ]
 
 const second = [
-  // <>
-  //   <span className="italic">
-  //     'An integrative counsellor aims to build a trusting and non-judgmental relationship that
-  //     helps you develop self-awareness. When you understand the causes of your concerns or
-  //     triggers for your behaviour, you can confidently set goals and develop new behaviours to
-  //     improve your satisfaction with life.'
-  //   </span>
-  //   &#160; Source - BACP (British Association of Counselling and Psychotherapy)
-  // </>,
-  `I use an integrative approach in my work with clients, focusing on building a trusting 
-  and non-judgemental relationship with you as a client. My main approach is "Person-Centred Therapy". 
-  Briefly explained, this form of therapy is based on the belief that everyone is able to grow, if they are in the
-  right supportive environment.`,
-  `As an integrative practitioner however, I tailor our work for your unique experiences. I often bring 
-  techniques and exercises that focus on identifying strengths, values, and developing self-compassion, as clients found 
-  these truly beneficial. These are informed by my traiing and other modalities, such as Solution Focused Therapy (SFT), Compassionate Focused Therapy (CFT), 
-  and Cognitive Behavioural Therapy (CBT).`,
-  `I strongly believe there isn't a "one size fits all" type of therapy, and that it has to work for you. 
-  If you are looking for a space to talk and learn about yourself, I am here to support you.`,
-  // <>&#8226;&#160; Solution Focused Therapy (SFT), which can bring a focus on your strengths to
-  // identify how you can get closer to the therapeutic goals that we set out together, to
-  // improve your wellbeing.</>,
-  // <>&#8226;&#160; Cognitive Behavioural Therapy (CBT), which aims to help you identify and
-  // understand any interactions between your thinking &amp; behaviour patterns that may
-  // influence your wellbeing.</>,
+
+  `I have been working in the mental health field for nearly 10 years, and had the priviledge to support people from various
+  backgrounds and ages. I began supporting students and young people with their mental
+  health, disability, & neurodivergent experiences (across various universities in North-West in Greater
+  Manchester and Lancashire) and worked with various organisations across the country (SafeNet, The Growing Club, 
+  Savana - Stoke-on-Trent, and various EAP - Employee Assistance Companies such as Bupa and Health Hero). 
+  I now work as a counsellor in Private Practice and support clients remotely and face to face in Manchester, 
+  alongside my role as a Specialist Student Mental Health Mentor (with Moodswings).`,
+
+  `My career has been driven by a passion for making a genuine difference in people's lives and this extensive work experience 
+  helps me to engage deeply with all my clients. A core part of my practice has been to foster 
+  an inclusive environment that respects diversity and inclusivity, ensuring a space where every client can feel understood and valued. 
+  Needless to say, I have a strong commitment to checking my own biases and priviledges, so that you can feel safe 
+  and heard in the therapy room. This allows us to have honest and open conversations about your experiences and 
+  confidently explore any impact of multiculturalism, neurodiversity, disabilities and/or differences on
+  your wellbeing. `,
+
+
 ]
 
 const third = [
@@ -65,23 +66,22 @@ const third = [
 ]
 
 const fourth = [
-  `Counselling sessions usually last 50 minutes each and take place weekly. 
+  `Counselling sessions usually last 50 minutes each and usually take place weekly. 
   There is no obligation for you to continue our work if you feel I am not the
-  right counsellor for you, or if you feel that you wish to take a break from self-
-  exploration.`,
+  right counsellor for you, or if you feel that you wish to take a break from therapy.`,
   `The number of sessions you will have depends on what you wish to explore. Some
   people find that a few sessions can provide them with enough insight to return to their
   daily life activities, with a different mindset. Others find it more benecifial to extend 
-  their support and work on their difficulties for longer`,
-  `We often find it difficult to trust others, once we've experienced a loss (of a loved one,
-  of our old selves, of something very dear to us). We also may find it difficult to let
-  others in, once we experienced a traumatic event - this could seem insignificant to
-  others, and yet it has tremendous implications on our wellbeing. We all experience
+  their support, work on their difficulties for longer and delve deeper into their life experiences.`,
+  `Trust can be challenging, especially following experiences of loss, trauma, or significant life changes. 
+  These events, whether seemingly minor or major to others, can profoundly impact our ability to trust others and our wellbeing. 
+  However, they affect everyone differently and we all experience
   sadness, loss, trauma, happiness, joy - everything - in our own way and at our pace. 
-  Your wellbeing and recovery doesn't have a set number of sessions. It is unique to you.`,
-  `As your counsellor, I endeavour to be there for you, to provide a safe space where you
-  can begin to build that trust and discover yourself. If this resonates with
-  you, feel free to contact me, to discuss your circumstances.`
+  That being said, I believe your wellbeing and recovery doesn't have a set number of sessions. It is unique to you.`,
+  `If you're seeking a safe environment to explore your thoughts and feelings, 
+  and if this approach to counselling speaks to you, I invite you to reach out. 
+  Together, we can discuss your specific circumstances and how I can support your personal growth, 
+  self-understanding and wellbeing.`
 ]
 
 const fifth = [
@@ -96,7 +96,7 @@ const sixth = [
 ]
 
 const seventh = [
-  `Each counselling session is confidential, between yourself (or yourselves) and your counsellor. The
+  `Each counselling session is confidential, between yourself and your counsellor. The
   only instance in which this confidentiality will be breached is if:`,
   `- Your safety or someone else's is at immediate risk;`,
   `- The safety of Children/Young Adults/ Vulnerable Adults is at risk, in accordance with
@@ -121,11 +121,11 @@ export const eighth = [
 
 export default [
   {
-    header: "What is counselling and/or psychotherapy?",
+    header: "What is your therapy approach and training?",
     content: <Section paras={first}/>
   },
   {
-    header: "What type(s) of counselling can you offer?",
+    header: "What is your work experience?",
     content: <Section paras={second} />
   },
   {

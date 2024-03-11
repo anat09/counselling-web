@@ -1,12 +1,9 @@
 import React from 'react';
-
-import Availability from '../availability';
 import Section from '../section';
 import SubHeader from '../subHeader';
 import TickList from '../tickList';
-
 import Details from '../landing/details';
-import ProfPic from '../landing/profPic';
+
 
 import { firstParas, secondParas, thirdParas, fourthParas, availability } from './content';
 

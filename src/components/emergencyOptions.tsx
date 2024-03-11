@@ -92,6 +92,10 @@ const EmergencyOptions = ({ iconColor }: EmergencyOptionsProps) => {
           Websites such as <HyperRef link="https://hubofhope.co.uk" value="The Hub of Hope" /> have collated a directory of local Mental Health
           Support Services, which you can find by just typing in your postcode. By clicking on
           "Find Support" you will be redirected to their website.
+          
+          Counselling is a type of talking therapy that can support you when you are not in
+          immediate danger to yourself or to/from others.
+          If the above does not apply to how you are currently feeling, and you are looking for counselling support, please do not hesitate to get in touch with me below.
         </>,
       ]} />,
     },
