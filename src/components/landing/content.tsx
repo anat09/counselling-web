@@ -4,7 +4,7 @@ export const firstParas = [
 
   <p style={{ lineHeight: 1.5 }}>Welcome to AT Counseling and Psychotherapy Services,</p>,
   `I am Anamaria, qualified Counsellor and Psychotherapist. 
-  I hold remote therapy sessions with clients resided in the UK and face-to-face support (Manchester, UK). You may be here because you want to improve your mental wellbeing and if so, you've taken an important step forward. 
+  I hold remote therapy sessions with clients residing in the UK and face-to-face therapy sessions (in Manchester, UK). You may be here because you want to improve your mental wellbeing and if so, you've taken an important step forward. 
   I understand how daunting it can be to reach out for help, 
   and I commend you for the strength you're showing in this moment.`, 
   <p style={{ textDecoration: 'underline' }}> Feeling overwhelm, Confusion, or Burnout?</p>,
