@@ -4,6 +4,7 @@ import SubHeader from './subHeader';
 const Disclaimer = () => {
   return (
     <>
+      <SubHeader title='Disclaimer' />
       <Section paras={[
         `The information contained in this website is for general information purposes only. The
         information is provided by ‘AT Counselling Services’ and while I endeavour to keep the
