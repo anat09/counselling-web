@@ -7,8 +7,8 @@ export const firstParas = [
   I hold remote therapy sessions with clients residing in the UK and face-to-face therapy sessions (in Manchester, UK). You may be here because you want to improve your mental wellbeing and if so, you've taken an important step forward. 
   I understand how daunting it can be to reach out for help, 
   and I commend you for the strength you're showing in this moment.`, 
-  <p style={{ textDecoration: 'underline' }}> Feeling overwhelm, Confusion, or Burnout?</p>,
-  `It's not uncommon to feel lost, overwhelmed, or burned out in today's world. 
+  <p style={{ textDecoration: 'underline' }}> Experiencing Stress or Burnout?</p>,
+  `It's not uncommon to feel lost, confused, or burnt out in today's fast-paced world. 
   Sometimes, all we need is a guiding hand to help us navigate back to our sense of self. 
   My aim is to offer that support, providing you with the tools and understanding needed to regain your wellbeing and a more balanced life.`,
   `This website is designed to give you a clear picture of how I work as a therapist and 
@@ -50,6 +50,6 @@ export const thirdParas = [
   </>
 ];
 export const fourthParas = [
-  `Whether you identify with any of the above or are just looking for a place to talk things
+  `Whether the above speaks to you or you are just looking for a place to talk things
   through, I look forward to working with you. To get in touch or book a session, please complete the enquiry form below.`,
 ]
