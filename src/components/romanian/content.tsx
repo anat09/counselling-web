@@ -1,4 +1,7 @@
+
 import HyperRef from '../hyperRef';
+
+
 export const firstParas = [
   "Bună,",
   `Sunt Anamaria (Ea), psiholog și terapeut, ofer sesiuni de consiliere
@@ -29,6 +32,8 @@ export const thirdParas = [
   `De asemenea, am experiență îndelungată în a ajuta clienți care au trecut prin expriente
   traumatizante în copilărie, dar și clienți care întâmpină dificultăți de regulare emoțională, cognitivă
   datorită unei neurodiversitate.`,
+  <>
+    Pentru a vă reîntoarce către informații în limba engleză, vizitați <HyperRef link='/#title' value="această pagină"/></>
 ]
 export const fourthParas = [
   `Fie că te identifici cu circumstanțele enumerate mai sus, sau pur și simplu îți dorești un spațiu în care

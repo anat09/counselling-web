@@ -10,7 +10,7 @@ const HamburgerMenu = () => {
     };
 
     const fullPage = isOpen ? 'fixed h-screen w-full z-20' : hide;
-
+  
     return (
       <>
         <div className="hidden w-fit bg-inherit lg:block">

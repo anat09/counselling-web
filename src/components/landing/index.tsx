@@ -7,7 +7,7 @@ import SubHeader from '../subHeader';
 import TickList from '../tickList';
 import FAQs from '../faqs';
 
-import { firstParas, secondParas, thirdParas } from './content';
+import { firstParas, fourthParas, secondParas, thirdParas } from './content';
 
 interface ListProps {
   entries: string[],
@@ -20,14 +20,12 @@ const List = ({ entries, name }: ListProps) => {
       <li className="font-lato text-primary font-bold text-xl text-center">{ name }</li>
       {
         entries.map((entry, idx) => (
-          <li key={idx} className="font-lato text-lg text-center pt-1">{ entry }</li>
+          <li key={idx} className="font-lato text-lg text-center pt-4">{ entry }</li>
         ))
       }
     </ul>
   )
 }
-
-
 
 const Skills = () => {
   const languages = [
@@ -54,28 +52,37 @@ const Skills = () => {
       </div>
       <Section paras={[
         `*I can offer therapy in both English and/or Romanian, and I have a strong understanding of Spanish and Italian.`,
-        `To find out more about how I work and what you can expect from our sessions, please see "Frequently Asked Questions" below, where hopefully most of your questions
+        `To find out more about how I work and what you can expect from our sessions, please see "Frequently Asked Questions" (FAQs)  below, where hopefully most of your questions
   will be answered. If you have any further questions, please do not hesitate to contact me.`
       ]} />
     </>
   )
 }
 
-const areas = [
-  "Anxiety & Worrying",
-  "Bullying",
-  "Dealing with Burnout",
-  "Depression & Unhappiness",
-  "Emotional Regulation",
-  "Grief, Loss, & Bereavement",
-  "Identity (Personal & Gender-related)",
-  "Neurodivergent Experiences",
-  "Personal Growth & Development",
-  "Procrastination",
-  "Relationship Difficulties",
-  "Self Confidence, Self Image, & Self Criticism",
-  "Stress & Work Related Concerns",
-]
+const Areas = () => {
+  const Issues = [
+    `Anxiety & Worrying`,
+    `Bullying`,
+    `Dealing with Burnout`,
+    `Depression & Unhappiness`,
+    `Disability & Chronic Illness`,
+    `Emotional Regulation`,
+    `Grief, Loss, & Bereavement`,
+    `GSRD (Gender, Sexual, and Relationship Diversity)`,
+    `Neurodivergent Experiences`,
+    `Personal Growth & Development`,
+    `Procrastination`,
+    `Relationship Difficulties`,
+    `Self Confidence, Self Image, & Self Criticism`,
+    `Stress & Work Related Concerns`,
+  ]
+  
+  return (
+      <div className="grid grid-cols-1 py-0">
+        <List entries={Issues} name={""}/>
+        </div>
+  )
+}
 
 export default function Landing() {
   return (
@@ -85,13 +92,15 @@ export default function Landing() {
         {/* <ProfPic /> */}
       </div>
       <Details />
+      <Section paras={thirdParas} />
       <Section paras={secondParas} />
       <SubHeader title={'Areas of Counselling'} />
-      <TickList list={areas} />
-      <Section paras={thirdParas} />
+      <Areas/>
+      <br />
       <Skills />
-      <SubHeader title={'Frequently Asked Questions - FAQs'} />
+      <SubHeader title={'FAQs'} />
       <FAQs />
+      <Section paras={fourthParas} />
     </>
   )
 }
