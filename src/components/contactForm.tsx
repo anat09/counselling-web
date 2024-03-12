@@ -94,7 +94,7 @@ const ContactForm = () => {
 
   return (
     <section className="w-full font-philosopher max-w-2xl px-6 py-14 mx-auto rounded-md">
-      <h2 className="text-3xl font-semibold text-center text-primary">Contact Form</h2>
+      <h2 className="text-3xl font-semibold text-center font-bold text-primaryDark">Contact Form</h2>
       {/* <p className="mt-3 text-center text-gray-600">Feel free to reach out to me and I will try to respond as soon as possible!</p> */}
       <div className="mt-6 ">
         <form onSubmit={(e) => onSubmit(e)}>

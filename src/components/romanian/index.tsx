@@ -2,8 +2,8 @@ import React from 'react';
 import Section from '../section';
 import SubHeader from '../subHeader';
 import TickList from '../tickList';
-import Details from '../landing/details';
-
+import DetailsOne from '../landing/detailsOne';
+import DetailsTwo from '../landing/detailsTwo';
 
 import { firstParas, secondParas, thirdParas, fourthParas, availability } from './content';
 
@@ -30,9 +30,10 @@ export default function Romanian() {
         <Section paras={firstParas} />
         {/* <ProfPic /> */}
       </div>
+      <DetailsOne />
       <Section paras={secondParas} />
-      <Details />
       <Section paras={thirdParas} />
+      <DetailsTwo />
       <SubHeader title={'Câteva din experiențele cu care am lucrat până acum într-un mod terapeutic'} />
       <TickList list={areas} />
       <Section paras={fourthParas} />

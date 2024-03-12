@@ -33,36 +33,32 @@ const second = [
   backgrounds and ages. I began supporting students and young people with their mental
   health, disability, & neurodivergent experiences (across various universities in North-West in Greater
   Manchester and Lancashire) and worked with various organisations across the country (SafeNet, The Growing Club, 
-  Savana - Stoke-on-Trent, and various EAP - Employee Assistance Companies such as Bupa and Health Hero). 
-  I now work as a counsellor in Private Practice and support clients remotely and face to face in Manchester, 
-  alongside my role as a Specialist Student Mental Health Mentor (with Moodswings).`,
+  Savana - Stoke-on-Trent, and various EAP - Employee Assistance Companies). 
+  I now work as a counsellor in Private Practice and support clients remotely and face to face (in Manchester), 
+  alongside my role as a Specialist Student Mental Health Mentor.`,
 
   `My career has been driven by a passion for making a genuine difference in people's lives and this extensive work experience 
   helps me to engage deeply with all my clients. A core part of my practice has been to foster 
   an inclusive environment that respects diversity and inclusivity, ensuring a space where every client can feel understood and valued. 
   Needless to say, I have a strong commitment to checking my own biases and priviledges, so that you can feel safe 
   and heard in the therapy room. This allows us to have honest and open conversations about your experiences and 
-  confidently explore any impact of multiculturalism, neurodiversity, disabilities and/or differences on
+  confidently explore any impact of multiculturalism, neurodiversity, disabilities, and differences on
   your wellbeing. `,
 
 
 ]
 
 const third = [
-  `During our first session we will use the space to find out what brings you to therapy.
-  Depending on what is going on for you, we will identify together
-  areas you wish to work on, which will be reviewed throughout our work together.
-  Above all, I want you to be in control of your growth.`,
-  `There are times we need to talk things through and sometimes a therapeutic space
-  can be just what we need to overcome the difficulties we face, to feel heard, and share
-  how we feel with someone who is able and willing to sit with us in that vulnerable space.`,
+  `In our initial counselling session, we'll dedicate some time to uncovering the reasons 
+  that led you to seek therapy. Together, we can pinpoint the specific areas you'd like to improve or address, 
+  which will be reviewed throughout our work together. My priority is to empower you, ensuring that you lead the way in your personal development.`,
   `I work from a genuine and caring place, and often bring elements of
-  psychoeducation - This process aims to help your understanding of all those bits of
-  you that make you who you are and understand your relationship(s). In my practice so far, this has been a key element to
-  help my clients to make sense of their feelings and experiences. This allowed them
-  to create a calmer and more enjoyable experience for themselves.`,
+  psychoeducation - this process aims to help your understanding of all those bits of
+  you that make you who you are. In my practice so far, this has been a key element to
+  help my clients to make sense of their feelings and experiences. This insight has proven invaluable for my clients, 
+  helping them navigate their emotions more effectively and fostering a sense of peace and satisfaction in their lives.`,
   `That being said, the counselling sessions are guided by what brings you to therapy
-  and we will work together to explore what is happening for you at your pace.`
+  and we will work together to explore what is happening for you, at your pace.`
 ]
 
 const fourth = [
@@ -78,10 +74,10 @@ const fourth = [
   However, they affect everyone differently and we all experience
   sadness, loss, trauma, happiness, joy - everything - in our own way and at our pace. 
   That being said, I believe your wellbeing and recovery doesn't have a set number of sessions. It is unique to you.`,
-  `If you're seeking a safe environment to explore your thoughts and feelings, 
-  and if this approach to counselling speaks to you, I invite you to reach out. 
+  <>If you're seeking a safe environment to explore your thoughts and feelings, 
+  and if this approach to counselling speaks to you, I invite you to <HyperRef link="#contact" value="reach out" />. 
   Together, we can discuss your specific circumstances and how I can support your personal growth, 
-  self-understanding and wellbeing.`
+  self-understanding and wellbeing.</>
 ]
 
 const fifth = [
@@ -107,8 +103,8 @@ const seventh = [
   with you prior to this occurring.`,
   `I also keep regular notes of our sessions, to keep track of our work together. However,
   these will not have your contact details, or any identifiable information attached to
-  them. They are also securely kept in accordance with GDPR (General Data Protection
-  Regulation) Act (2018). Counsellors sometimes use their notes for purposes of case
+  them. They are also securely kept in accordance with UK GDPR (General Data Protection
+  Regulation) Acts. Counsellors sometimes use their notes for purposes of case
   work evaluation with their supervisor. This is to ensure your work with them is safe
   Again, these notes will not contain any identifiable information.`
 ]
@@ -125,7 +121,7 @@ export default [
     content: <Section paras={first}/>
   },
   {
-    header: "What is your work experience?",
+    header: "What is your background and work experience?",
     content: <Section paras={second} />
   },
   {
