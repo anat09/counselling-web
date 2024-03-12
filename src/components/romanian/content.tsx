@@ -5,10 +5,9 @@ import HyperRef from '../hyperRef';
 export const firstParas = [
   "Bună,",
   `Sunt Anamaria (Ea), psiholog și terapeut, ofer sesiuni de consiliere
-  atât pe termen îndelungat cât și pe termen scurt, în persoană (Manchester, M21), online sau prin telefon.`,
+  atât pe termen îndelungat cât și pe termen scurt, în persoană (Manchester), online sau prin telefon.`,
   `Când trecem prin dificultăți în urma cărora ne simțim nefericiți, dezamăgiți, iritați sau chiar
-  înfricoșați, este absolut normal să ne dorim un spațiu în care să ne putem reculege.`,
-  `Probabil ești aici pentru că îți dorești să găsești acel spațiu în care să te simți ascultat. Iar dacă este
+  înfricoșați, este absolut normal să ne dorim un spațiu în care să ne putem reculege.Probabil ești aici pentru că îți dorești să găsești acel spațiu în care să te simți ascultat. Iar dacă este
   prima dată când ți-a trecut prin minte să faci acest pas, vreau să știi că sunt aici. Înțeleg că acest pas
   poate fi intimidant și complicat, motiv pentru care vreau să te încurajez să abordezi dificultățile în
   mod treptat, cu blândețe și răbdare.`,

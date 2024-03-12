@@ -1,13 +1,13 @@
 import React from 'react';
 
-
-import Details from './details';
+import DetailsTwo from './detailsTwo';
+import DetailsOne from './detailsOne';
 import Section from '../section';
 import SubHeader from '../subHeader';
-import TickList from '../tickList';
 import FAQs from '../faqs';
+import FAQPic from './faqPic';
 
-import { firstParas, fourthParas, secondParas, thirdParas } from './content';
+import { seventhParas, sixthParas, fifthParas, firstParas, fourthParas, secondParas, thirdParas } from './content';
 
 interface ListProps {
   entries: string[],
@@ -17,7 +17,7 @@ interface ListProps {
 const List = ({ entries, name }: ListProps) => {
   return (
     <ul>
-      <li className="font-lato text-primary font-bold text-xl text-center">{ name }</li>
+      <li className="font-lato text-primaryDark font-bold text-xl text-center">{ name }</li>
       {
         entries.map((entry, idx) => (
           <li key={idx} className="font-lato text-lg text-center pt-4">{ entry }</li>
@@ -52,8 +52,6 @@ const Skills = () => {
       </div>
       <Section paras={[
         `*I can offer therapy in both English and/or Romanian, and I have a strong understanding of Spanish and Italian.`,
-        `To find out more about how I work and what you can expect from our sessions, please see "Frequently Asked Questions" (FAQs)  below, where hopefully most of your questions
-  will be answered. If you have any further questions, please do not hesitate to contact me.`
       ]} />
     </>
   )
@@ -91,16 +89,20 @@ export default function Landing() {
         <Section paras={firstParas} />
         {/* <ProfPic /> */}
       </div>
-      <Details />
-      <Section paras={thirdParas} />
+      <DetailsOne/>
       <Section paras={secondParas} />
+      <Section paras={thirdParas} />
+      <DetailsTwo/>
+      <Section paras={fourthParas} />
+      <Section paras={fifthParas} />
       <SubHeader title={'Areas of Counselling'} />
       <Areas/>
       <br />
+      <Section paras={sixthParas} />
       <Skills />
-      <SubHeader title={'FAQs'} />
+      <FAQPic/>
       <FAQs />
-      <Section paras={fourthParas} />
+      <Section paras={seventhParas} />
     </>
   )
 }

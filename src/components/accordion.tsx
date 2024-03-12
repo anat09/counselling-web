@@ -11,9 +11,9 @@ export interface AccordionItemProps {
 
 function AccordionItem({ header, content }: AccordionItemProps) {
   const [active, setActive] = useState(false)
-  const [color, setColor] = useState('text-primary')
+  const [color, setColor] = useState('text-primaryDark')
   const [height, setHeight] = useState('0px')
-  const [rotate, setRotate] = useState('transform duration-700 ease')
+  const [rotate, setRotate] = useState('transform duration-700 ease rotate-180')
 
   const contentSpace = useRef<HTMLDivElement>(null)
 
@@ -22,8 +22,8 @@ function AccordionItem({ header, content }: AccordionItemProps) {
     if (contentSpace.current) {
       setHeight(active ? '0px' : `${contentSpace.current.scrollHeight}px`)
     }
-    setRotate(active ? 'transform duration-0' : 'transform duration-0 rotate-180')
-    setColor(active ? 'text-primary' : 'text-secondary')
+    setRotate(active ? 'transform duration-0 rotate-180' : 'transform duration-0')
+    setColor(active ? 'text-primaryDark' : 'text-secondary')
   }
 
   return (

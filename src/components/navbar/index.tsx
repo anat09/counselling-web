@@ -149,7 +149,7 @@ const TitleBox = () => {
   return (
     <div className="absolute flex-col bg-white bg-opacity-100 shadow-lg pl-12 pr-14 pb-7 pt-4 sm:pt-6 text-center lg:-mb-8 top-0 bottom-0 w-full lg:w-fit px-4">
       <div className="font-philosopher text-4xl tracking-widest leading-none text-gray-600 font-bold">AT Counselling Services</div>
-      <div className="font-philosopher text-primary text-base tracking-wide">{ process.env.NEXT_PUBLIC_PROFESSIONAL_NAME }</div>
+      <div className="font-philosopher text-primaryDark font-bold text-xl tracking-wide">{ process.env.NEXT_PUBLIC_PROFESSIONAL_NAME }</div>
     </div>
   )
 }
