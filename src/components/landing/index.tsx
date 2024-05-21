@@ -5,9 +5,12 @@ import DetailsOne from './detailsOne';
 import Section from '../section';
 import SubHeader from '../subHeader';
 import FAQs from '../faqs';
-import FAQPic from './faqPic';
-
-import { seventhParas, sixthParas, fifthParas, firstParas, fourthParas, secondParas, thirdParas } from './content';
+import Carousel from 'components/carousel';
+import ProfilePic from './profilePic';
+import ProfilePicInRoom from './profilePicInRoom';
+import ScrollToTopButton from './scrollButton'; 
+import HyperRef from '../hyperRef';
+import { firstParas, secondParas,thirdParas, fifthParas, seventhParas,} from './content';
 
 interface ListProps {
   entries: string[],
@@ -34,50 +37,56 @@ const Skills = () => {
     "Spanish & Italian*"
   ]
   const clients = [
-    "Adults",
-    "Students & Professionals",
+    "Adults & Young Adults",
+    "Young Professionals & Students",
     "Older Adults",
   ]
   const types = [
     "Face to Face",
-    "Online Video",
+    "Video/Online",
     "Telephone",
   ]
   return (
     <>
-      <div className="grid grid-cols-3 py-4">
+      <div className="grid grid-cols-3 py-4 text">
         <List entries={languages} name={"Languages Available"}/>
         <List entries={clients} name={"Client Group"}/>
         <List entries={types} name={"Counselling Available"}/>
       </div>
       <Section paras={[
-        `*I can offer therapy in both English and/or Romanian, and I have a strong understanding of Spanish and Italian.`,
+        <div className='text-center' >*I can offer therapy in both English and/or Romanian, and I have a strong conversational understanding of Spanish and Italian. </div>,
+        <div className='text-center' >Pentru informații în limba română, vizitați <HyperRef link='/romana#title' value="această pagină" />. </div>,
       ]} />
     </>
   )
 }
 
 const Areas = () => {
-  const Issues = [
+  const Issues1 = [
     `Anxiety & Worrying`,
-    `Bullying`,
+    'Autism & Dyslexia',
     `Dealing with Burnout`,
     `Depression & Unhappiness`,
     `Disability & Chronic Illness`,
     `Emotional Regulation`,
     `Grief, Loss, & Bereavement`,
     `GSRD (Gender, Sexual, and Relationship Diversity)`,
-    `Neurodivergent Experiences`,
+  ]
+  const Issues2 = [
+    `Identity & Cultural Issues`,
+    `LGBTIQA+ Issues`,
     `Personal Growth & Development`,
     `Procrastination`,
     `Relationship Difficulties`,
     `Self Confidence, Self Image, & Self Criticism`,
     `Stress & Work Related Concerns`,
+    `Trauma & Childhood Difficulties`,
   ]
   
   return (
-      <div className="grid grid-cols-1 py-0">
-        <List entries={Issues} name={""}/>
+      <div className="grid grid-cols-2 py-0">
+        <List entries={Issues1} name={""}/>
+        <List entries={Issues2} name={""}/>
         </div>
   )
 }
@@ -85,24 +94,42 @@ const Areas = () => {
 export default function Landing() {
   return (
     <>
-      <div className="md:flex flex-grow items-center">
-        <Section paras={firstParas} />
-        {/* <ProfPic /> */}
+     <Section paras={firstParas} />
+     <br />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="md:col-start-1">
+          <ProfilePicInRoom/>
+        </div>
+        <div className="md:col-start-2 flex justify-center items-center">
+        <DetailsTwo/>
+        </div>
       </div>
-      <DetailsOne/>
-      <Section paras={secondParas} />
-      <Section paras={thirdParas} />
-      <DetailsTwo/>
-      <Section paras={fourthParas} />
-      <Section paras={fifthParas} />
-      <SubHeader title={'Areas of Counselling'} />
+      <br />    
+      <Section paras={secondParas} />  
+      <br />
+      <Section paras={thirdParas} />   
+      <SubHeader title={'These are some of the specific areas that I could help you with'} />
+      <br />
       <Areas/>
       <br />
-      <Section paras={sixthParas} />
+      <br />
+      <br />
+      <SubHeader title={'The Counselling Room'} />
+      <Carousel />
+      <br />   
+      <br />
       <Skills />
-      <FAQPic/>
+      <br />
+      <SubHeader title={'Frequently Asked Questions'} />
       <FAQs />
+      <br />
+      <DetailsOne/>
+      <Section paras={fifthParas} />
+      <br />
+      <DetailsTwo/>
       <Section paras={seventhParas} />
+      <ScrollToTopButton />
+      
     </>
   )
 }

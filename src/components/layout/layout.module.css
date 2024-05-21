@@ -1,13 +1,13 @@
 .main {
   display: flex;
-  background-color: white;
+  background-color: #FCFBF4;
   color: black;
 }
 
 .header{
   opacity: 1;
   min-height: 100px;
-  background-color: white;
+  background-color: #FCFBF4;
 }
 
 
@@ -31,5 +31,5 @@
 }
 
 .badge {
-  background-color: white;
+  background-color: #FCFBF4;
 }

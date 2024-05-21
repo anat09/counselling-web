@@ -9,7 +9,7 @@ export const routes = [
   },
   {
     link: "/emergency#title",
-    name: "Emergency Contacts"
+    name: "Emergency"
   },
 ]
 
@@ -21,15 +21,13 @@ interface LinkProps {
 export const HorizontalNavbarLinks = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
-  console.log(currentRoute)
-  
 
-  const CurrentLink = ({ link, name }: LinkProps) => <Link href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide text-gray-600 hover:text-gray-800 transition-colors duration-200 transform border-primaryDark">{ name }</a></Link>
-  const OtherLink = ({ link, name }: LinkProps) => <Link href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide border-transparent text-gray-600 hover:text-gray-800 transition-colors duration-200 transform hover:border-primaryDark">{ name }</a></Link>
+  const CurrentLink = ({ link, name }: LinkProps) => <Link href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide text-white hover:text-gray-800 transition-colors duration-200 transform border-primaryDark">{ name }</a></Link>
+  const OtherLink = ({ link, name }: LinkProps) => <Link href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide border-transparent text-red-400 hover:text-red-300 transition-colors duration-200 transform hover:border-primaryDark">{ name }</a></Link>
 
   return (
     <div className="font-philospher text-2xl pt-12 pb-4">
-      {
+      {/* {
         routes.map((route, idx) => (
           currentRoute === route.link.split('#')[0] && route.name !== 'Contact'
           ?
@@ -45,7 +43,27 @@ export const HorizontalNavbarLinks = () => {
             name={route.name}
           />
         ))
-      }
+      } */}
+      <Link href='/#title'>
+        <a
+          className={`
+            border-b-2 m-2 pb-4 tracking-wide text-white hover:text-gray-800 transition-colors
+            duration-200 transform border-primaryDark ${currentRoute === '/' ? '' : 'border-transparent'}
+          `}
+        >
+          Home
+        </a>
+      </Link>
+      <Link href='/emergency#title'>
+        <a
+          className={`
+            border-b-2 m-2 pb-4 tracking-wide text-red-400 hover:text-red-300 transition-colors
+            duration-200 transform border-primaryDark ${currentRoute === '/emergency' ? '' : 'border-transparent'}
+          `}
+        >
+          Emergency
+        </a>
+      </Link>
     </div>
   )
 }
@@ -60,7 +78,7 @@ export const VerticalNavbarLinks = ({ onClick }: VerticalNavbarLinksProps) => {
 
 
   const CurrentLink = ({ link, name }: LinkProps) => <li onClick={onClick}><Link href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide text-gray-600 hover:text-gray-800 transition-colors duration-200 transform border-primaryDark">{ name }</a></Link></li>
-  const OtherLink = ({ link, name }: LinkProps) => <li onClick={onClick}><Link href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide border-transparent text-gray-600 hover:text-gray-800 transition-colors duration-200 transform hover:border-primaryDark">{ name }</a></Link></li>
+  const OtherLink = ({ link, name }: LinkProps) => <li onClick={onClick}><Link href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide border-transparent text-red-700 hover:text-red-800 transition-colors duration-200 transform hover:border-primaryDark">{ name }</a></Link></li>
 
   // const CurrentLink = ({ link, name }) => <li onClick={() => navigate(link)}><div className="border-b-2 m-2 pb-4 tracking-wide text-gray-600 hover:text-gray-800 transition-colors duration-200 transform border-primaryDark">{ name }</div></li>
   // const OtherLink = ({ link, name }) => <li onClick={() => navigate(link)}><div className="border-b-2 m-2 pb-4 tracking-wide border-transparent text-gray-600 hover:text-gray-800 transition-colors duration-200 transform hover:border-primaryDark">{ name }</div></li>

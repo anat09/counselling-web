@@ -19,10 +19,10 @@ export default function Layout({ children }: LayoutProps) {
         <title>AT Counselling Services</title>
         <meta
           name="description"
-          content="Online and in-person counselling and psychotherapy services with Anamaria Tigan in Greater Manchester and Cheshire."
+          content="Online and in-person counselling and psychotherapy services with Anamaria Tigan (UK)."
         />
       </Head>
-      <div className="bg-cover-image bg-no-repeat bg-auto bg-center">
+      <div className="bg-cover-image bg-cover bg-no-repeat aspect-w-16 aspect-h-9">
         <div className="relative z-10">
           <Navbar/>
         </div>
