@@ -16,7 +16,7 @@ const HamburgerMenu = () => {
         <div className="hidden w-fit bg-inherit lg:block">
           <HorizontalNavbarLinks />
         </div>
-        <label htmlFor="my-drawer-3" className="lg:hidden btn btn-sm z-20 fixed btn-ghost bg-transparent text-secondary" onClick={clickHandler}>
+        <label htmlFor="my-drawer-3" className="lg:hidden btn btn-lg z-20 fixed btn-ghost bg-transparent text-secondary" onClick={clickHandler}>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" className="inline-block w-8 h-8 z-20 m-1 fixed stroke-current">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
@@ -28,8 +28,17 @@ const HamburgerMenu = () => {
           <input id="my-drawer" type="checkbox" className="drawer-toggle" checked={isOpen} onChange={clickHandler} />
           <div className="drawer-side">
             <label htmlFor="my-drawer-3" className="drawer-overlay" onClick={clickHandler}></label> 
-            <ul className="p-4 overflow-y-auto menu w-full bg-white flex-col">
+            <ul className="p-4 overflow-y-auto menu w-full flex-col bg-white bg-opacity-75">
               <VerticalNavbarLinks onClick={clickHandler} />
+            </ul>
+          </div>
+        <div className="drawer-side"> <label htmlFor="my-drawer-3" className="drawer-overlay" onClick={clickHandler}></label>
+            <ul className="p-4 overflow-y-auto menu w-full flex-col bg-transparent">
+              <VerticalNavbarLinks onClick={clickHandler} />
+                {/* Close button */}
+              <li className="mt-4"><button onClick={clickHandler} className="text-white font-bold text-lg py-2 px-4 "> 
+                Close Menu</button>
+              </li>
             </ul>
           </div>
         </div>

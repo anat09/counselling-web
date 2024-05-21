@@ -4,6 +4,8 @@ import SubHeader from '../subHeader';
 import TickList from '../tickList';
 import DetailsOne from '../landing/detailsOne';
 import DetailsTwo from '../landing/detailsTwo';
+import ProfilePicInRoom from '../landing/profilePicInRoom';
+import Carousel from '../carousel';
 
 import { firstParas, secondParas, thirdParas, fourthParas, availability } from './content';
 
@@ -26,19 +28,30 @@ const areas = [
 export default function Romanian() {
   return (
     <>
-      <div className="md:flex flex-grow items-center">
-        <Section paras={firstParas} />
-        {/* <ProfPic /> */}
-      </div>
-      <DetailsOne />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="md:col-start-1">
+          <ProfilePicInRoom/>
+        </div>
+        <div className="md:col-start-2 flex justify-center items-center">
+          <Section paras={firstParas} />
+        </div>
+      </div> 
+      <br />
       <Section paras={secondParas} />
-      <Section paras={thirdParas} />
       <DetailsTwo />
+      <Section paras={thirdParas} />
+      <br />
+      <br />
+      <SubHeader title={'Camera de Terapie'} />
+      <Carousel />
+      <br />
       <SubHeader title={'Câteva din experiențele cu care am lucrat până acum într-un mod terapeutic'} />
       <TickList list={areas} />
       <Section paras={fourthParas} />
+      <DetailsOne />
       <SubHeader title={'Disponibilitate'} />
       <Section paras={availability} />
+
     </>
   )
 }

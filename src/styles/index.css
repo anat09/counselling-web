@@ -10,17 +10,19 @@
 } */
 
 body {
-  background-color: white;
+  background-color: #FCFBF4;
 }
 
 .site-container {
   margin: 0 auto;
   position: relative;
+  
 }
 
 .nav-container {
   margin: 0 auto;
   position: relative;
+  
 }
 
 @media only screen and (max-width: 1140px) {

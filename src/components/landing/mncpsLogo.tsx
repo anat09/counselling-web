@@ -3,7 +3,7 @@ import Image from 'next/image';
 import logo from '../../public/assets/img/mncps-logo.png'
 const MNCPSLogo = () => {
   const ratio = 3.233471074;
-  const height = 200;
+  const height = 160;
   return (
     <Image 
       src={logo}
