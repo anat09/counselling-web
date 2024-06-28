@@ -16,7 +16,7 @@ const Footer = () => {
       </div>
       {/* Copyright Statement */}
       <div className="w-full text-center text-lg mt-4">
-        © {currentYear} AT Counselling Services. All rights reserved.
+        © {currentYear} Anamaria Therapy. All rights reserved.
       </div>
     </div>
   )

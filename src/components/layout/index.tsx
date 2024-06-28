@@ -16,7 +16,7 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <>
       <Head>
-        <title>AT Counselling Services</title>
+        <title>Anamaria Therapy</title>
         <meta
           name="description"
           content="Online and in-person counselling and psychotherapy services with Anamaria Tigan (UK)."
