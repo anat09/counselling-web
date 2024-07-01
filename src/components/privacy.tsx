@@ -50,7 +50,7 @@ const Privacy = () => {
         transfers the personal information you gave me to another
         organisation, or to you, in certain circumstances.</>,
         <>You are not required to pay any charge for exercising your rights. If you make a
-        request, please do so via emailing <span className="text-primary font-bold">atcounselling.services@gmail.com</span>, and I will have one month to respond to you.</>
+        request, please do so via emailing <span className="text-primary font-bold">{ process.env.NEXT_PUBLIC_EMAIL_ADDRESS }</span>, and I will have one month to respond to you.</>
       ]} />
     </>
   )
