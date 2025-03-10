@@ -1,5 +1,4 @@
 import React from 'react';
-import MNCPSLogo from './mncpsLogo';
 import BACPLogo from './bacpLogo';
 import LgbtFlag from './lgbtFlag'
 import BlmBanner from './blmBanner'
@@ -12,9 +11,6 @@ export default function detailsOne
       <div className="flex sm:flex-row flex-col justify-evenly items-center">
       <div className="sm:mt-0 mt-6">
           <BlmBanner />
-        </div>
-        <div className="sm:mt-0 mt-6">
-          <MNCPSLogo />
         </div>
         <div className="sm:mt-0 mt-10">
           <BACPLogo />
