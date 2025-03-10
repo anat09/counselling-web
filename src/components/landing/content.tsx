@@ -23,8 +23,7 @@ export const fifthParas = [
   <div className='text-center' > A core part of my practice has been to create an inclusive environment that acknowledges and respects diversity.
     I have a strong commitment to checking my own biases and priviledges, so that you can feel safe 
     and heard in the therapy room. As a registered member of the <span className='text-primaryDark font-bold' >BACP</span> - 
-    British Association of Counselling & Psychotherapy, and <span className='text-primaryDark font-bold' >NCPS</span> - 
-    The National Counselling and Psychotherapy Society, I always ensure that my work with you is conducted to high 
+    British Association of Counselling & Psychotherapy, I always ensure that my work with you is conducted to high 
     ethical standard. </div>,
 ];
 
