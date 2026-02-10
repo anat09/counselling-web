@@ -4,13 +4,13 @@ import { useRouter } from 'next/router';
 
 export const routes = [
   {
-    link: "/#title",
-    name: "Home"
+    link: "/#contact",
+    name: "Book A Session"
   },
-  {
-    link: "/emergency#title",
-    name: "Emergency"
-  },
+ {
+   link: "/#title",
+   name: "Home"
+ },
 ]
 
 interface LinkProps {
@@ -22,8 +22,8 @@ export const HorizontalNavbarLinks = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
 
-  const CurrentLink = ({ link, name }: LinkProps) => <Link href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide text-white hover:text-gray-800 transition-colors duration-200 transform border-primaryDark">{ name }</a></Link>
-  const OtherLink = ({ link, name }: LinkProps) => <Link href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide border-transparent text-red-400 hover:text-red-300 transition-colors duration-200 transform hover:border-primaryDark">{ name }</a></Link>
+//  const CurrentLink = ({ link, name }: LinkProps) => <Link href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide text-white hover:text-gray-800 transition-colors duration-200 transform border-primaryDark">{ name }</a></Link>
+  // const OtherLink = ({ link, name }: LinkProps) => <Link href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide border-transparent text-red-400 hover:text-red-300 transition-colors duration-200 transform hover:border-primaryDark">{ name }</a></Link>
 
   return (
     <div className="font-philospher text-2xl pt-12 pb-4">
@@ -53,15 +53,15 @@ export const HorizontalNavbarLinks = () => {
         >
           Home
         </a>
-      </Link>
-      <Link href='/emergency#title'>
+      </Link>      
+      <Link href='/#contact'>
         <a
           className={`
-            border-b-2 m-2 pb-4 tracking-wide text-red-400 hover:text-red-300 transition-colors
-            duration-200 transform border-primaryDark ${currentRoute === '/emergency' ? '' : 'border-transparent'}
+            border-b-2 m-2 pb-4 tracking-wide text-white hover:text-gray-800 transition-colors
+            duration-200 transform border-primaryDark ${currentRoute === '/' ? '' : 'border-transparent'}
           `}
         >
-          Emergency
+          Book A Session
         </a>
       </Link>
     </div>

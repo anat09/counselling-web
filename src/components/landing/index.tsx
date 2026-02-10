@@ -5,7 +5,6 @@ import DetailsOne from './detailsOne';
 import Section from '../section';
 import SubHeader from '../subHeader';
 import FAQs from '../faqs';
-import Carousel from 'components/carousel';
 import ProfilePic from './profilePic';
 import ProfilePicInRoom from './profilePicInRoom';
 import ScrollToTopButton from './scrollButton'; 
@@ -42,7 +41,7 @@ const Skills = () => {
     "Older Adults",
   ]
   const types = [
-    "Face to Face",
+    "Remote",
     "Video/Online",
     "Telephone",
   ]
@@ -64,7 +63,6 @@ const Skills = () => {
 const Areas = () => {
   const Issues1 = [
     `Anxiety & Worrying`,
-    'Autism & Dyslexia',
     `Dealing with Burnout`,
     `Depression & Unhappiness`,
     `Disability & Chronic Illness`,
@@ -74,13 +72,12 @@ const Areas = () => {
   ]
   const Issues2 = [
     `Identity & Cultural Issues`,
-    `LGBTIQA+ Issues`,
+    `LGBTQIA+ Issues`,
     `Personal Growth & Development`,
     `Procrastination`,
     `Relationship Difficulties`,
     `Self Confidence, Self Image, & Self Criticism`,
     `Stress & Work Related Concerns`,
-    `Trauma & Childhood Difficulties`,
   ]
   
   return (
@@ -113,18 +110,15 @@ export default function Landing() {
       <Areas/>
       <br />
       <br />
-      <br />
-      <SubHeader title={'The Counselling Room'} />
-      <Carousel />
-      <br />   
+      <br />      
+      <DetailsOne/>
+      <Section paras={fifthParas} />
+      <br />      
       <br />
       <Skills />
       <br />
       <SubHeader title={'Frequently Asked Questions'} />
       <FAQs />
-      <br />
-      <DetailsOne/>
-      <Section paras={fifthParas} />
       <br />
       <DetailsTwo/>
       <Section paras={seventhParas} />

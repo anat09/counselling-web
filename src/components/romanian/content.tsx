@@ -26,23 +26,14 @@ export const thirdParas = [
   din partea mea. Sunt foarte conștientă de dificultățile culturale întâlnite în străinătate, sau chiar și de
   obiceiurile de a vorbi cu noi înșine pe care le putem purta cu noi de acasă, din copilărie etc, și de
   modul în care acestea ne pot afecta emoțional și psihic.`,
-  `De asemenea, am experiență îndelungată în a ajuta clienți care au trecut prin expriente
-  traumatizante în copilărie, dar și clienți care întâmpină dificultăți de regulare emoțională, cognitivă
-  datorită unei neurodiversitate.`,
   <>
     Pentru a vă reîntoarce către informații în limba engleză, vizitați <HyperRef link='/#title' value="această pagină"/></>
 ]
 export const fourthParas = [
   `Fie că te identifici cu circumstanțele enumerate mai sus, sau pur și simplu îți dorești un spațiu în care
   să-ți dezvolți auto cunoașterea emoțională, sunt aici și te invit să lucrăm împreună.`,
-  `Fiecare sesiune de consiliere durează 50 de minute și costă între 45-60 de lire.`
+  `Fiecare sesiune de consiliere durează 50 de minute și costă 70 de lire.`
 ]
 export const availability = [
-  `Sesiuni online și prin telefon pot fi programate în zilele de marti - vineri`,
-  `Momentan, sesiunile în persoană pot fi programate doar vineri. Camera de consiliere se află la codul poștal M21 
-  și este foarte accesibilă atât din punct de vedere al transportului public, cât și cel personal, cu
-  parcare gratis în apropierea centrului.`,
-   `Din păcate, locația de mai sus nu poate fi accesată de persoanele care folosesc un scaun cu rotile,
-   pentru că e situată la etajul 3. Pentru aceste circumstanțe, pot oferi bineînțeles sesiuni online și prin
-   telefon.`
+  `Sesiuni online și prin telefon pot fi programate în zilele de miercuri - vineri.`
 ]
