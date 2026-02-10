@@ -32,12 +32,12 @@ const fourth = [
 ]
 
 const fifth = [
-  `Therapy Sessions are £60 per session. I have limited availability for reduced rates for students, unemployed, and low income earners. Please contact me to discuss this. `,
+  `Therapy Sessions are £70 per session. I have limited availability for reduced rates for students, unemployed, and low income earners. Please contact me to discuss this. `,
 ]
 
 const sixth = [
   <>If you feel that you are experiencing a mental health crisis where are concerned about
-  your own safety or someone else's, please see <HyperRef link='/emergency#header' value='Emergency Contact'/>.</>,
+  your own safety or someone else's, please contact your GP - General Practitioner, or call 999 and follow their adivce.</>,
   `Counselling is a type of talking therapy that can support you when you are not in
   immediate danger to yourself or to/from others.`
 ]
@@ -51,8 +51,7 @@ const seventh = [
 
 export const eighth = [
   `Online Therapy Sessions can be booked on
-   Tuesday - Thursdays.`,
-  `Face-to-face Counselling Sessions can only be booked Fridays in M21 (Manchester, Chorlton-cum-Hardy).`
+   Wednesdays - Thursdays.`
 ]
 
 export default [

@@ -13,6 +13,7 @@ const IllustrationOne = () => {
           width={height * ratio}
           height={height}
           priority={true}
+          alt="illustration-one"
         />
       {/* </div> */}
     </div>

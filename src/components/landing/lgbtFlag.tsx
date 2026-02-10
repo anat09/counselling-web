@@ -13,6 +13,7 @@ const LgbtFlag = () => {
           width={height * ratio}
           height={height}
           priority={true}
+          alt="lgbt-flag"
         />
       {/* </div> */}
     </div>

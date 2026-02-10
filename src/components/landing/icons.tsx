@@ -32,10 +32,10 @@ const Icons = () => {
         <div className="text-secondary"><UserIcon /></div>
         <div className="font-lato py-3 px-4 text-lg">{ process.env.NEXT_PUBLIC_PROFESSIONAL_NAME }</div>
       </div>
-      <div className="flex flex-row items-center">
+      {/* <div className="flex flex-row items-center">
         <div className="text-secondary"><MailIcon /></div>
         <div className="font-lato py-3 px-4 text-lg">{ process.env.NEXT_PUBLIC_EMAIL_ADDRESS }</div>
-      </div>
+      </div> */}
       <div className="flex flex-row items-center">
         <div className="text-secondary"><PhoneIcon /></div>
         <div className="font-lato py-3 px-4 text-lg">{ process.env.NEXT_PUBLIC_PHONE_NUMBER }</div>

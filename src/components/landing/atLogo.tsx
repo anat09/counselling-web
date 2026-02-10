@@ -11,6 +11,7 @@ const ATLogo = () => {
       width={height * ratio}
       height={height}
       priority={true}
+      alt="at-logo"
     />
   )
 }

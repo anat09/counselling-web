@@ -13,6 +13,7 @@ const BlmBanner = () => {
           width={height * ratio}
           height={height}
           priority={true}
+          alt="blm-banner"
         />
       {/* </div> */}
     </div>

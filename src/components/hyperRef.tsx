@@ -7,5 +7,5 @@ interface HyperRefProps {
 }
 
 export default function HyperRef({ link, value }: HyperRefProps) {
-  return <Link href={ link } passHref><a className="text-primaryDark font-bold">{ value }</a></Link>
+  return <Link legacyBehavior href={ link } passHref><a className="text-primaryDark font-bold">{ value }</a></Link>
 }

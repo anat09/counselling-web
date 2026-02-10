@@ -41,8 +41,8 @@
 //     },
 //   ]
 
-//   const CurrentLink = ({ id, link, name }) => <Link id={ id } href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide text-gray-600 hover:text-gray-800 transition-colors duration-200 transform border-primaryDark">{ name }</a></Link>
-//   const OtherLink = ({ id, link, name }) => <Link id={ id } href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide border-transparent text-gray-600 hover:text-gray-800 transition-colors duration-200 transform hover:border-primaryDark">{ name }</a></Link>
+//   const CurrentLink = ({ id, link, name }) => <Link legacyBehaviourid={ id } href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide text-gray-600 hover:text-gray-800 transition-colors duration-200 transform border-primaryDark">{ name }</a></Link>
+//   const OtherLink = ({ id, link, name }) => <Link legacyBehaviourid={ id } href={ link }><a className="border-b-2 m-2 pb-4 tracking-wide border-transparent text-gray-600 hover:text-gray-800 transition-colors duration-200 transform hover:border-primaryDark">{ name }</a></Link>
 //   return (
 //     <>
 //       {

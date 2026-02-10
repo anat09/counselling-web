@@ -13,6 +13,7 @@ const ProfilePic = () => {
           width={height * ratio}
           height={height}
           priority={true}
+          alt="prof-pic"
         />
       {/* </div> */}
     </div>

@@ -18,9 +18,7 @@ const areas = [
   "Dificultăți de identitate personală, culturală sau sexuală",
   "Dificultăți sau conflicte în relație sau familie",
   "Extenuare psihică (cunoscută drept “Burnout”)",
-  "Hărțuire (cunoscută drept “Bullying”)",
   "Încrederea, imaginea, și critica de sine",
-  "Neurodiversitate",
   "Procrastinare",
   "Regulare emoțională",
   "Stress și dificultăți în locul de muncă",]
@@ -40,10 +38,6 @@ export default function Romanian() {
       <Section paras={secondParas} />
       <DetailsTwo />
       <Section paras={thirdParas} />
-      <br />
-      <br />
-      <SubHeader title={'Camera de Terapie'} />
-      <Carousel />
       <br />
       <SubHeader title={'Câteva din experiențele cu care am lucrat până acum într-un mod terapeutic'} />
       <TickList list={areas} />

@@ -11,6 +11,7 @@ const BACPLogo = () => {
       width={height * ratio}
       height={height}
       priority={true}
+      alt="bacp-logo"
     />
   )
 }
