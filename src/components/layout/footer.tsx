@@ -6,13 +6,13 @@ const Footer = () => {
   return (
     <div className="absolute flex-col flex-wrap text-primary font-lato font-bold text-xl py-4 ">
        <div className="m-2">
-        <Link href="/privacy#title"><a>Privacy</a></Link>
+        <Link legacyBehavior href="/privacy#title"><a>Privacy</a></Link>
       </div>
       <div className="m-2">
-        <Link href="/disclaimer#title"><a>Disclaimer</a></Link>
+        <Link legacyBehavior href="/disclaimer#title"><a>Disclaimer</a></Link>
       </div>
       <div className="m-2">
-        <Link href="/romana#title"><a>În Limba Română</a></Link>
+        <Link legacyBehavior href="/romana#title"><a>În Limba Română</a></Link>
       </div>
       {/* Copyright Statement */}
       <div className="w-full text-center text-lg mt-4">
