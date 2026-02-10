@@ -13,6 +13,7 @@ const ProfilePicInRoom = () => {
           width={height * ratio}
           height={height}
           priority={true}
+          alt="prof-pic-in-room"
         />
       {/* </div> */}
     </div>

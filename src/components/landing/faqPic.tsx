@@ -13,6 +13,7 @@ const FAQPic = () => {
           width={height * ratio}
           height={height}
           priority={true}
+          alt="faq-pic"
         />
       {/* </div> */}
     </div>

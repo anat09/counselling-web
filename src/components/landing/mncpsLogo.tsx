@@ -11,6 +11,7 @@ const MNCPSLogo = () => {
       width={height * ratio}
       height={height}
       priority={true}
+      alt="mncps-logo"
     />
   )
 }
