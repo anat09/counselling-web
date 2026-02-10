@@ -35,5 +35,5 @@ export const fourthParas = [
   `Fiecare sesiune de consiliere durează 50 de minute și costă 70 de lire.`
 ]
 export const availability = [
-  `Sesiuni online și prin telefon pot fi programate în zilele de miercuri - vineri.`
+  `Sesiuni online și prin telefon pot fi programate în zilele de miercuri si joi.`
 ]
